@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ru-RU"
-title                    : "Заголовок"
+title                    : "Михаил Коротеев"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Михаил Коротеев"
@@ -27,46 +27,46 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-# comments:
-#   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-#   disqus:
-#     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-#   discourse:
-#     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-#   facebook:
-#     # https://developers.facebook.com/docs/plugins/comments
-#     appid                :
-#     num_posts            : # 5 (default)
-#     colorscheme          : # "light" (default), "dark"
-#   utterances:
-#     theme                : # "github-light" (default), "github-dark"
-#     issue_term           : # "pathname" (default)
-#   staticman:
-#     branch               : # "master"
-#     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
-# reCaptcha:
-#   siteKey                :
-#   secret                 :
-# atom_feed:
-#   path                   : # blank (default) uses feed.xml
-# search                   : # true, false (default)
-# search_full_content      : # true, false (default)
-# search_provider          : # lunr (default), algolia, google
-# algolia:
-#   application_id         : # YOUR_APPLICATION_ID
-#   index_name             : # YOUR_INDEX_NAME
-#   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-#   powered_by             : # true (default), false
-# google:
-#   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-#   instant_search         : # false (default), true
-# # SEO Related
-# google_site_verification :
-# bing_site_verification   :
-# yandex_site_verification :
-# naver_site_verification  :
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
 
 # Social Sharing
 twitter:
@@ -94,29 +94,37 @@ analytics:
 # Site Author
 author:
   name             : "Михаил Коротеев"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Программист."
-  location         : "Москва"
+  avatar           : "/assets/images/avatar.jpg"
+  bio              : "Есть такая профессия - Родину автоматизировать."
+  # location         : "Москва"
   email            : koroteevmv@gmail.com
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:koroteevmv@gmail.com"
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   # url: "https://your-website.com"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   # url: "https://twitter.com/"
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-    #   # url: "https://facebook.com/"
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   # url: "https://github.com/"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   # url: "https://instagram.com/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://koroteevmv.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/mihail.koroteev"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/koroteevmv"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      # url: "https://instagram.com/"
+    - label: "Vkontakte"
+      icon: "fab fa-fw fa-vk"
+      # url: "https://instagram.com/"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      # url: "https://instagram.com/"
+
+      # https://fontawesome.com/icons?d=gallery
 
 # Site Footer
 footer:
