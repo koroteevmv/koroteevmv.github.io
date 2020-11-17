@@ -1,8 +1,11 @@
 # main links
 main:
-  - title: "OC"
-    description: "Операционные системы"
-    url: /os
+  - title: "Курсы"
+    children:
+      - title: "Операционные системы"
+        url: /os
+  - title: "Научпоп"
+    url: /teaching
   - title: "Блог"
     url: /blog
   - title: "CV"

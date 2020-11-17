@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: "Резюме"
 toc: true
 permalink: /cv/
@@ -8,34 +9,64 @@ redirect_from:
   - /resume
 ---
 
+Анализ данных, машинное обучение и искусственный интеллект. Приложения, тренды и алгоритмы.
+Разработка ПО: интеллектуальные информационные системы.
+Аналитика, технические и популярные переводы и обзоры.
+
+- Разработка ПО: Python, C++/C#, MS Visual Studio, .NET, Android;
+- Веб-разработка: JavaScript, React, Flask;
+- Математическое моделирование: Matplotlib + SciPy, FuzzyLogic, ANN, GA, pandas, sk-learn;
+Документирование, отладка, тестирование, прототипирование.
+
 Образование
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* бакалавр, прикладная информатика, Волгоградский государственный технический университет, 2010
+* магистр, математические методы в экономике, Волгоградский государственный технический университет, 2012
+* к.э.н. (08.00.13), Волгоградский государственный технический университетy, 2014
 
-Work experience
+Опыт работы
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Сентябрь 2017: доцент, финансовый университет при правительстве РФ.
+  * Руководитель образовательной программы "Прикладная информатика"
+  * Читаемые дисциплины:
+    - Операционные системы семейства UNIX и сетевые технологии
+    - Технологии анализа данных и машинное обучение
+    - Технологии разработки приложений для мобильный устройств
+    - Web-программирование
+    - Базы данных
+    - Теория вероятностей и математическая статистика
+    - Компьютерный практикум
+    - Технологии обработки больших данных
+  * Руководитель: Соловьев В.И.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Сентябрь 2011: преподаватель, Волгоградский государственный технический университет
+  * Заместитель декана факультета Экономики и управления
+  * Читаемые дисциплины:
+    - Системы управления базами данных
+    - Разработка программных приложений
+    - Эконометрика
+    - Интернет-программирование
+    - Экономико-математические методы
+    - Информационная безопасность
+    - Эконометрика
+    - Численные методы исследования математических моделей
+    - Разработка программных приложений
+    - Проектный практикум
+    - Информационно-коммуникационные технологии
+    - Информационные технологии
+    - Организация и планирование производства
+    - Теория систем и системный анализ
+  * Руководитель: Терелянский П.В.
   
-Skills
+Сертификаты
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* [Google IT Automation Professional Certificate](https://www.youracclaim.com/badges/ee9779a7-6bd1-46d9-907f-f291b37d26f2?source=linked_in_profile)
+* [Machine Learning](https://www.coursera.org/account/accomplishments/certificate/BGSL4ETU4DQQ)
+* [Google IT Automation with Python](https://www.coursera.org/account/accomplishments/specialization/certificate/MB6ZUGHP3SN6)
+* Probabilistic Graphical Models
+* An Introduction to Interactive Programming in Python
 
-Publications
+Публикации
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -52,7 +83,3 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
