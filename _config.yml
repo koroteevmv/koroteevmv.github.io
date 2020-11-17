@@ -116,7 +116,7 @@ author:
       # url: "https://instagram.com/"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
-      # url: "https://instagram.com/"
+      url: "https://youtube.com/channel/"
     - label: "Vkontakte"
       icon: "fab fa-fw fa-vk"
       # url: "https://instagram.com/"

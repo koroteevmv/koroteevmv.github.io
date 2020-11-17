@@ -3,6 +3,8 @@ main:
   - title: "OC"
     description: "Операционные системы"
     url: /os
+  - title: "Блог"
+    url: /blog
   - title: "CV"
     url: /cv
   # - title: "Sample Posts"
