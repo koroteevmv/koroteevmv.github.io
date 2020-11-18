@@ -4,9 +4,7 @@ classes: wide
 title: "Резюме"
 toc: true
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+author_profile: true 
 ---
 
 Анализ данных, машинное обучение и искусственный интеллект. Приложения, тренды и алгоритмы.
@@ -66,20 +64,27 @@ redirect_from:
 * Probabilistic Graphical Models
 * An Introduction to Interactive Programming in Python
 
-Публикации
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+Выступления
 ======
   <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Публикации
+======
+
+<ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Другие публикации:
+* Method of predicting moments of market trend reversal for decision-making block of computer-based intelligent financial agent-avatar М.В. Коротеев, В.С. Чернышенко, В.И. Соловьев, В.Г. Феклин, Н.А. Титов. AVATAR-BASED CONTROL, ESTIMATION, COMMUNICATIONS, AND DEVELOPMENT OF NEURON MULTI-FUNCTIONAL TECHNOLOGY PLATFORMS, коллективная монография. Сер. "Computational Intelligence and Robotics" Hershey, USA, 2020
+* Парадигмы цифровой экономики М.В. Коротеев, . 
+* Hierarchical classification compared to one-vs-all classifier on one problem of multiclassification in socio-economic modeling and application of hierarchical classifiers М.В. Коротеев. Proceedings of 2018 11th International Conference "Management of Large-Scale System Development", MLSD 2018, 28 November 2018, Номер статьи 8551784
+* Методы и инструменты материального и нематериального стимулирования участников проектной деятельности в государственных органах исполнительной власти (монография) М.В. Коротеев, Под редакцией Прокофьева С.Е. и Паниной О.В.. Издательство: Общество с ограниченной ответственностью "Центркаталог" (Москва)
+Коротеев М.В. Программный продукт, реализующий алгоритмы предсказания будущих моментов смены состояний рынка, основанные на использовании генеративно-состязательных нейронных сетей М.В. 
+* Модели пространственного развития производственно-транспортных систем с учетом фактора рыночного ценообразования М.В. Коротеев, А.Д. Цвиркун, В.К Акинфиев. УПРАВЛЕНИЕ РАЗВИТИЕМ КРУПНОМАСШТАБНЫХ СИСТЕМ MLSD'2019. Материалы двенадцатой международной конференции Научное электронное издание. Под общей ред. С.Н. Васильева, А.Д. Цвиркуна. 2019. Издательство: Институт проблем управления им. В.А. Трапезникова РАН (Москва)
+* Основные подходы к нейроэволюционному имитационному моделирования макроэкономических систем М.В. Коротеев, . УПРАВЛЕНИЕ РАЗВИТИЕМ КРУПНОМАСШТАБНЫХ СИСТЕМ MLSD'2019. Материалы двенадцатой международной конференции Научное электронное издание. Под общей ред. С.Н. Васильева, А.Д. Цвиркуна. 2019. Издательство: Институт проблем управления им. В.А. Трапезникова РАН (Москва)
+* Main approaches to neuro-evolutionary imitation modeling of macroeconomic systems (тезисы доклада) М.В. Коротеев. Proceedings of 2019 12th International Conference "Management of Large-Scale System Development", MLSD 2019
+* Machine learning models overfitting and generalization in very big datasets (тезисы доклада) М.В. Коротеев. Book of abstracts CPMMI 2018. Novi pazar, 17-19 june 2018.
+* Обзор некоторых современных тенденций в технологии машинного обучения (научная статья) М.В. Коротеев. E-Management, vol. 1, No 1, рp. 26–35. DOI: 10.26425/2658-3445-2018-1-26-35

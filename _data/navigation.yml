@@ -1,75 +1,41 @@
 # main links
 main:
   - title: "Курсы"
-    children:
-      - title: "Операционные системы"
-        url: /os
-  - title: "Научпоп"
-    url: /teaching
+    url: /courses
+
+  - title: "Наука"
+    url: /science
+
+  # - title: "Научпоп"
+  #   url: /
+
+  - title: "Выступления"
+    url: /talks
+
   - title: "Блог"
-    url: /blog
+    url: /blog/
+
   - title: "CV"
     url: /cv
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+
   # - title: "Sitemap"
   #   url: /sitemap/
 
 # documentation links
-docs:
-  - title: Getting Started
+os:
+  - title: Содержание курса
+    url: /os/
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-  - title: Customization
+      - title: Программа экзамена
+  - title: "1. Основы Linux"
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Overriding Theme Defaults"
-        url: /docs/overriding-theme-defaults/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
-  - title: Content
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
-  - title: Meta
-    children:
-      - title: "History"
-        url: /docs/history/
-      - title: "Contributing"
-        url: /docs/contributing/
-      - title: "Old 2.2 Docs"
-        url: /docs/docs-2-2/
-      - title: "License"
-        url: /docs/license/
-      - title: "Terms &amp; Privacy Policy"
-        url: /terms/
+      - title: Установка в VB
+        url: /os/1/0-vm_installation/
+      - title: Командная строка
+        url: /os/1/1-cli/
+      - title: Пользователи и права
+        # url: /os/1/1-cli/
+      - title: Архитектура, пакеты, процессы
+        # url: os/1/1-cli/
+      - title: Загрузка и файловая система
+        # url: /os/1/1-cli/
