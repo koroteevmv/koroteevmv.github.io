@@ -6,8 +6,8 @@ main:
   - title: "Наука"
     url: /science
 
-  # - title: "Научпоп"
-  #   url: /
+  - title: "Научпоп"
+    url: /scipop
 
   - title: "Выступления"
     url: /talks

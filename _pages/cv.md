@@ -66,7 +66,7 @@ author_profile: true
 
 Выступления
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.categories.talks %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 

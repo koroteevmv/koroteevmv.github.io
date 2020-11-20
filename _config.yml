@@ -70,7 +70,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               :&twitter
 facebook:
   username               :
   app_id                 :
@@ -298,6 +298,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  scipop:
+    output: true
+    permalink: /:collection/:path/
   os:
     output: true
     permalink: /:collection/:path/
@@ -319,11 +322,34 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      classes: wide
+      author_profile: true
       read_time: true
-      comments: # true
-      share: false
+      comments: true # true
+      share: true
       related: true
+  # # _scipop
+  # - scope:
+  #     path: ""
+  #     type: scipop
+  #   values:
+  #     layout: single
+  #     author_profile: false
+  #     read_time: true
+  #     comments: # true
+  #     share: true
+  #     related: true
+  # # _talks
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: false
+  #     comments: true
+  #     share: true
+  #     related: false
   # os
   - scope:
       path: ""
@@ -333,7 +359,7 @@ defaults:
       read_time: false
       show_date: false
       author_profile: false
-      share: false
+      share: true
       comments: false
       related: false
       last_modified_at: false
