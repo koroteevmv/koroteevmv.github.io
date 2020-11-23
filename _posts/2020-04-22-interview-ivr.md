@@ -6,7 +6,7 @@ tags:
   - inderview
   - findata
 header:
-  teaser: /assets/images/avatar.jpg
+  # teaser: /assets/images/avatar.jpg
 link: http://www.fa.ru/org/dep/findata/News/2020-04-22-koroteev-interview2.aspx?fbclid=IwAR1-OG3z3tK3008uT_E-OTBRPCE4rwPlV5CF_dPXXOw1eDf5Dh2ZyUnbb7E
 excerpt: "Какие решения могут улучшить работу предприятия в условиях дистанционной работы и чего не хватает организациям рассказал доцент, к.э.н. М.В. Коротеев."
 ---

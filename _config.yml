@@ -355,7 +355,7 @@ defaults:
       path: ""
       type: os
     values:
-      layout: single
+      layout: coursepage
       read_time: false
       show_date: false
       author_profile: false

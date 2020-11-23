@@ -1,11 +1,51 @@
 ---
-title: "Портфолио"
+title: false
 layout: splash
-author_profile: false
+permalink: /
+
 header:
   overlay_image: /assets/images/splash_image.jpg
-#  actions:
-#    - label: "Download"
-#      url: "https://github.com/mmistakes/minimal-mistakes/"
-#excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+  actions:
+    - label: "Связаться"
+      url: "mailto:koroteevmv@gmail.com"
+excerpt: "Михаил Коротеев - преподаватель, ученый и разработчик, специализирующийся на системах машинного обучения в экономике и финансах."
+
+
+feature_row:
+
+  - image_path: /assets/images/os_logo.png
+    title: "Учебный курс"
+    excerpt: "Операционные системы семейства UNIX и сетевые технологии"
+    url: "/os"
+    btn_label: "Перейти"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/ml_logo.png
+    title: "Учебное пособие"
+    excerpt: "Технологии анализа данных и машинное обучение"
+    url: "https://portal.fa.ru/Files/Data/85bca4b4-cd40-4dae-bb62-dbd6c04fa0a0/um_tehnanalizadannihimashobuchenie_18.pdf"
+    btn_label: "Читать"
+    btn_class: "btn--primary"
+
+  - title: "Перевод"
+    # image_path: "/assets/images/Jordan_Peterson_June_2018.jpg"
+    excerpt: "Дж. Б. Питерсон. Руководство по написанию эссе"
+    url: "/scipop/peterson-essay/"
+    btn_label: "Читать"
+    btn_class: "btn--primary"
+
 ---
+
+Сейчас я работаю доцентом в Департаменте анализа данных Финансового университета при правительсте РФ. 
+В университете я занимаюсь разработкой и проведением учебных <a href="/courses">курсов</a> в различных областях IT, веду ряд научных и прикладных <a href="/science">проектов</a>.
+Кроме того, я <a href="scipop">занимаюсь</a> переводом научно-популярных статей и озвучиванием видеороликов. 
+
+{% include feature_row %}
+
+Мои научные интересы:
+<ul>
+	<li>Искусственный интеллект и машинное обучение</li>
+	<li>Проектирование и реализация сложных информационных систем</li>
+	<li>Математическое моделирование экономических процессов</li>
+	<li>Обработка и анализ текстов на естественных языках</li>
+</ul>

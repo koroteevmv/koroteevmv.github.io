@@ -25,7 +25,7 @@ author_profile: true
 Опыт работы
 ======
 * Сентябрь 2017: доцент, финансовый университет при правительстве РФ.
-  * Руководитель образовательной программы "Прикладная информатика"
+  * Руководитель образовательной программы "[Прикладная информатика](http://www.fa.ru/org/dep/findata/Pages/applied-computer-science.aspx)"
   * Читаемые дисциплины:
     - Операционные системы семейства UNIX и сетевые технологии
     - Технологии анализа данных и машинное обучение
@@ -37,7 +37,12 @@ author_profile: true
     - Технологии обработки больших данных
   * Руководитель: Соловьев В.И.
 
-* Сентябрь 2011: преподаватель, Волгоградский государственный технический университет
+* Декабрь 2017 - декабрь 2020: старший научный сотрудник, Институт проблем управления РАН.
+  * Ведение исследований по проблемам упралвения крупномасштабных систем
+  * Участие в организации ежегодной международной конференции MLSD
+  * Руководитель: Цвиркун А.Д.
+
+* Сентябрь 2011 - июль 2017: преподаватель, Волгоградский государственный технический университет
   * Заместитель декана факультета Экономики и управления
   * Читаемые дисциплины:
     - Системы управления базами данных
@@ -72,19 +77,40 @@ author_profile: true
 
 Публикации
 ======
-
+<!-- 
 <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
 
-Другие публикации:
-* Method of predicting moments of market trend reversal for decision-making block of computer-based intelligent financial agent-avatar М.В. Коротеев, В.С. Чернышенко, В.И. Соловьев, В.Г. Феклин, Н.А. Титов. AVATAR-BASED CONTROL, ESTIMATION, COMMUNICATIONS, AND DEVELOPMENT OF NEURON MULTI-FUNCTIONAL TECHNOLOGY PLATFORMS, коллективная монография. Сер. "Computational Intelligence and Robotics" Hershey, USA, 2020
-* Парадигмы цифровой экономики М.В. Коротеев, . 
-* Hierarchical classification compared to one-vs-all classifier on one problem of multiclassification in socio-economic modeling and application of hierarchical classifiers М.В. Коротеев. Proceedings of 2018 11th International Conference "Management of Large-Scale System Development", MLSD 2018, 28 November 2018, Номер статьи 8551784
-* Методы и инструменты материального и нематериального стимулирования участников проектной деятельности в государственных органах исполнительной власти (монография) М.В. Коротеев, Под редакцией Прокофьева С.Е. и Паниной О.В.. Издательство: Общество с ограниченной ответственностью "Центркаталог" (Москва)
-Коротеев М.В. Программный продукт, реализующий алгоритмы предсказания будущих моментов смены состояний рынка, основанные на использовании генеративно-состязательных нейронных сетей М.В. 
-* Модели пространственного развития производственно-транспортных систем с учетом фактора рыночного ценообразования М.В. Коротеев, А.Д. Цвиркун, В.К Акинфиев. УПРАВЛЕНИЕ РАЗВИТИЕМ КРУПНОМАСШТАБНЫХ СИСТЕМ MLSD'2019. Материалы двенадцатой международной конференции Научное электронное издание. Под общей ред. С.Н. Васильева, А.Д. Цвиркуна. 2019. Издательство: Институт проблем управления им. В.А. Трапезникова РАН (Москва)
-* Основные подходы к нейроэволюционному имитационному моделирования макроэкономических систем М.В. Коротеев, . УПРАВЛЕНИЕ РАЗВИТИЕМ КРУПНОМАСШТАБНЫХ СИСТЕМ MLSD'2019. Материалы двенадцатой международной конференции Научное электронное издание. Под общей ред. С.Н. Васильева, А.Д. Цвиркуна. 2019. Издательство: Институт проблем управления им. В.А. Трапезникова РАН (Москва)
-* Main approaches to neuro-evolutionary imitation modeling of macroeconomic systems (тезисы доклада) М.В. Коротеев. Proceedings of 2019 12th International Conference "Management of Large-Scale System Development", MLSD 2019
-* Machine learning models overfitting and generalization in very big datasets (тезисы доклада) М.В. Коротеев. Book of abstracts CPMMI 2018. Novi pazar, 17-19 june 2018.
-* Обзор некоторых современных тенденций в технологии машинного обучения (научная статья) М.В. Коротеев. E-Management, vol. 1, No 1, рp. 26–35. DOI: 10.26425/2658-3445-2018-1-26-35
+
+<ol>
+
+<li> <a href="https://www.igi-global.com/chapter/a-method-of-predicting-moments-of-market-trend-reversal-for-decision-making-block-of-computer-based-intelligent-financial-agent-avatar/244784">Method of predicting moments of market trend reversal for decision-making block of computer-based intelligent financial agent-avatar М.В. Коротеев, В.С. Чернышенко, В.И. Соловьев, В.Г. Феклин, Н.А. Титов, коллективная монография. Сер. "Computational Intelligence and Robotics" Hershey, USA, 2020 </a>
+
+<li> <a href="https://ieeexplore.ieee.org/document/8911108">Main approaches to neuro-evolutionary imitation modeling of macroeconomic systems.// Koroteev M.V. Proceedings of 2019 12th International Conference 'Management of Large-Scale System Development', MLSD 2019 </a>
+
+<li> <a href="https://ieeexplore.ieee.org/document/8551784">Hierarchical classification compared to one-vs-all classifier on one problem of multiclassification in socio-economic modeling and application of hierarchical classifiers // Koroteev M.V. Proceedings of 2018 11th International Conference "Management of Large-Scale System Development", MLSD 2018 </a>
+
+<li> <a href="http://www.dunp.np.ac.rs/wp-content/uploads/2018/11/Vol10-2-3.pdf">Machine learning models overfitting and generalization in very big datasets. // Koroteev M.V. Book of abstracts CPMMI 2018. Novi pazar, 17-19 june 2018. </a>
+
+<li> <a href="https://www.elibrary.ru/download/elibrary_36767045_98949105.html">Обзор некоторых современных тенденций в технологии машинного обучения // М.В. Коротеев. E-Management, vol. 1, No 1, рp. 26–35. DOI: 10.26425/2658-3445-2018-1-26-35</a>
+
+<li> <a href="https://www.elibrary.ru/download/elibrary_37418333_24156930.pdf">Об основных задачах дескриптивного анализа данных как подготовительного этапа машинного обучения // М.В. Коротеев. В сборнике: Статистика – язык цифровой цивилизации Сборник докладов II Открытого российского статистического конгресса. В 2-х томах. 2018. С. 466-472.</a>
+
+<li> <a href="https://link.springer.com/article/10.1007/s10958-016-2929-4">
+  Fuzzy Inference as a Generalization of the Bayesian Inference. Koroteev, M.V., Terelyanskii, P.V., Ivanyuk, V.A. Journal of Mathematical Sciences (United States), 2016, 216(5), p. 685-691
+</a>
+
+<li> <a href="https://link.springer.com/article/10.1007/s10958-016-2930-y">
+  Approximation of Series of Expert Preferences by Dynamical Fuzzy Numbers. Koroteev, M.V., Terelyanskii, P.V., Ivanyuk, V.A. Journal of Mathematical Sciences (United States), 2016, 216(5), p. 692-695
+</a>
+
+<li> <a href="https://link.springer.com/article/10.1007%2Fs10958-016-2931-x">
+  Arithmetic of Fuzzy Numbers in Generalized Trapezoidal Form. Koroteev, M.V., Terelyanskii, P.V., Ivanyuk, V.A.Journal of Mathematical Sciences (United States), 2016, 216(5), p. 696-701
+</a>
+
+<li> <a href="http://www.arpnjournals.org/jeas/research_papers/rp_2016/jeas_0816_4734.pdf">
+  The variability of fuzzy aggregation methods for partial indicators of quality and the optimal method choice. Koroteev, M.V., Tereliansky, P.V., Vasilyev, O.I., ...Baktygulov, K., Ordobaev, B.S. ARPN Journal of Engineering and Applied Sciences, 2016, 11(15), стр. 9122-9129
+</a></li>
+
+</ol>
