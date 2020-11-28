@@ -5,6 +5,8 @@ categories:
 tags:
   - presentation
   - program
+header:
+  teaser: /assets/images/avatars/avatar2.jpg
 excerpt: "Михаил Викторович Коротеев рассказал о преимуществах выбора направления «Прикладная информатика» в Финансовом университете, которое позволяет попробовать весь ландшафт ИТ-профессий и определиться со специализацией не перед поступлением, а позднее."
 link: http://www.fa.ru/org/dep/findata/News/2020-09-21-it-day-2020.aspx
 ---

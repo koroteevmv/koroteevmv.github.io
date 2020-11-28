@@ -5,6 +5,8 @@ categories:
 tags:
   - inderview
   - findata
+header:
+  teaser: /assets/images/avatars/avatar4.jpg
 excerpt: "Какие последние тенденции на рынке машинного обучения, насколько безопасно проходить идентификацию с помощью голоса и когда ждать массового внедрения нейросетей, читайте в интервью доцента департамента анализа данных, принятия решений и финансовых технологий Михаил Коротеев (Michail Koroteev)."
 link: http://www.fa.ru/org/dep/findata/News/2019-03-27-koroteev-interview.aspx?fbclid=IwAR2DVV2yEDxivitYbs6jh-gL-8IK3hG1KcluAGbisy1_zhf49SiORRzRuT0
 ---
