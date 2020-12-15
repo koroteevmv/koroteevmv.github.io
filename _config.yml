@@ -21,7 +21,7 @@ title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Михаил Коротеев"
 description              : ""
-url                      : "https://koroteevmv.ru"
+url                      : "https://koroteev.site"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : koroteevmv/koroteevmv.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -287,6 +287,7 @@ defaults:
       author_profile: true
       read_time: true
       share: true
+      comments: true
       related: true
   # os
   - scope:
@@ -298,7 +299,7 @@ defaults:
       show_date: false
       author_profile: false
       share: true
-      comments: false
+      comments: true
       related: false
       last_modified_at: false
       toc: true
