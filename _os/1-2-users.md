@@ -1,6 +1,6 @@
 ---
 collection: os
-permalink: /os/1/2-users
+permalink: /os/1/2-users/
 title: "Права и пользователи"
 
 sections:

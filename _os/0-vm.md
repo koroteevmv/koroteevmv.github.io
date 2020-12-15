@@ -1,6 +1,6 @@
 ---
 collection: os
-permalink: /os/1/0-vm_installation
+permalink: /os/1/0-vm_installation/
 title: "Установка Linux в виртуальную машину"
 
 sections:

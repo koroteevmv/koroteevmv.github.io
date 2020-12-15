@@ -1,6 +1,6 @@
 ---
 collection: os
-permalink: /os/1/4-files
+permalink: /os/1/4-files/
 title: "Управление файлами в Linux"
 
 sections:

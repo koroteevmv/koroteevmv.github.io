@@ -1,6 +1,6 @@
 ---
 collection: os
-permalink: /os/1/3-processes
+permalink: /os/1/3-processes/
 title: "Процессы и пакеты в Linux"
 
 sections:
