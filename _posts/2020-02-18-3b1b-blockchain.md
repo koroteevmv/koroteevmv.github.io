@@ -2,6 +2,7 @@
 title: "Хотите знать, как устроен Биткоин (и другие криптовалюты)?"
 categories:
   - scipop
+toc: false
 tags:
   - 3b1b
   - translation
