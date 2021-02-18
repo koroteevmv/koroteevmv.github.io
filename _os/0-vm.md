@@ -11,6 +11,7 @@ sections:
     youtube: WNMyK4QBTS0 # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
     textbook: # ссылка на главу из учебника
+    test: https://docs.google.com/forms/d/e/1FAIpQLSe5f1PCZIUDnn9qHnnGP98Gyp9CGZdptGbW0ESPJblxuk3kxA/closedform
     additional: # ссылки на дополнительные материалы
       - title: "Oracle VirtualBox"
         url: https://www.virtualbox.org/

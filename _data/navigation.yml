@@ -58,21 +58,31 @@ os:
         url: /os/2/1-bash/
       - title: Средства обработки текста
         url: /os/2/2-text/
-      # - title: Настройка сети
-        # url: /os/1/0-vm_installation/
-      # - title: Использование ssh
-        # url: /os/1/0-vm_installation/
+      - title: Настройка сети
+        url: /os/2/3-network/
+      - title: Использование ssh
+        url: /os/2/4-ssh/
       # - title: Основные задачи администрирования
-        # url: /os/1/0-vm_installation/
-  # - title: "3. Linux для разработки"
-  #   children:
-  #     - title: Настройка окружения Python
-  #       # url: /os/1/0-vm_installation/
-  #     - title: Системы контроля версий
-  #       # url: /os/1/0-vm_installation/
-  #     - title: Системное программирование на Python
-  #       # url: /os/1/0-vm_installation/
+      #   url: /os/1/0-vm_installation/
+  - title: "3. Linux для разработки"
+    children:
+      - title: Настройка окружения Python
+        url: /os/3/0-environment/
+      - title: Системы контроля версий
+        url: /os/3/1-git/
+      # - title: Системное программирование на Python
+      #   # url: /os/1/0-vm_installation/
   #     - title: Использование сокетов
-  #       # url: /os/1/0-vm_installation/
+  #       url: /os/3/2-sockets/
   #     - title: Асинхронное программирвоание
-  #       # url: /os/1/0-vm_installation/
+  #       url: /os/3/3-threading/
+  # - title: "4. Сетевые службы"
+  #   children:
+  #     - title: Основы веб технологий
+  #       url: /os/4/0-web/
+  #     - title: Веб-сервер
+  #       url: /os/4/1-web-server/
+  #     - title: FTP-сервер
+  #       url: /os/4/2-ftp-server/
+  #     - title: Развертывание приложений
+  #       url: /os/4/3-deploy/

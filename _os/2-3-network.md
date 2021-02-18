@@ -1,31 +1,35 @@
 ---
 category: os
-permalink: /os/2/2-text/
-title: "Средства обработки текста"
+permalink: /os/2/3-network/
+title: "Настройка сети в Linux"
 
 sections:
-  - title: "Команды работы с текстом в Linux"
-    overview: "Мы познакомимся с основнми командами, упрощающими обработку текстовой информации - grep, sort, uniq, head, tail, cut,  wc. Такж екратко рассмотрим два довольно мощных инструмента - текстовые процессоры sed и awk."
+  - title: "Лекция: Команды работы с текстом в Linux"
+    overview: "Мы познакомимся с основными понятиями компьютерных сетей, принципами адресации и маршрутизации в них, основными сетевыми протоколами. Эта лекция - не детальное погружение, а скорее краткий ликбез или напоминание об основных понятиях."
     youtube: # Видеозапись занятия
-    slides: https://docs.google.com/presentation/d/1N7yc4WVROAaUmB4vWgd21KIi9WRu7MIkn-zkvRTNbYI/edit?usp=sharing # ссылка на презентацию к занятию
-    document: # ссылка на методические указания
+    slides: https://docs.google.com/presentation/d/14ULcl1Fq8Qu8ghPOiOs_LIHBQz6Wgy2p6jyzZhE1LRU/edit?usp=sharing # ссылка на презентацию к занятию
+    document: https://docs.google.com/document/d/1mywbUyCAEULK08qhrIzVO2j4w89MoawjnCeRPKcXDKk/edit?usp=sharing # ссылка на методические указания
     additional: # 
-    textbook: # 
 
-  - title: "Практика: создание HTML-отчета" # Навзвание работы
-    overview: ""
+  - title: "Практика: Диагностика сетей" # Навзвание работы
+    overview: "Используя стандартные сетевые утилиты, научиться анализировать конфигурацию сети, получить свой IP-адрес, просмотреть и при необходи­мости подключить общие ресурсы, определить причину возможных неполадок, также получить информацию об использовании портов и т.д."
     youtube: # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
-    document: https://docs.google.com/document/d/1d1TOeIhPYhkQIklUBLXQToLK4ckctkPmgrNGMQa1paE/edit?usp=sharing # ссылка на методические указания
+    document: https://docs.google.com/document/d/1iOH61Inpbeh4E4SBvwnzQycFW0Zm6AjLP6LQ-7l7wR0/edit?usp=sharing # ссылка на методические указания
     additional: # 
-    textbook: # 
 
-  - title: "Практика: парсинг лог-файлов" # Навзвание работы
-    overview: "" # Пояснительный текст
+  - title: "Практика: Настройка маршрутизации на виртуальной машине" # Навзвание работы
+    overview: "В ходе данной работы можно научиться настраивать сетевые параметры на виртуальных машинах для обеспечения совместной работы, в том числе в физической сети." # Пояснительный текст
     youtube: # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
-    document: https://docs.google.com/document/d/1pv8XmGzcX_IGE3EwCmyMkMFsax7cpjbxv-NX6M1Wy6E/edit?usp=sharing # ссылка на методические указания
+    document: https://docs.google.com/document/d/1w0WfLUBzvSjoJRMUHVKYC2QWs81BXWPNnHKDEg_Ctrc/edit?usp=sharing # ссылка на методические указания
     additional: # 
-    textbook: # 
+
+  - title: "Дополнительно: Способы сетевых подключений виртуальных машин" # Навзвание работы
+    overview: "В ходе данной работы можно познакомится в разными способами подключения виртуальной машины по сети к хостовой машине и к физической сети." # Пояснительный текст
+    youtube: # Видеозапись занятия
+    slides: # ссылка на презентацию к занятию
+    document: hhttps://docs.google.com/document/d/1H1ozZckECh1R4Rj5nP_S8urGUUyRfL-NSHBC_Rn9fvw/edit?usp=sharing # ссылка на методические указания
+    additional: # 
 ---
 

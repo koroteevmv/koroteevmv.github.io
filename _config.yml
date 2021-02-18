@@ -293,7 +293,7 @@ defaults:
       toc_sticky: true
   # os
   - scope:
-      path: ""
+      path: "_os"
       type: os
     values:
       layout: coursepage

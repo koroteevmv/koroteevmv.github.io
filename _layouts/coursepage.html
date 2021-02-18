@@ -13,11 +13,11 @@ layout: single
   
 	{% if section.document %}
   		<h3 id="{{ forloop.index }}-docs">Методические указания</h3>
-  		Читать <a href="{{ section.document }}">на Google Диске</a>.
+  		Читать методический <a href="{{ section.document }}">материал</a> к этому занятию.
   {% endif %}
 
 	{% if section.youtube %}
-  		<h3 id="{{ forloop.index }}-video">Видео семинара</h3>
+  		<h3 id="{{ forloop.index }}-video">Видео занятия</h3>
 
       <div class="responsive-video-container">
       <iframe src="https://www.youtube-nocookie.com/embed/{{ section.youtube }}" 
@@ -28,12 +28,12 @@ layout: single
 
   {% if section.slides %}
       <h3 id="{{ forloop.index }}-slides">Презентация</h3>
-      Смотреть слайды <a href="{{ section.slides }}">на Google Диске</a>.
+      Смотреть <a href="{{ section.slides }}">слайды</a> к этому занятию.
   {% endif %}
 
-  {% if section.textbook %}
-      <h3 id="{{ forloop.index }}-textbook">Учебник</h3>
-      Читать материал по этой теме <a href="{{ section.textbook }}">в учебнике</a>.
+  {% if section.test %}
+      <h3 id="{{ forloop.index }}-test">Тестирование</h3>
+      Пройти <a href="{{ section.test }}">тестирование</a> по этой теме.
   {% endif %}
 
   {% if section.additional %}
