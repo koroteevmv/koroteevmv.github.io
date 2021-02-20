@@ -67,9 +67,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google"
+  provider               : "google-universal"
   google:
-    tracking_id          : 254348391
+    tracking_id          : G-1K09X3NDBE
     anonymize_ip         : # true, false (default)
 
 
