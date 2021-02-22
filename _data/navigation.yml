@@ -40,7 +40,6 @@ os:
     # children:
       # - title: Программа экзамена
   - title: "1. Основы Linux"
-    url: "https://youtu.be/WNMyK4QBTS0"
     children:
       - title: Установка в VB
         url: /os/1/0-vm_installation/
