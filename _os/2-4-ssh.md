@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/2/4-ssh/
-title: "Использование удаленного доступа по SSH"
+title: "LX8 Использование удаленного доступа по SSH"
 
 sections:
   - title: "Лекция: Удаленная работа по SSH"

@@ -2,13 +2,13 @@
 main:
   - title: "UNIX"
     url: /os
-    
+
   # - title: "ML"
   #   url: /ml
-    
+
   # - title: "Android"
   #   url: /md
-    
+
   # - title: "Python"
   #   url: /pd
 
@@ -72,8 +72,8 @@ os:
         url: /os/3/1-git/
       # - title: Системное программирование на Python
       #   # url: /os/1/0-vm_installation/
-  #     - title: Использование сокетов
-  #       url: /os/3/2-sockets/
+      - title: Использование сокетов
+        url: /os/3/2-sockets/
   #     - title: Асинхронное программирвоание
   #       url: /os/3/3-threading/
   # - title: "4. Сетевые службы"

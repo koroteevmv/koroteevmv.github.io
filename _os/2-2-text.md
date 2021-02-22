@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/2/2-text/
-title: "Средства обработки текста"
+title: "LX6 Средства обработки текста"
 
 sections:
   - title: "Лекция: Команды работы с текстом в Linux"

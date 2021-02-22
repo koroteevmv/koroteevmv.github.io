@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/2/3-network/
-title: "Настройка сети в Linux"
+title: "NT1 Настройка сети в Linux"
 
 sections:
   - title: "Лекция: Команды работы с текстом в Linux"

@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/2/1-bash/
-title: "Основы скриптов на bash"
+title: "LX5 Основы скриптов на bash"
 
 sections:
   - title: "Лекция: Bash как язык программирования"

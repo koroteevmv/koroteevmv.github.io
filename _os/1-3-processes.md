@@ -1,7 +1,7 @@
 ---
 collection: os
 permalink: /os/1/3-processes/
-title: "Процессы и пакеты в Linux"
+title: "LX3 Процессы и пакеты в Linux"
 
 sections:
   - title: "Лекция: Архитектура, процессы и пакеты Linux" # Назввание работы

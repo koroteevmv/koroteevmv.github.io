@@ -1,7 +1,7 @@
 ---
 collection: os
 permalink: /os/1/4-files/
-title: "Управление файлами в Linux"
+title: "LX4 Управление файлами в Linux"
 
 sections:
   - title: "Лекция: Загрузка ОС и файловые системы" # Назввание работы

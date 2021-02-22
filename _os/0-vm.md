@@ -1,7 +1,7 @@
 ---
 collection: os
 permalink: /os/1/0-vm_installation/
-title: "Установка Linux в виртуальную машину"
+title: "LX0 Установка Linux в виртуальную машину"
 excerpt: "На этом занятии мы познакомимся с процессом установки ОС Linux на примере дистрибутива Linux Mint 20 в виртуальную машину Oracle VirtualBox"
 
 sections:

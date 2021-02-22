@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/1/1-cli/
-title: "Основы командной строки"
+title: "LX1 Основы командной строки"
 
 sections:
   - title: "Лекция: Основы командной строки Linux" # Навзвание работы
