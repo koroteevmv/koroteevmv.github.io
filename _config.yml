@@ -308,6 +308,40 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "os"
+  # md
+  - scope:
+      path: "_md"
+      type: md
+    values:
+      layout: coursepage
+      read_time: false
+      show_date: false
+      author_profile: false
+      share: true
+      comments: true
+      related: false
+      last_modified_at: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "md"
+  # ml
+  - scope:
+      path: "_ml"
+      type: ml
+    values:
+      layout: coursepage
+      read_time: false
+      show_date: false
+      author_profile: false
+      share: true
+      comments: true
+      related: false
+      last_modified_at: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "ml"
   # _pages
   - scope:
       path: "_pages"

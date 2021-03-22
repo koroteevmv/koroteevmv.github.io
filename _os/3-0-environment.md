@@ -15,7 +15,7 @@ sections:
     overview: "В данной работе мы научимся использовать один из самых популярных текстовых редакторов для профессионалов - легендарный vim."
     youtube: # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
-    document:  # ссылка на методические указания
+    document: https://docs.google.com/document/d/1XmShF_7YvyUUV43iP5F2lkR9oFqQGbnZ8cwYaVHEAaQ/edit?usp=sharing
     additional:
       - title: Интерактивный учебник по Vim
         url: https://openvim.com/

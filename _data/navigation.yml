@@ -2,16 +2,12 @@
 main:
   - title: "UNIX"
     url: /os
-
-  # - title: "ML"
-  #   url: /ml
-
-  # - title: "Android"
-  #   url: /md
-
+  - title: "ML"
+    url: /ml
+  - title: "Android"
+    url: /md
   # - title: "Python"
   #   url: /pd
-
   - title: "Все курсы"
     url: /courses
 
@@ -41,7 +37,7 @@ os:
       # - title: Программа экзамена
   - title: "1. Основы Linux"
     children:
-      - title: Установка в VB
+      - title: Введение
         url: /os/1/0-vm_installation/
       - title: Командная строка
         url: /os/1/1-cli/
@@ -50,7 +46,7 @@ os:
       - title: Архитектура, пакеты, процессы
         url: os/1/3-processes/
       - title: Загрузка и файловая система
-        url: "os/1/4-files/"
+        url: os/1/4-files/
   - title: "2. Администрирование Linux"
     children:
       - title: Основы скриптов на bash
@@ -61,27 +57,57 @@ os:
         url: /os/2/3-network/
       - title: Использование ssh
         url: /os/2/4-ssh/
-      # - title: Основные задачи администрирования
-      #   url: /os/1/0-vm_installation/
+      - title: Основные задачи администрирования
+        url: /os/2/5-admin/
   - title: "3. Linux для разработки"
     children:
       - title: Настройка окружения Python
         url: /os/3/0-environment/
+      - title: Работа с ОС в Python
+        url: /os/3/1-python-os/
       - title: Системы контроля версий
-        url: /os/3/1-git/
-      # - title: Системное программирование на Python
-      #   # url: /os/1/0-vm_installation/
+        url: /os/3/2-git/
       - title: Использование сокетов
-        url: /os/3/2-sockets/
-  #     - title: Асинхронное программирвоание
-  #       url: /os/3/3-threading/
-  # - title: "4. Сетевые службы"
+        url: /os/3/3-sockets/
+      - title: Асинхронное программирование
+        url: /os/3/4-threading/
+  - title: "4. Сетевые службы"
+    children:
+     - title: Основы веб технологий
+       url: /os/4/0-web/
+     - title: Безопасность в сетях
+       url: /os/4/1-tls/
+     - title: Веб-сервер
+       url: /os/4/2-web-server/
+     - title: FTP-сервер
+       url: /os/4/3-ftp-server/
+     - title: Email-сервер
+       url: /os/4/4-email-server/
+     - title: Развертывание приложений
+       url: /os/4/5-deploy/
+
+md:
+  - title: Содержание курса
+    url: /md/
+    children:
+    - title: Введение в мобильные платформы
+      url: /md/0/0-introdiction/
+    - title: Основы языка Java
+      url: /md/1/0-java/
+    - title: Элементы интерфейса
+      url: /md/1/1-ui-elements/
+    - title: Активности
+      url: /md/1/2-acivities/
+    - title: Хранение данных
+      url: /md/1/3-content/
+    - title: Сервисы
+      url: /md/1/4-services/
+    - title: Тестирование и безопасность
+      url: /md/1/5-testing/
+    # - title: Работа с фрагментами
+      # url: /md/1/6-fragments/
+    # - title: Работа с системой
+      # url: /md/1/7-system/
+
+  # - title: Разработка кроссплатформенных приложений
   #   children:
-  #     - title: Основы веб технологий
-  #       url: /os/4/0-web/
-  #     - title: Веб-сервер
-  #       url: /os/4/1-web-server/
-  #     - title: FTP-сервер
-  #       url: /os/4/2-ftp-server/
-  #     - title: Развертывание приложений
-  #       url: /os/4/3-deploy/
