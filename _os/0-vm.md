@@ -12,7 +12,7 @@ sections:
     youtube: # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
     textbook: https://docs.google.com/document/d/1CbR66VfSwjuAOUESDgGxlHDbk33snLiINdjJ2sdkdUI/edit#heading=h.g6b0x7swgei # ссылка на главу из учебника
-    test: https://docs.google.com/forms/d/e/1FAIpQLSe5f1PCZIUDnn9qHnnGP98Gyp9CGZdptGbW0ESPJblxuk3kxA/closedform
+    test: https://campus.fa.ru/mod/quiz/view.php?id=81999
 
   - title: "Лабораторная: Установка Linux в Виртуальную машину" # Назввание работы
     overview: "На этом занятии мы познакомимся с процессом установки ОС Linux на примере дистрибутива Linux Mint 20 в виртуальную машину Oracle VirtualBox" # Пояснительный текст

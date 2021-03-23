@@ -13,6 +13,7 @@ sections:
     document: # ссылка на методические указания
     additional: # 
     textbook: # 
+    test: https://campus.fa.ru/mod/quiz/view.php?id=82013
 
   - title: "Практика: 10 основных команд" # Навзвание работы
     overview: "В этой работе рассматриваются 10 самых частых команд оболочки bash.
