@@ -11,6 +11,7 @@ sections:
     slides: https://docs.google.com/presentation/d/1jn_K0GBSDaeC_7XxNrj8-ljZElWHaXxIqJyiyBdJmls/edit?usp=sharing # ссылка на презентацию к занятию
     textbook: # ссылка на главу из учебника
     additional: # ссылки на дополнительные материалы
+    test: https://campus.fa.ru/mod/quiz/view.php?id=82138
 
   - title: "Практика: Права доступа" # Назввание работы
     overview: "В этой работе вы получите навыки по управлению правами доступа к файловым ресурсам системы, освоить основные команды - chmod, chown, chgrp." # Пояснительный текст
