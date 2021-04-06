@@ -4,11 +4,11 @@ permalink: /os/2/3-network/
 title: "NT1 Настройка сети в Linux"
 
 sections:
-  - title: "Лекция: Команды работы с текстом в Linux"
+  - title: "Лекция: Основные понятия компьютерных сетей"
     overview: "Мы познакомимся с основными понятиями компьютерных сетей, принципами адресации и маршрутизации в них, основными сетевыми протоколами. Эта лекция - не детальное погружение, а скорее краткий ликбез или напоминание об основных понятиях."
     youtube: # Видеозапись занятия
     slides: https://docs.google.com/presentation/d/14ULcl1Fq8Qu8ghPOiOs_LIHBQz6Wgy2p6jyzZhE1LRU/edit?usp=sharing # ссылка на презентацию к занятию
-    document: https://docs.google.com/document/d/1mywbUyCAEULK08qhrIzVO2j4w89MoawjnCeRPKcXDKk/edit?usp=sharing # ссылка на методические указания
+    <!-- document: https://docs.google.com/document/d/1mywbUyCAEULK08qhrIzVO2j4w89MoawjnCeRPKcXDKk/edit?usp=sharing # ссылка на методические указания -->
     additional: # 
 
   - title: "Практика: Диагностика сетей" # Навзвание работы
@@ -29,7 +29,7 @@ sections:
     overview: "В ходе данной работы можно познакомится в разными способами подключения виртуальной машины по сети к хостовой машине и к физической сети." # Пояснительный текст
     youtube: # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
-    document: hhttps://docs.google.com/document/d/1H1ozZckECh1R4Rj5nP_S8urGUUyRfL-NSHBC_Rn9fvw/edit?usp=sharing # ссылка на методические указания
+    document: https://docs.google.com/document/d/1H1ozZckECh1R4Rj5nP_S8urGUUyRfL-NSHBC_Rn9fvw/edit?usp=sharing # ссылка на методические указания
     additional: # 
 ---
 

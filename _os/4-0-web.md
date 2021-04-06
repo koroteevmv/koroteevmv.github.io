@@ -7,7 +7,7 @@ sections:
   - title: "Лекция: Web-технологии"
     overview: "Веб является одной из самых важных прикладных информационных технологий. В данной лекции мы расскажем, что это такое, зачем оно нужно и как работает. Также мы рассмострим детали реализации протокода HTTP."
     youtube: # Видеозапись занятия
-    slides: https://docs.google.com/presentation/d/1_N99bxfJk8thTiNF3FH-_2hLsQdhPWxzGjnYTRd0Dx4/edit?usp=sharing # ссылка на презентацию к занятию
+    <!-- slides: https://docs.google.com/presentation/d/1_N99bxfJk8thTiNF3FH-_2hLsQdhPWxzGjnYTRd0Dx4/edit?usp=sharing # ссылка на презентацию к занятию -->
     document: # ссылка на методические указания
     additional: # 
 
@@ -22,7 +22,7 @@ sections:
     overview: "Если писать веб-сервер полезно скорее для обучения, то парсинг веб-страниц - задача, очень чаесто возникающая на практике. В данной работе мы будем разбираться с тем, как можно программно работать с информацией, опубликованной в Интеренете и автоматически вделять нужные нам данные."
     youtube: # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
-    document: https://docs.google.com/document/d/1-8xcdBJ96kir46xRXAaDHcED0vFj6jnJilTk6oeVoFI/edit?usp=sharing # ссылка на методические указания
+    <!-- document: https://docs.google.com/document/d/1-8xcdBJ96kir46xRXAaDHcED0vFj6jnJilTk6oeVoFI/edit?usp=sharing # ссылка на методические указания -->
     additional: # 
 ---
 

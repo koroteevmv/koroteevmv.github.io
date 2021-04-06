@@ -1,4 +1,4 @@
----
+<!-- ---
 category: os
 permalink: /os/3/1-python-os/
 title: "SD2 Работа с ОС в Python"
@@ -12,3 +12,4 @@ sections:
     additional: # 
 ---
 
+ -->

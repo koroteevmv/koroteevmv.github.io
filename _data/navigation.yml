@@ -63,8 +63,8 @@ os:
     children:
       - title: Настройка окружения Python
         url: /os/3/0-environment/
-      - title: Работа с ОС в Python
-        url: /os/3/1-python-os/
+      # - title: Работа с ОС в Python
+        # url: /os/3/1-python-os/
       - title: Системы контроля версий
         url: /os/3/2-git/
       - title: Использование сокетов

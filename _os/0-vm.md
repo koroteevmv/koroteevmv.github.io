@@ -11,7 +11,7 @@ sections:
     document: https://docs.google.com/document/d/1CbR66VfSwjuAOUESDgGxlHDbk33snLiINdjJ2sdkdUI/edit#heading=h.g6b0x7swgei # ссылка на методические указания
     youtube: # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
-    textbook: https://docs.google.com/document/d/1CbR66VfSwjuAOUESDgGxlHDbk33snLiINdjJ2sdkdUI/edit#heading=h.g6b0x7swgei # ссылка на главу из учебника
+    <!-- textbook: https://docs.google.com/document/d/1CbR66VfSwjuAOUESDgGxlHDbk33snLiINdjJ2sdkdUI/edit#heading=h.g6b0x7swgei # ссылка на главу из учебника -->
     test: https://campus.fa.ru/mod/quiz/view.php?id=81999
 
   - title: "Лабораторная: Установка Linux в Виртуальную машину" # Назввание работы
