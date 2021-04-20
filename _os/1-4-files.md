@@ -8,7 +8,7 @@ sections:
     overview: "В этой лекции вы узнаете о процессе загрузки операционной системы, зачем нужны разделы жесткого диска и как монтировать файловые систем ы Linux." # Пояснительный текст
     document: # ссылка на методические указания
     youtube: # Видеозапись занятия
-    slides: https://docs.google.com/presentation/d/11TxuzUViRz0asDylfsTKGyHHONgaBm5Jrd3f4IL2Alo/edit?usp=sharing
+    slides: https://docs.google.com/presentation/d/11jLNQkWgfyK13_AIVfaSPiznvG8EO-moNG1j46wc4ek/edit?usp=sharing
     textbook: # ссылка на главу из учебника
     additional: # ссылки на дополнительные материалы
 
