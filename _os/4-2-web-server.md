@@ -7,7 +7,7 @@ sections:
   - title: "Лекция: Установка и настройка веб-сервера в Linux"
     overview: ""
     youtube: # Видеозапись занятия
-    slides: https://docs.google.com/presentation/d/1wu64sQPbqMjuea2joWjplPtpgbCTebXdnK4_xKW710k/edit?usp=sharing # ссылка на презентацию к занятию
+    slides: https://docs.google.com/presentation/d/1JxcZDZ50M9MfDWAaramWVneopEvEvQCpXpcSs3kk88g/edit?usp=sharing
     document: # ссылка на методические указания
     additional: # 
 

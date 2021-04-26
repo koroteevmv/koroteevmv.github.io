@@ -7,7 +7,7 @@ sections:
   - title: "Лекция: Основы компьютерной безопасности"
     overview: ""
     youtube: # Видеозапись занятия
-    slides: 
+    slides: https://docs.google.com/presentation/d/1PJKt22xLIzULxhTZKL4Wek717z1uXp74oLgupfOabw8/edit?usp=sharing
     document: # ссылка на методические указания
     additional: # 
 
