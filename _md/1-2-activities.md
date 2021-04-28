@@ -29,4 +29,12 @@ sections:
     slides: 
     textbook: # ссылка на главу из учебника
     test:
+
+  - title: "Практика: Работа с изображениями" 
+    overview: "В этом занятии мы научимся использовать графические изображения в качестве элементов визуального интерфейса мобильного приложения."
+    document: https://drive.google.com/file/d/1pzvEgRVl4zaKf20ZaVXkeaiVgtcuEllq/view?usp=sharing
+    youtube: 
+    slides: 
+    textbook: # ссылка на главу из учебника
+    test:
 ---

@@ -13,4 +13,20 @@ sections:
     slides: https://docs.google.com/presentation/d/1HSfm8Qx3sa1iuGojPWCFAScSBnLcb7VuR2NyBA_VR3E/edit?usp=sharing
     textbook: # ссылка на главу из учебника
     test: https://docs.google.com/forms/d/e/1FAIpQLSdEM7JuKJpehPQR9eNL7EnSHjabultJoCm-7WLAJKYzOTrHbA/viewform
+
+  - title: "Практика: Простое хранение данных" 
+    overview: "В этом занятии мы научимся хранить данные приложения в файле общих настроек, восстанавливать состояние приложения при перезапуске, работать с разными типами данных. Также посмотрим механихмы работы с файлами."
+    document: https://docs.google.com/document/d/1RY0JzWo_KveOSGHYe8KHNiQoyBfOAcznE4o3odRr7vU/edit?usp=sharing
+    youtube: 
+    slides: 
+    textbook: # ссылка на главу из учебника
+    test:
+
+  - title: "Практика: Работа с базой данных" 
+    overview: "В этом занятии мы научимся Использовать встроенное реляционное хранилище данных для хранения структурированной информации приложения. Также мы поработаем с контент-провайдерами и разрешениями приложения."
+    document: https://docs.google.com/document/d/1LY39DY560CzUeNTPIB_GVECyKm8Y5CXbORLg8cF5raw/edit?usp=sharing
+    youtube: 
+    slides: 
+    textbook: # ссылка на главу из учебника
+    test:
 ---
