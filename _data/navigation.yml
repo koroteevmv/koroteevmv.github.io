@@ -2,8 +2,8 @@
 main:
   - title: "UNIX"
     url: /os
-  - title: "ML"
-    url: /ml
+  # - title: "ML"
+  #   url: /ml
   - title: "Android"
     url: /md
   # - title: "Python"
@@ -11,20 +11,20 @@ main:
   - title: "Все курсы"
     url: /courses
 
-  - title: "Наука"
-    url: /science
-
-  - title: "Публицистика"
-    url: /scipop
-
-  - title: "Выступления"
-    url: /talks
-
   - title: "Блог"
     url: /blog/
 
-  - title: "CV"
-    url: /cv
+  - title: "Проекты"
+    url: /science
+
+  # - title: "Публицистика"
+  #   url: /scipop
+
+  # - title: "Выступления"
+  #   url: /talks
+
+  # - title: "CV"
+  #   url: /cv
 
   # - title: "Sitemap"
   #   url: /sitemap/

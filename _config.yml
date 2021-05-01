@@ -44,6 +44,7 @@ atom_feed:
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : lunr
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -76,14 +77,14 @@ analytics:
 # Site Author
 author:
   name             : "Михаил Коротеев"
-  avatar           : "/assets/images/avatar.jpg"
+  avatar           : "/assets/images/avatar3.jpg"
   bio              : "Есть такая профессия - Родину автоматизировать."
-  location         : "Москва"
-  email            : koroteevmv@gmail.com
+  # location         : "Москва"
+  # email            : koroteevmv@gmail.com
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://koroteevmv.ru"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://koroteevmv.ru"
 
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -105,22 +106,6 @@ author:
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-8768-6564"
 
-    - label: "Vkontakte"
-      icon: "fab fa-fw fa-vk"
-      url: "https://vk.com/koroteev_m"
-
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/mihail.koroteev"
-
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
       # https://fontawesome.com/icons?d=gallery
 
 # Site Footer
@@ -128,22 +113,15 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: https://twitter.com/koroteev_m
+
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/koroteevmv"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://facebook.com/mihail.koroteev"
+
+    - label: "Vkontakte"
+      icon: "fab fa-fw fa-vk"
+      url: "https://vk.com/koroteev_m"
 
 
 # Reading Files
