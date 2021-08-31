@@ -9,8 +9,8 @@ sections:
   - title: "Лекция: Операционные системы. UNIX. Linux." # Назввание работы
     overview: "В первой лекции курса вы узнаете, что такое операционные системы, зачем они нужны, почему важны UNIX-подобные ОС, основные отличительные черты ОС Linux." # Пояснительный текст
     <!-- document: https://docs.google.com/document/d/1CbR66VfSwjuAOUESDgGxlHDbk33snLiINdjJ2sdkdUI/edit#heading=h.g6b0x7swgei # ссылка на методические указания -->
-    youtube: # Видеозапись занятия
-    slides: # ссылка на презентацию к занятию
+    youtube: fcCX1HnEQ5M # Видеозапись занятия
+    slides: https://docs.google.com/presentation/d/1MFIX0V6_h1tIV3ziMrSjFvsnm5Wuc7RoZx-tI5ZDvfA/edit?usp=sharing # ссылка на презентацию к занятию
     <!-- textbook: https://docs.google.com/document/d/1CbR66VfSwjuAOUESDgGxlHDbk33snLiINdjJ2sdkdUI/edit#heading=h.g6b0x7swgei # ссылка на главу из учебника -->
     test: https://campus.fa.ru/mod/quiz/view.php?id=81999
 
