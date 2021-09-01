@@ -14,7 +14,7 @@ sections:
     textbook: # ссылка на главу из учебника
     test: 
 
-  - title: "Практика: Основы веб-технологий" 
+  - title: "Практика: Принципы дизайна" 
     overview: "Цель работы - получить навыки создания дизайна html-страниц."
     document: https://drive.google.com/file/d/1kfM0vpwMtkulAr885ApSaYKKNCINxxq3/view # ссылка на методические указания
     youtube: # Видеозапись занятия

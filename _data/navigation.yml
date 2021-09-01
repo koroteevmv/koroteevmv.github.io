@@ -115,3 +115,9 @@ md:
     children:
       - title: Разработка веб-приложений
         url: /md/2/1-web-tech/
+      - title: Основы Javascript
+        url: /md/2/2-javascript/
+      - title: Фреймворк React.js
+        url: /md/2/1-web-tech/
+      - title: Фреймворк react native
+        url: /md/2/1-web-tech/
