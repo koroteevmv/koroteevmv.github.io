@@ -10,7 +10,7 @@ sections:
     			как находить информацию по командам. " # Пояснительный текст
     youtube: QjYEkVXH4t4 # Видеозапись занятия
     slides: https://docs.google.com/presentation/d/1EOAbuo8cxsAuMJuYN4NUjg5ek__IJpRK_Y2PiAI2VzI/edit?usp=sharing # ссылка на презентацию к занятию
-    document: # ссылка на методические указания
+    document: https://docs.google.com/document/d/1wClItXKr6d-aqk4MIFMW99mA4Z4UO64h3l9BXINbyIk/edit?usp=sharing # ссылка на методические указания
     additional: # 
     textbook: # 
     test: https://campus.fa.ru/mod/quiz/view.php?id=82013

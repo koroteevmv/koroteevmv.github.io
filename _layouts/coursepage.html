@@ -10,11 +10,6 @@ layout: single
 	{% if section.overview %}
    		<p> {{ section.overview }}</p>
   {% endif %}
-  
-	{% if section.document %}
-  		<h3 id="{{ forloop.index }}-docs">Методические указания</h3>
-  		Читать методический <a href="{{ section.document }}">материал</a> к этому занятию.
-  {% endif %}
 
 	{% if section.youtube %}
   		<h3 id="{{ forloop.index }}-video">Видео занятия</h3>
@@ -24,6 +19,11 @@ layout: single
         frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
       </iframe>
     </div>
+  {% endif %}
+  
+  {% if section.document %}
+      <h3 id="{{ forloop.index }}-docs">Методические указания</h3>
+      Читать методический <a href="{{ section.document }}">материал</a> к этому занятию.
   {% endif %}
 
   {% if section.slides %}
