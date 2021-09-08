@@ -9,7 +9,9 @@ sections:
     youtube: # Видеозапись занятия
     slides: https://docs.google.com/presentation/d/1uqYWOnkU0LZgMrJHivKrklqjPe8Z67RBkQOUHJeUFFk/edit?usp=sharing # ссылка на презентацию к занятию
     document: https://docs.google.com/document/d/1adG4d1NmxaStrvhnSpt-X0qCW88byvXvJRUxy_bTXtE/edit?usp=sharing # ссылка на методические указания
-    additional: # 
+    additional: 
+      - title: "Справочник Pro Git"
+        url: https://git-scm.com/book/ru
 
   - title: "Практика: Основы работы с СКВ в графическом режиме" # Навзвание работы
     overview: "В данной работе мы научимся работать с СКВ при помощи графического клиента. Это наиболее дружелюбный режим работы с git."
