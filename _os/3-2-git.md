@@ -6,7 +6,7 @@ title: "DO2 Контроль версий: Git и GitHub"
 sections:
   - title: "Лекция: Системы контроля версий - Git и GitHub"
     overview: "Полноценная разработка невозможна без использования систем контроля вресий. В данной лекции мы познакомимся с наиболее популярной СКВ. Мы узнаем основные понятия этот системы и попытаемся разобраться, зачем она вообще нужна разработчику."
-    youtube: # Видеозапись занятия
+    youtube: HZxQbtYhBYs # Видеозапись занятия
     slides: https://docs.google.com/presentation/d/1uqYWOnkU0LZgMrJHivKrklqjPe8Z67RBkQOUHJeUFFk/edit?usp=sharing # ссылка на презентацию к занятию
     document: https://docs.google.com/document/d/1adG4d1NmxaStrvhnSpt-X0qCW88byvXvJRUxy_bTXtE/edit?usp=sharing # ссылка на методические указания
     additional: 
