@@ -118,9 +118,9 @@ md:
       - title: Основы Javascript
         url: /md/2/2-javascript/
       - title: Фреймворк React.js
-        url: /md/2/1-web-tech/
+        url: /md/2/3-react/
       - title: Фреймворк react native
-        url: /md/2/1-web-tech/
+        url: /md/2/4-react-native/
 
 
 ml:

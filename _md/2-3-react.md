@@ -1,6 +1,6 @@
 ---
 collection: md
-permalink: /md/2/1-web-tech/
+permalink: /md/2/3-react/
 title: "WD3 Фреймворк react.js"
 excerpt: ""
 

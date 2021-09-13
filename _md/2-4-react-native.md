@@ -1,6 +1,6 @@
 ---
 collection: md
-permalink: /md/2/1-web-tech/
+permalink: /md/2/4-react-native//
 title: "WD4 Фреймворк react native"
 excerpt: ""
 
