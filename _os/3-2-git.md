@@ -1,6 +1,6 @@
 ---
 category: os
-permalink: /os/3/1-git/
+permalink: /os/3/2-git/
 title: "DO2 Контроль версий: Git и GitHub"
 
 sections:

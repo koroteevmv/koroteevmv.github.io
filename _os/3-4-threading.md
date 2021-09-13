@@ -1,6 +1,6 @@
 ---
 category: os
-permalink: /os/3/3-threading/
+permalink: /os/3/4-threading/
 title: "SD3 Асинхронное программирование"
 
 sections:
