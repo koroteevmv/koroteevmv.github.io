@@ -132,26 +132,26 @@ ml:
   - title: Основы обучения с учителем
     children:
     - title: Задача регрессии
-      url: /md/1/1-regression/
+      url: /ml/1/1-regression/
     - title: Классификация
-      url: /md/1/2-classification/
+      url: /ml/1/2-classification/
     - title: Метрики качества и диагностика
-      url: /md/1/3-metrics/
+      url: /ml/1/3-metrics/
     - title: Предобработка данных
-      url: /md/1/4-preprocessing/
+      url: /ml/1/4-preprocessing/
 
   - title: Задачи обучения без учителя
     children:
     - title: Задача кластеризации
-      url: /md/2/1-clustering/
+      url: /ml/2/1-clustering/
     - title: Понижение размерности
-      url: /md/2/2-reduction/
+      url: /ml/2/2-reduction/
     - title: Обнаружение аномалий
-      url: /md/2/3-anomalies/
+      url: /ml/2/3-anomalies/
     - title: Рекомендательные системы
-      url: /md/2/4-recommenders/
+      url: /ml/2/4-recommenders/
 
   - title: Дополнительные главы
     children:
     - title: Ансамблевые модели
-      url: /md/3/1-ensembles/
+      url: /ml/3/1-ensembles/
