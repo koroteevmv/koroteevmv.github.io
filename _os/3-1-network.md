@@ -1,6 +1,6 @@
 ---
 category: os
-permalink: /os/3/0-network/
+permalink: /os/3/1-network/
 title: "NT1 Настройка сети в Linux"
 
 sections:
