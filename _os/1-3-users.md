@@ -1,7 +1,7 @@
 ---
 collection: os
-permalink: /os/1/2-users/
-title: "LX2 Права и пользователи"
+permalink: /os/1/3-users/
+title: "LX3 Права и пользователи"
 
 sections:
   - title: "Лекция: Пользователи и права" # Назввание работы

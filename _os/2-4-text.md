@@ -1,7 +1,7 @@
 ---
 category: os
-permalink: /os/2/2-text/
-title: "LX6 Средства обработки текста"
+permalink: /os/2/4-text/
+title: "LX8 Средства обработки текста"
 
 sections:
   - title: "Лекция: Команды работы с текстом в Linux"

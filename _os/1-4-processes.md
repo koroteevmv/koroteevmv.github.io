@@ -1,7 +1,7 @@
 ---
 collection: os
-permalink: /os/1/3-processes/
-title: "LX3 Процессы и пакеты в Linux"
+permalink: /os/1/4-processes/
+title: "LX4 Процессы и пакеты в Linux"
 
 sections:
   - title: "Лекция: Архитектура, процессы и пакеты Linux" # Назввание работы
@@ -9,6 +9,14 @@ sections:
     document: # ссылка на методические указания
     youtube: # Видеозапись занятия
     slides: https://docs.google.com/presentation/d/11TxuzUViRz0asDylfsTKGyHHONgaBm5Jrd3f4IL2Alo/edit?usp=sharing
+    textbook: # ссылка на главу из учебника
+    additional: # ссылки на дополнительные материалы
+
+  - title: "Практика: Управление пакетами" # Назввание работы
+    overview: "В этой работе вы научитесь устанавливать новое программное обеспечение, как при помощи специальных программ инсталляторов, так и путем компилирования из исходных файлов."
+    document: https://drive.google.com/open?id=1Boru2unb7i-ZSFpqhjsrkXdB-NOpyuB8TUbO_jfPBWI
+    youtube: KWFiUEUuDJ0 # Видеозапись занятия
+    slides: # ссылка на презентацию к занятию
     textbook: # ссылка на главу из учебника
     additional: # ссылки на дополнительные материалы
 
@@ -20,10 +28,10 @@ sections:
     textbook: # ссылка на главу из учебника
     additional: # ссылки на дополнительные материалы
 
-  - title: "Практика: Управление пакетами" # Назввание работы
-    overview: "В этой работе вы научитесь устанавливать новое программное обеспечение, как при помощи специальных программ инсталляторов, так и путем компилирования из исходных файлов."
-    document: https://drive.google.com/open?id=1Boru2unb7i-ZSFpqhjsrkXdB-NOpyuB8TUbO_jfPBWI
-    youtube: KWFiUEUuDJ0 # Видеозапись занятия
+  - title: "Дополнительно: Мониторинг процессов в htop" # Назввание работы
+    overview: "" # Пояснительный текст
+    document: 
+    youtube: # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
     textbook: # ссылка на главу из учебника
     additional: # ссылки на дополнительные материалы
