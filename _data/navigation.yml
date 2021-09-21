@@ -57,8 +57,6 @@ os:
         url: /os/2/3-bash/
       - title: Средства обработки текста
         url: /os/2/4-text/
-      - title: Настройка сети
-        url: /os/2/3-network/
       - title: Использование ssh
         url: /os/2/5-ssh/
   - title: "3. Linux для разработки"
