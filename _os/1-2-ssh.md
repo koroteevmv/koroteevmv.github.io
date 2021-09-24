@@ -1,7 +1,7 @@
 ---
 category: os
-permalink: /os/2/5-ssh/
-title: "LX9 Использование удаленного доступа по SSH"
+permalink: /os/1/2-ssh/
+title: "LX2 Использование удаленного доступа по SSH"
 
 sections:
   - title: "Лекция: Удаленная работа по SSH"

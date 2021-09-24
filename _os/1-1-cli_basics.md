@@ -32,5 +32,13 @@ sections:
     document: https://drive.google.com/open?id=1sPgVwIIW6T-4mDHWiNe8w3XihNe43y_65yicqiR1qdg # ссылка на методические указания
     additional: # 
     textbook: # 
+
+  - title: "Практика: Работа с файлами" # Назввание работы
+    overview: "В этой работе вы познакомитесь с полезными приемами работы с файлами - созданием жестких и символических ссылок, командами архивации файлов."
+    document: https://drive.google.com/open?id=1Dima-0RuvXL5AKK2NDTbpFnqcMuc-mL3TaXFWe_hlYw
+    youtube: # Видеозапись занятия
+    slides: # ссылка на презентацию к занятию
+    textbook: # ссылка на главу из учебника
+    additional: # ссылки на дополнительные материалы
 ---
 
