@@ -38,6 +38,14 @@ sections:
     textbook: # ссылка на главу из учебника
     test:
 
+  - title: "Практика: Основные элементы" 
+    overview: "В этой работе мы познакомимся с основными визуальными элементами приложения и приемами работы с ними."
+    document: https://docs.google.com/document/d/1iEl_ObV2JyzzVT-33mcOOyaObE206SwLOXeDS64__d0
+    youtube: 
+    slides: 
+    textbook: # ссылка на главу из учебника
+    test:
+
   - title: "Практика: Создание главного меню приложения" 
     overview: "В этой работе мы познакомимся с инструментами и приемами создания меню мобильного приложения и способами взаимодействия с ним."
     document: https://drive.google.com/open?id=1hjqa2GJNZEqUVF54g4_DKuR4ILUUEdp17ZdelN8_MTQ
