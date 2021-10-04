@@ -1,6 +1,6 @@
 ---
 collection: os
-permalink: /os/2/2-filesystems/
+permalink: /os/2/1-init/
 title: "LX5 Управление загрукой Linux"
 
 sections:
