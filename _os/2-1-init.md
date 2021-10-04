@@ -18,4 +18,10 @@ sections:
     slides: # ссылка на презентацию к занятию
     document: https://docs.google.com/document/d/17EGC_c3shzYogdov5R30TofuXcfvdM2tYqgWeL8iv4w/edit?usp=sharing # ссылка на методические указания
     additional: # 
+      - title: "Setup a python script as a service through systemctl/systemd"
+        url: https://medium.com/codex/setup-a-python-script-as-a-service-through-systemctl-systemd-f0cc55a42267
+      - title: "Writing a systemd Service in Python"
+        url: https://github.com/torfsen/python-systemd-tutorial
+      - title: "Пишем свой unit для SystemD"
+        url: https://debian.pro/2602
 ---
