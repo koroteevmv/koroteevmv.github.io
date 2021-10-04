@@ -24,5 +24,9 @@ sections:
     slides: # ссылка на презентацию к занятию
     document: https://docs.google.com/document/d/1sk2ZhA3AGsDia84uYnjx5TGIaxHlEKxt4T8jEXfoXzQ/edit?usp=sharing # ссылка на методические указания
     additional: # 
+      - title: "Getting started with Tmux"
+        url: https://linuxize.com/post/getting-started-with-tmux/
+      - title: "Tmux Tutorial"
+        url: https://leimao.github.io/blog/Tmux-Tutorial/
 ---
 
