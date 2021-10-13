@@ -6,7 +6,7 @@ title: "LX7 Основы скриптов на bash"
 sections:
   - title: "Лекция: Bash как язык программирования"
     overview: "Мы познакомимся с bash как с языком программирования: научимся писать скрипты, изучим основы синтаксиса, посмотрим несколько примеров применения bash для автоматизации рутинных задач."
-    youtube: # Видеозапись занятия
+    youtube: 2f_TXMcAnJI # Видеозапись занятия
     slides: https://docs.google.com/presentation/d/1t02x185xtkJMoK2e3ML6nWPmafBZAa1V4HOdpWLBcmg/edit?usp=sharing # ссылка на презентацию к занятию
     document: # ссылка на методические указания
     additional: # 
