@@ -24,6 +24,10 @@
         {% else %}
           {{ words | divided_by: words_per_minute }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
         {% endif %}
+        {% if document.word_count %}
+          {% assign symbols = document.content | strip_html | size | divided_by: 1000.0 %}
+         ({{ symbols }} {{ site.data.ui-text[site.locale].symbols | default: "symbols" }})
+        {% endif %}        
       </span>
     {% endif %}
   </p>

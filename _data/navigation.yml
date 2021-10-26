@@ -34,7 +34,8 @@ os:
   - title: Содержание курса
     url: /os/
     # children:
-      # - title: Программа экзамена
+      # - title: Учебник
+      #   url: /os/textbook
   - title: "1. Основы Linux"
     children:
       - title: Введение

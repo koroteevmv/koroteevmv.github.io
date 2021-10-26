@@ -255,6 +255,9 @@ collections:
   os:
     output: true
     permalink: /:collection/:path/
+  text:
+    output: true
+    permalink: /:collection/:path/
   ml:
     output: true
     permalink: /:collection/:path/
@@ -282,6 +285,22 @@ defaults:
       toc: true
       toc_sticky: true
       show_date: true
+  # text
+  - scope:
+      path: "_text"
+      type: text
+    values:
+      layout: textbook
+      read_time: true
+      show_date: false
+      author_profile: false
+      share: true
+      comments: true
+      related: true
+      last_modified_at: false
+      toc: false
+      word_count: true
+      
   # os
   - scope:
       path: "_os"

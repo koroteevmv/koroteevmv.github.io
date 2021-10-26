@@ -3,9 +3,6 @@ layout: single
 ---
 
 {% for section in page.sections %}
-	{% if section.title %}
-  		<h2 id="{{ forloop.index }}-title"> {{ section.title }} </h2>
-  {% endif %}
 
 	{% if section.overview %}
    		<p> {{ section.overview }}</p>
