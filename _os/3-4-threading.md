@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/3/4-threading/
-title: "SD3 Асинхронное программирование"
+title: "NP2 Асинхронное программирование"
 
 sections:
   - title: "Лекция: Асинхронное программирование в Python"
@@ -13,8 +13,8 @@ sections:
 
   - title: "Практика: Многопоточный сервер" # Название работы
     overview: "В данной работе мы познакомимся с приемами работы с многопоточностью на примере создания сокетного TCP-сервера, способного работать с несколькими клиентами одновременно."
-    youtube: _FYcL3tYKec # Видеозапись занятия
-    slides: # ссылка на презентацию к занятию
+    youtube: _FYcL3tYKec
+    slides: 
     document: https://github.com/fa-python-network/2_threaded_server # ссылка на методические указания
     additional: # 
 

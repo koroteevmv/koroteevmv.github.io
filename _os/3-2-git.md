@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/3/2-git/
-title: "DO2 Контроль версий: Git и GitHub"
+title: "DO3 Контроль версий: Git и GitHub"
 
 sections:
   - title: "Лекция: Системы контроля версий - Git и GitHub"

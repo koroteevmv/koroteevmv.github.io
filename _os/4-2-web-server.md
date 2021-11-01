@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/4/2-web-server/
-title: "NT5 Веб-сервер"
+title: "NP4 Веб-сервер"
 
 sections:
   - title: "Лекция: Установка и настройка веб-сервера в Linux"

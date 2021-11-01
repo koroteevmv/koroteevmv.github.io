@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/3/0-environment/
-title: "DO1 Использование Linux для разработки"
+title: "DO0 Использование Linux для разработки"
 
 sections:
   - title: "Практика: Настройка рабочего окружения Python в Linux"

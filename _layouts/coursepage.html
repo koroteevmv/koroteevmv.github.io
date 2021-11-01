@@ -4,12 +4,16 @@ layout: single
 
 {% for section in page.sections %}
 
-	{% if section.overview %}
-   		<p> {{ section.overview }}</p>
+  {% if section.title %}
+      <h1 id="{{ section.title }}"> {{ section.title }}</h2>
+  {% endif %}
+
+  {% if section.overview %}
+      <p> {{ section.overview }}</p>
   {% endif %}
 
 	{% if section.youtube %}
-  		<h3 id="{{ forloop.index }}-video">Видео занятия</h3>
+  		<h2 id="{{ forloop.index }}-video">Видео занятия</h3>
 
       <div class="responsive-video-container">
       <iframe src="https://www.youtube-nocookie.com/embed/{{ section.youtube }}" 
@@ -19,28 +23,39 @@ layout: single
   {% endif %}
   
   {% if section.document %}
-      <h3 id="{{ forloop.index }}-docs">Методические указания</h3>
+      <h2 id="{{ forloop.index }}-docs">Методические указания</h3>
       Читать методический <a href="{{ section.document }}">материал</a> к этому занятию.
-  {% endif %}
+
+      {% if section.textbook %}
+        {% for p1 in site.documents %}
+        {% if p1.url == section.textbook %}
+
+{{ p1.content | markdownify }}
+
+        {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endif %}
 
   {% if section.slides %}
-      <h3 id="{{ forloop.index }}-slides">Презентация</h3>
+      <h2 id="{{ forloop.index }}-slides">Презентация</h3>
       Смотреть <a href="{{ section.slides }}">слайды</a> к этому занятию.
   {% endif %}
 
   {% if section.test %}
-      <h3 id="{{ forloop.index }}-test">Тестирование</h3>
+      <h2 id="{{ forloop.index }}-test">Тестирование</h3>
       Пройти <a href="{{ section.test }}">тестирование</a> по этой теме.
   {% endif %}
 
   {% if section.additional %}
-      <h3 id="{{ forloop.index }}-additional">Дополнительные материалы</h3>
+      <h2 id="{{ forloop.index }}-additional">Дополнительные материалы</h3>
       <ul>
       {% for link in section.additional %}
         <li> <a href="{{ link.url }}"> {{ link.title }} </a>
       {% endfor %}
       </ul>
   {% endif %}
+<br><br><br><br>
 
 {% endfor %}
 

@@ -3,7 +3,10 @@ layout: default
 classes: wide
 toc: false
 word_count: true
+read_time: true
+
 ---
+
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
@@ -42,7 +45,10 @@ word_count: true
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {{ content }}
+
+		{{content}}
+
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
@@ -63,6 +69,8 @@ word_count: true
       {% include comments.html %}
     {% endif %}
   </article>
+
+
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
@@ -89,3 +97,6 @@ word_count: true
     </div>
   {% endif %}
 </div>
+
+
+

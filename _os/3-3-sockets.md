@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/3/3-sockets/
-title: "NT3 Использование сокетов"
+title: "NP1 Использование сокетов"
 
 sections:
   - title: "Лекция: Сетевое программирование на Python с помощью сокетов"

@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/4/0-web/
-title: "NT4 Основы веб-технологий"
+title: "WD0 Основы веб-технологий"
 
 sections:
   - title: "Лекция: Web-технологии"

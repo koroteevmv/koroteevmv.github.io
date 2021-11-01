@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/3/1-network/
-title: "NT1 Настройка сети в Linux"
+title: "DO1 Настройка сетевой среды для разработки в Linux"
 
 sections:
   - title: "Лекция: Основные понятия компьютерных сетей"

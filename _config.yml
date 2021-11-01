@@ -290,7 +290,7 @@ defaults:
       path: "_text"
       type: text
     values:
-      layout: textbook
+      layout: textbook_page
       read_time: true
       show_date: false
       author_profile: false

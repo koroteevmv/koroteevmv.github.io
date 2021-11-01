@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/3/1-python-os/
-title: "SD2 Работа с ОС в Python"
+title: "DO2 Программные средства работы с ОС"
 
 sections:
   - title: "Лекция: Системное программирование на Python"

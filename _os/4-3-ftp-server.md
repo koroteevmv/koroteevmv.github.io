@@ -1,7 +1,7 @@
 ---
 category: os
 permalink: /os/4/3-ftp-server/
-title: "NT6 FTP-сервер"
+title: "NP5 FTP-сервер"
 
 sections:
   - title: "Лекция: Служба FTP"

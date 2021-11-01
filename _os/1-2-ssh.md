@@ -16,6 +16,7 @@ sections:
     youtube: 5kJKhd7wEj8 # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
     document: https://docs.google.com/document/d/13zlmYA_igu6UWO9y5CCOegHQhr1S3_Y9w40dZCg2Ojw/edit?usp=sharing # ссылка на методические указания
+    textbook: /text/lx2-1/
     additional: # 
 
   - title: "Практика: Tmux" # Навзвание работы
@@ -23,6 +24,7 @@ sections:
     youtube: 5t9TW9TnOxU # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
     document: https://docs.google.com/document/d/1sk2ZhA3AGsDia84uYnjx5TGIaxHlEKxt4T8jEXfoXzQ/edit?usp=sharing # ссылка на методические указания
+    <!-- textbook: /text/lx2-2/ -->
     additional: # 
       - title: "Getting started with Tmux"
         url: https://linuxize.com/post/getting-started-with-tmux/
