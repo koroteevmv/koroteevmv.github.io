@@ -12,7 +12,6 @@ sections:
     youtube: 
     slides: https://docs.google.com/presentation/d/1hCST-D89fr1NoRsR60hoWanlT_UWQI-qSNzcUaWCGu0/edit?usp=sharing
     textbook: # ссылка на главу из учебника
-<!--     test: https://docs.google.com/forms/d/e/1FAIpQLScreriEk_q6xkkaKRoG9Gn8_mkgQCPdK0i8W1FSnv9lAyyqNQ/viewform -->
     test: https://docs.google.com/forms/d/e/1FAIpQLSdvrdtBhJ0NRLu-nuppWy9boizDnoRwgY96xt6W1At-t1XtKg/viewform
 
   - title: "Практика: Второе окно" 
