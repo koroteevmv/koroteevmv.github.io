@@ -30,5 +30,12 @@ sections:
     slides: 
     document: https://docs.google.com/document/d/1NwBwbqkxGtHXiuRLS9lOillQNAmX0sGripX9KiSnxaA/edit?usp=sharing # ссылка на методические указания
     additional: # 
+
+  - title: "Практика: VPN"
+    overview: "."
+    youtube: # Видеозапись занятия
+    slides: 
+    document: https://docs.google.com/document/d/1tf0pRostniWJZ3zP8OgvTDVlMSY8oL-I/edit?usp=sharing # ссылка на методические указания
+    additional: # 
 ---
 
