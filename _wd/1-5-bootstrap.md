@@ -15,7 +15,7 @@ sections:
 
   - title: "Практика: Hello World на Bootstrap" 
     overview: ""
-    document: https://drive.google.com/file/d/1UzkJAUg0tIjljHeUgX0pTcKq0cu3JoWL/view?usp=sharing
+    document: https://docs.google.com/document/d/1_IckXT5Y6g-vDBizEVtWtJCMjwSwG_tW/edit?usp=sharing&ouid=116003821381017651142&rtpof=true&sd=true
     youtube: # Видеозапись занятия
     slides: 
     textbook: # ссылка на главу из учебника
@@ -23,7 +23,7 @@ sections:
 
   - title: "Практика: Навигация на сайте" 
     overview: ""
-    document: https://drive.google.com/file/d/1K6-JUJmaA-JUqXJm6S40eeBVmEmcjbaj/view?usp=sharing
+    document: https://docs.google.com/document/d/1cQLXqkIEbf69GCrDffEmTiET1psLAbw2/edit?usp=sharing&ouid=116003821381017651142&rtpof=true&sd=true
     youtube: # Видеозапись занятия
     slides: 
     textbook: # ссылка на главу из учебника
@@ -31,7 +31,7 @@ sections:
 
   - title: "Практика: Основные компоненты Bootstrap" 
     overview: ""
-    document: https://docs.google.com/document/d/1EXGwlbWSfRo1FhxIFV5N6Sq2KoRrH0oa/edit?usp=sharing&ouid=116003821381017651142&rtpof=true&sd=true
+    document: https://docs.google.com/document/d/1kA3sVGjS9vEc32OK4s0rGEtY0Vom25zz/edit?usp=sharing&ouid=116003821381017651142&rtpof=true&sd=true
     youtube: # Видеозапись занятия
     slides: 
     textbook: # ссылка на главу из учебника

@@ -13,6 +13,13 @@ sections:
     slides: https://drive.google.com/open?id=1YknItmGxv1dYZlvSfWvCeF6T-4bFjHaJxKWvYOEqYaQ
     textbook: # ссылка на главу из учебника
     test: 
+    additional: # ссылки на дополнительные материалы
+      - title: "React JS Crash Course"
+        url: https://www.youtube.com/watch?v=w7ejDZ8SWv8
+      - title: "Официальный туториал"
+        url: https://ru.reactjs.org/tutorial/tutorial.html
+      - title: "Неофициальный туториал от Mozilla"
+        url: https://developer.mozilla.org/ru/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
 
   - title: "Практика: Hello World на react" 
     overview: ""

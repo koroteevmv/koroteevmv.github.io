@@ -10,7 +10,7 @@ sections:
     overview: ""
     document:  # ссылка на методические указания
     youtube: # Видеозапись занятия
-    slides: https://docs.google.com/presentation/d/1xAj0_woRLqRAScmzivI7aNJ5EYMokklBBqkvbA6LYpk/edit?usp=sharing # ссылка на презентацию к занятию
+    slides: https://docs.google.com/presentation/d/1djFwaybU-bkjt0MkorFf6QjsTqXHGtzCuRu74zA5qLE/edit?usp=sharing
     textbook: # ссылка на главу из учебника
     test: # https://docs.google.com/forms/d/e/1FAIpQLSfWQa4NqEeXnldrpDkBWI8sQgfg33w4Kjdb5Sx0PsCtMYdzGA/closedform
 
