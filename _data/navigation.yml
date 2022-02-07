@@ -112,12 +112,6 @@ md:
 
   - title: Разработка кроссплатформенных приложений
     children:
-      - title: Разработка веб-приложений
-        url: /md/2/1-web-tech/
-      - title: Основы Javascript
-        url: /md/2/2-javascript/
-      - title: Фреймворк React.js
-        url: /md/2/3-react/
       - title: Фреймворк react native
         url: /md/2/4-react-native/
 
@@ -154,3 +148,48 @@ ml:
     children:
     - title: Ансамблевые модели
       url: /ml/3/1-ensembles/
+
+
+wd:
+  - title: Содержание курса
+    url: /wd/
+  - title: Ландшафт веб разработки
+    url: /wd/0/0-intro/
+  - title: Создание статических сайтов
+    children:
+    - title: Основы HTML и CSS
+      url: /wd/1/1-html/
+    - title: Основы CSS
+      url: /wd/1/2-css/
+    - title: Flexbox и Grid
+      url: /wd/1/3-flexbox/
+    - title: Продвинутый CSS
+      url: /wd/1/4-adv-css/
+    - title: Bootstrap
+      url: /wd/1/5-bootstrap/
+    - title: Деплой статичный сайтов
+      url: /wd/1/6-deploy/
+  - title: Клиентское программирование
+    children:
+    - title: Основы JavaScript
+      url: /wd/2/1-javascript/
+    - title: DOM
+      url: /wd/2/2-dom/
+    - title: Fetch API
+      url: /wd/2/3-fetch/
+    - title: React.js
+      url: /wd/3/1-react/
+    - title: Redux
+      url: /wd/3/2-redux/
+    - title: TypeScript
+      url: /wd/3/3-typescript/
+  - title: Серверное программирование
+    children:
+    - title: NPM
+      url: /wd/4/1-npm/
+    - title: Express
+      url: /wd/4/2-express/
+    - title: ORM
+      url: /wd/4/3-ORM/
+    - title: CMS
+      url: /wd/4/4-CMS/

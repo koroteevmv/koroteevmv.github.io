@@ -1,7 +1,7 @@
 ---
-collection: md
-permalink: /md/2/2-javascript/
-title: "WD2 Использование JavaScript"
+collection: wd
+permalink: /wd/2/1-javascript/
+title: "JS1 Введение в JavaScript"
 excerpt: ""
 
 sections:

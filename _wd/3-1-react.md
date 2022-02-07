@@ -1,13 +1,13 @@
 ---
-collection: md
-permalink: /md/2/3-react/
-title: "WD3 Фреймворк react.js"
+collection: wd
+permalink: /wd/3/1-react/
+title: "JS4 Фреймворк react.js"
 excerpt: ""
 
 sections:
 
   - title: "Лекция: Основы react.js" 
-    overview: "В данной обзорной лекции мы рассмотрим общий ландшафт технологий, необходимых для создания веб-приложений."
+    overview: ""
     document:  # ссылка на методические указания
     youtube: # Видеозапись занятия
     slides: https://drive.google.com/open?id=1YknItmGxv1dYZlvSfWvCeF6T-4bFjHaJxKWvYOEqYaQ

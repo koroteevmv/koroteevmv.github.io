@@ -267,6 +267,9 @@ collections:
   pd:
     output: true
     permalink: /:collection/:path/
+  wd:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -352,6 +355,24 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "ml"
+  # wd
+  - scope:
+      path: "_wd"
+      type: wd
+    values:
+      layout: coursepage
+      read_time: false
+      show_date: false
+      author_profile: false
+      share: true
+      comments: true
+      related: false
+      last_modified_at: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "wd"
+        
   # _pages
   - scope:
       path: "_pages"
