@@ -13,7 +13,7 @@ sections:
     slides: https://drive.google.com/open?id=1TG8lJck8wNLEZe3x2gTJu5TgFvBHTzpec3M026f1uHQ
     test:
 
-  - title: "Практика: Дигностика и кривые обучения" 
+  - title: "Практика: Диагностика и кривые обучения" 
     overview: ""
     document: https://docs.google.com/document/d/1aITUCPyDcrx8Aeum1yjDK7vaOOQMtA4kk5yLqeXZQr4/edit?usp=sharing
     youtube:
