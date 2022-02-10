@@ -8,7 +8,7 @@ sections:
 
   - title: "Лекция: Задача классификации" 
     overview: ""
-    document:
+    document: https://docs.google.com/document/d/1P8YLjLdb11-oHW-e_ZLI04ueuxPLZRc6YZkCT3g1t5A/edit?usp=sharing
     youtube:
     slides: https://docs.google.com/presentation/d/15M561VmvYHbgSpldXmkmg7DeQfYlZ2lA2cbsOEVELf8/edit?usp=sharing
     test:

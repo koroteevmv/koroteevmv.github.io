@@ -33,9 +33,9 @@ main:
 os:
   - title: Содержание курса
     url: /os/
-    # children:
-      # - title: Учебник
-      #   url: /os/textbook
+    children:
+      - title: Учебник
+        # url: /os/textbook
   - title: "1. Основы Linux"
     children:
       - title: Введение
@@ -141,8 +141,8 @@ ml:
       url: /ml/2/2-reduction/
     - title: Обнаружение аномалий
       url: /ml/2/3-anomalies/
-    - title: Рекомендательные системы
-      url: /ml/2/4-recommenders/
+#    - title: Рекомендательные системы
+#      url: /ml/2/4-recommenders/
 
   - title: Дополнительные главы
     children:
