@@ -15,7 +15,7 @@ sections:
 
   - title: "Практика: Простая предобработка" 
     overview: ""
-    document: https://docs.google.com/document/d/1R6UdChxPq_crKgM_GpHQM2SVtamWeDHV3u9F8ipvhvQ/edit?usp=sharing
+    document: https://docs.google.com/document/d/1HkJGEUggs0jc7AVGq3Qmb0VYK2HU0Ty_XEQL_Agm05U/edit?usp=sharing
     youtube:
     slides:
     test:
@@ -30,6 +30,13 @@ sections:
   - title: "Практика: Методы векторизации текстов" 
     overview: ""
     document: 
+    youtube:
+    slides:
+    test:
+
+  - title: "Практика: Комплексная предобработка данных" 
+    overview: ""
+    document: https://docs.google.com/document/d/1PbYLySVwPjlzKMbDfwAM-NbReoUTGRaOIGLocZ8F-Rg/edit?usp=sharing
     youtube:
     slides:
     test:
