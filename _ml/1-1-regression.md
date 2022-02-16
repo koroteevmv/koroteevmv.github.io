@@ -12,6 +12,7 @@ sections:
     youtube:
     slides: https://docs.google.com/presentation/d/1QCSbS4B_oE6xz0RVi5uTkKc_u9lHyeZpdKD8U0D1Tkc/edit?usp=sharing
     test:
+    textbook: # /text/ml1/
 
   - title: "Практика: Парная линейная регрессия" 
     overview: ""

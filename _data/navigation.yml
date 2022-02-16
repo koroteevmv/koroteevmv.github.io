@@ -2,12 +2,12 @@
 main:
   - title: "UNIX"
     url: /os
-  # - title: "ML"
-  #   url: /ml
+  - title: "ML"
+    url: /ml
   - title: "Android"
     url: /md
-  # - title: "Python"
-  #   url: /pd
+  # - title: "ML"
+  #   url: /ml
   - title: "Все курсы"
     url: /courses
 
@@ -119,6 +119,9 @@ md:
 ml:
   - title: Содержание курса
     url: /ml/
+    children:
+      - title: Учебник
+        # url: /ml/textbook
   - title: Введение в машинное обучение
     url: /ml/0/0-intro/
 

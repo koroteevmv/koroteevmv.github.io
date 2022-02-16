@@ -14,7 +14,15 @@ header:
 excerpt: "Михаил Коротеев - преподаватель, ученый и разработчик, специализирующийся на системах машинного обучения в экономике и финансах."
 
 
-feature_row:
+feature_row_projects:
+
+  - title: "Обзор MLOps"
+    image_path: "/assets/images/mlops.png"
+    alt: "Обзор MLOps"
+    excerpt: "Эксперт попытался дать общую характеристику MLOps. Что это такое, зачем нужно и какие инструменты существуют?"
+    url: "/scipop/peterson-essay/"
+    btn_label: "Перевод"
+    btn_class: "btn--primary"
 
   - image_path: /assets/images/inference-and-prediction-2/image6.png
     alt: "Вывод и предсказания. Часть 2: статистика"
@@ -22,22 +30,6 @@ feature_row:
     excerpt: "Перевод второй из трех статей про сравнение двух подходов к моделированию данных - статистическому и обучающему. Вторая часть посвящена связи простых алгоритмов машинного обучения и статистических моделей."
     url: "scipop/inference-and-prediction-2/"
     btn_label: "Перевод"
-    btn_class: "btn--primary"
-
-  - image_path: /assets/images/os_logo.png
-    title: "Операционные системы семейства UNIX и сетевые технологии"
-    alt: "Операционные системы семейства UNIX и сетевые технологии"
-    excerpt: "После изучения этого курса вы будете больше понимать в технологиях и инструментах, которые используются для поддержки сложного процесса производства программ. Вы будете знать основные принципи работы операционных систем, большинство основных концепций разработки, будете уметь настраивать сложное окружение для разработки и сможете автоматизировать свою работу на профессиональном уровне."
-    url: "/os"
-    btn_label: "Учебный курс"
-    btn_class: "btn--primary"
-
-  - image_path: /assets/images/ml_logo.png
-    title: "Технологии анализа данных и машинное обучение"
-    alt: "Технологии анализа данных и машинное обучение"
-    excerpt: "Этот курс научит вас использовать самые распространенные инструменты для анализа данных и машинного обучения. После освоения данного курса вы научитесь применять классические модели регрессии и классификации, писать код для обучения и тестирования моделей, вести проекты в области построения интеллектуальных систем."
-    url: "https://portal.fa.ru/Files/Data/85bca4b4-cd40-4dae-bb62-dbd6c04fa0a0/um_tehnanalizadannihimashobuchenie_18.pdf"
-    btn_label: "Учебное пособие"
     btn_class: "btn--primary"
 
   - title: "Дж. Б. Питерсон. Руководство по написанию эссе"
@@ -48,16 +40,51 @@ feature_row:
     btn_label: "Перевод"
     btn_class: "btn--primary"
 
-about:
-  - image_path: /assets/images/avatar2.jpg
-    alt: "FU logo"
-    title: "Михаил Коротеев"
-    excerpt: 'Финансовый университет при правительстве РФ'
+
+feature_row_courses:
+
+  - image_path: /assets/images/os_logo.png
+    overlay_filter: rgba(255, 0, 0, 0.5)
+    caption: "Photo credit: [**PBPython**](https://pbpython.com/wsl-python.html)"
+    title: "UNIX"
+    excerpt: "Курс по использованию и настройке ОС Linux для программирования и создания сетевых приложений"
+    url: "/os"
+    btn_label: "Перейти"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/mobile_logo.png
+    caption: "Photo credit: [**PinClipart**](https://www.pinclipart.com/pindetail/bRmJwo_loading-speed-is-crucial-to-many-rn-apps/)"
+    title: "Android"
+    excerpt: "Вводный курс по основам разработки мобильных приложений для ОС Android"
+    url: "/md"
+    btn_label: "Перейти"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/ml_logo.png
+    caption: "Photo credit: [**Quantum**](https://ml2quantum.com/scikit-learn/)"
+    title: "ML"
+    excerpt: "Баозвый курс по машинному обучению и анализу данных на языке Python"
+    url: "/ml"
+    btn_label: "Перейти"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/tk_logo.png
+    caption: "Photo credit: [**Nerd Paradise**](https://nerdparadise.com/)"
+    title: "Практикум"
+    excerpt: "Практикум по программированию Python"
+    url: # "/pd"
+    btn_label: "Перейти"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/html.png
+    title: "Web разработка"
+    excerpt: "Базовый курс для начинающих по своременным веб-технологиям"
+    url: "/wd"
+    btn_label: "Перейти"
+    btn_class: "btn--primary"
 
 ---
 
-
-<!-- {% include feature_row id="about" type="right" %} -->
 
 <h1>Домашняя страница Михаила Коротеева</h1>
 <br>
@@ -69,13 +96,16 @@ about:
 
 
 <h2>Разделы</h2>
-<a href='/cources'><button href='#' class='btn btn-primary'> Курсы </button></a>
+<a href='/courses'><button href='#' class='btn btn-primary'> Курсы </button></a>
 <a href='/scipop'><button href='#' class='btn btn-primary'> Публицистика </button></a>
 <a href='/talks'><button href='#' class='btn btn-primary'> Выступления </button></a>
 <a href='/cv'><button href='#' class='btn btn-primary'> Резюме </button></a>
 
+<h2>Мои курсы</h2>
+{% include  feature_row id="feature_row_courses" %}
+
 <h2>Последние проекты</h2>
-{% include feature_row %}
+{% include  feature_row id="feature_row_projects" %}
 <br>
 
 <h2>Мои научные интересы:</h2>

@@ -2,13 +2,6 @@
 title: "Учебник по мобильной разработке"
 permalink: /md/textbook
 layout: textbook
-toc: false
-read_time: true
-share: true
-comments: true
-related: true
-word_count: true
-excerpt: ""
 
 section: md
 
