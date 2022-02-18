@@ -33,9 +33,9 @@ main:
 os:
   - title: Содержание курса
     url: /os/
-    children:
-      - title: Учебник
-        # url: /os/textbook
+    # children:
+    #   - title: Учебник
+    #     url: /os/textbook
   - title: "1. Основы Linux"
     children:
       - title: Введение
@@ -120,7 +120,7 @@ ml:
   - title: Содержание курса
     url: /ml/
     children:
-      - title: Учебник
+      # - title: Учебник
         # url: /ml/textbook
   - title: Введение в машинное обучение
     url: /ml/0/0-intro/
