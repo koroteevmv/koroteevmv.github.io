@@ -13,6 +13,21 @@ sections:
     slides: # https://drive.google.com/open?id=1YknItmGxv1dYZlvSfWvCeF6T-4bFjHaJxKWvYOEqYaQ
     textbook: # ссылка на главу из учебника
     test: 
+    addition:
+      - title: "TypeScript Crash Course"
+        url: https://www.youtube.com/watch?v=BCg4U1FzODs
+        
+      - title: "TypeScript - Быстрый Курс за 70 минут [2020]"
+        url: https://www.youtube.com/watch?v=nyIpDs2DJ_c
+        
+      - title: "TypeScript. Полный курс"
+        url: https://www.youtube.com/watch?v=5QnZ9AyDW6c
+        
+      - title: "TypeScript Documentation"
+        url: https://www.typescriptlang.org/docs/
+        
+      - title: "Введение в TypeScript"
+        url: https://metanit.com/web/typescript/1.1.php
 
   - title: "Практика: Использование TypeScript" 
     overview: ""

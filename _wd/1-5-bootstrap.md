@@ -12,6 +12,15 @@ sections:
     slides: https://drive.google.com/open?id=1o2QyFWIDVOHH7dr5br9JIq_aI_JBZyb2FPv3UWjMzlM
     textbook: # ссылка на главу из учебника
     test: 
+    additional: 
+      - title: "Bootstrap 5 Crash Course | Website Build & Deploy"
+        url: https://www.youtube.com/watch?v=4sosXZsdy-s
+
+      - title: "Bootstrap"
+        url: https://getbootstrap.com/
+
+      - title: "Bootstrap. Документация на русском языке."
+        url: https://bootstrap-4.ru/
 
   - title: "Практика: Hello World на Bootstrap" 
     overview: ""

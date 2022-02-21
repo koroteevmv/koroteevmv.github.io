@@ -12,10 +12,16 @@ sections:
     slides: # https://drive.google.com/open?id=1o2QyFWIDVOHH7dr5br9JIq_aI_JBZyb2FPv3UWjMzlM
     textbook: # ссылка на главу из учебника
     test: 
+    additional: 
+      - title: "GitHub Pages Deploy & Domain"
+        url: https://www.youtube.com/watch?v=SKXkC4SqtRk
+
+      - title: "GitHub Pages Deploy & Domain"
+        url: https://www.youtube.com/watch?v=SKXkC4SqtRk
 
   - title: "Практика: Развертывание статичного сайта на GitHub Pages" 
     overview: ""
-    document: https://drive.google.com/file/d/1UzkJAUg0tIjljHeUgX0pTcKq0cu3JoWL/view?usp=sharing
+    document: 
     youtube: # Видеозапись занятия
     slides: 
     textbook: # ссылка на главу из учебника

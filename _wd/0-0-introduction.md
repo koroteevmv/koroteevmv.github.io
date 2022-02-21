@@ -13,6 +13,9 @@ sections:
     slides: https://docs.google.com/presentation/d/1JSRyjipEm-PvPSNh2iza1fXexVeKrumjDx5lVn-YbiY/edit?usp=sharing # ссылка на презентацию к занятию
     textbook: # ссылка на главу из учебника
     test: # https://docs.google.com/forms/d/e/1FAIpQLSfWQa4NqEeXnldrpDkBWI8sQgfg33w4Kjdb5Sx0PsCtMYdzGA/closedform
+    additional: 
+      - title: "Web Development In 2022 - A Practical Guide"
+        url: https://www.youtube.com/watch?v=EqzUcMzfV1w
 
   - title: "Практика: Установка IDE WebStorm и знакомство с ней" # Назввание работы
     overview: "" # Пояснительный текст
