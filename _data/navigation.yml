@@ -112,8 +112,14 @@ md:
 
   - title: Разработка кроссплатформенных приложений
     children:
+      - title: Адаптация веб-сайта для мобильных устройств
+        url: /md/2/1-mobile-first/
       - title: Фреймворк react native
-        url: /md/2/4-react-native/
+        url: /md/2/2-react-native/
+      - title: Flutter
+        url: /md/2/3-flutter/
+      - title: Progressive Web Apps
+        url: /md/2/4-pwa/
 
 
 ml:
