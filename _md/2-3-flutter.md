@@ -1,7 +1,7 @@
 ---
 collection: md
 permalink: /md/2/3-flutter/
-title: "CD1 Адаптация веб-сайтов для мобильных устройств"
+title: "CD3 Фреймворк Flutter"
 excerpt: ""
 
 sections:

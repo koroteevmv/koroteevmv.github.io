@@ -17,6 +17,9 @@ sections:
       - title: "Официальная документация react native"
         url: https://reactnative.dev/docs/getting-started
         
+      - title: "React Made Native Easy"
+        url: https://www.reactnative.guide/index.html
+        
       - title: "React Native Crash Course"
         url: https://www.youtube.com/watch?v=Hf4MJH0jDb4
         

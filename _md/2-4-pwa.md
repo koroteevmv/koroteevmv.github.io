@@ -1,7 +1,7 @@
 ---
 collection: md
 permalink: /md/2/4-pwa/
-title: "CD1 Адаптация веб-сайтов для мобильных устройств"
+title: "CD4 Прогрессивные веб-приложения (PWA)"
 excerpt: ""
 
 sections:
