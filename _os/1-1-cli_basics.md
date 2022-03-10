@@ -33,12 +33,20 @@ sections:
     additional: # 
     textbook: /text/lx1-2/
 
-  - title: "Практика: Работа с файлами" # Назввание работы
-    overview: "В этой работе вы познакомитесь с полезными приемами работы с файлами - созданием жестких и символических ссылок, командами архивации файлов."
+  - title: "Лекция: Работа с файлами" # Назввание работы
+    overview: ""
     document: # https://drive.google.com/open?id=1Dima-0RuvXL5AKK2NDTbpFnqcMuc-mL3TaXFWe_hlYw
     youtube: # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
     textbook: /text/lx1-3/
+    additional: # ссылки на дополнительные материалы
+
+  - title: "Практика: Работа с файлами" # Название работы
+    overview: "В этой работе вы познакомитесь с полезными приемами работы с файлами - созданием жестких и символических ссылок, командами архивации файлов."
+    document: # https://drive.google.com/open?id=1Dima-0RuvXL5AKK2NDTbpFnqcMuc-mL3TaXFWe_hlYw
+    youtube: # Видеозапись занятия
+    slides: # ссылка на презентацию к занятию
+    textbook: /text/lx1-4/
     additional: # ссылки на дополнительные материалы
 ---
 
