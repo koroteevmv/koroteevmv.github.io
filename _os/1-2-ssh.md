@@ -10,6 +10,7 @@ sections:
     slides: https://docs.google.com/presentation/d/1zxMOq4gurFJ7hqo5wH5FcXXpOtpJNR6rnNy-CyX0R3E/edit?usp=sharing # ссылка на презентацию к занятию
     document:  # ссылка на методические указания
     additional: # 
+    textbook: /text/lx2-0/
 
   - title: "Практика: SSH" # Навзвание работы
     overview: "На практике узнаем, как установить и настроить все необходимое для удаленного доступа, научимся подключаться к машине по паролю, затем научимся использовать ключи."
