@@ -31,7 +31,7 @@ sections:
 
   - title: "Практика: Hello, world на react native" 
     overview: ""
-    document: hhttps://docs.google.com/document/d/1g_fbM64cz3ByDQrwq4R3J4x1wNJGXbKe/edit?usp=sharing&ouid=116003821381017651142&rtpof=true&sd=true
+    document: https://docs.google.com/document/d/1g_fbM64cz3ByDQrwq4R3J4x1wNJGXbKe/edit?usp=sharing&ouid=116003821381017651142&rtpof=true&sd=true
     youtube: # Видеозапись занятия
     slides: 
     textbook: # ссылка на главу из учебника
@@ -95,7 +95,7 @@ sections:
 
   - title: "Практика: Передача данных с формы" 
     overview: ""
-    document: https://docs.google.com/document/d/1JIcDTW3O5gMS680mcxSi9_vxSFE1A0WV/edit?usp=sharing&ouid=116003821381017651142&rtpof=true&sd=true
+    document: https://docs.google.com/document/d/1_WkwZASBsciTSv6zG71csfe1uh4WdzxO/edit?usp=sharing&ouid=116003821381017651142&rtpof=true&sd=true
     youtube: # Видеозапись занятия
     slides: 
     textbook: # ссылка на главу из учебника
