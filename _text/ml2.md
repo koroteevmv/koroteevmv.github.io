@@ -6,7 +6,7 @@ title: "Классификация как задача машинного обу
 ### Что такое классификация в машинном обучении?
 
 
-![classification](https://static.commonlounge.com/fp/original/zFLIFoonPPTXwNNJXCl09LILU1520492069_kc "classification"){: .align-center style="width: 60%;"}
+![classification](https://static.commonlounge.com/fp/original/zFLIFoonPPTXwNNJXCl09LILU1520492069_kc "classification"){: .align-center style="width: 600px;"}
 Источник: [CommonLounge](https://www.commonlounge.com/discussion/6caf49570d9c4d0789afbc544b32cdbf).
 {: style="text-align: center; font-size:0.7em;"}
 
@@ -44,7 +44,7 @@ title: "Классификация как задача машинного обу
 
 ### Логистическая регрессия
 
-![logistic regression](https://miro.medium.com/max/725/0*tLu8lvAEomHZm2YK.png "logistic regression"){: .align-center style="width: 80%;"}
+![logistic regression](https://miro.medium.com/max/725/0*tLu8lvAEomHZm2YK.png "logistic regression"){: .align-center style="width: 800px;"}
 Источник: [Medium](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40mvanshika25%2Flogistic-regression-ee47cc89345f&psig=AOvVaw25bUtmwo2_U65MI7QVCupr&ust=1647350393254000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKD8rcvYxfYCFQAAAAAdAAAAABAD).
 {: style="text-align: center; font-size:0.7em;"}
 
@@ -56,7 +56,7 @@ title: "Классификация как задача машинного обу
 
 Такой подход, в принципе имеет право на существование. Но есть один существенный недостаток: нам придется подгонять порог под наши исходные данные. 
 
-![regression 4 classification](https://scikit-learn.org/stable/_images/sphx_glr_plot_logistic_thumb.png "regression 4 classification"){: .align-center style="width: 50%;"}
+![regression 4 classification](https://scikit-learn.org/stable/_images/sphx_glr_plot_logistic_thumb.png "regression 4 classification"){: .align-center style="width: 500px;"}
 Источник: [Scikit-learn](https://www.google.com/url?sa=i&url=http%3A%2F%2Fscikit-learn.org%2Fstable%2Fmodules%2Fgenerated%2Fsklearn.linear_model.LogisticRegression.html&psig=AOvVaw25bUtmwo2_U65MI7QVCupr&ust=1647350393254000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKD8rcvYxfYCFQAAAAAdAAAAABAJ).
 {: style="text-align: center; font-size:0.7em;"}
 
@@ -111,7 +111,7 @@ $$ z = \inf \rightarrow h_\theta (x) = 1 $$
 
 Отсюда, кстати, следует основное ограничение метода логистической регрессии. Она будет показывать хорошие результаты тогда, когда объекты нашей выборки могут быть разделены гиперплоскостью.
 
-![classification](https://upload.wikimedia.org/wikipedia/commons/1/13/Main-qimg-48d5bd214e53d440fa32fc9e5300c894.png "classification"){: .align-center style="width: 80%;"}
+![classification](https://upload.wikimedia.org/wikipedia/commons/1/13/Main-qimg-48d5bd214e53d440fa32fc9e5300c894.png "classification"){: .align-center style="width: 800px;"}
 Источник: [Wikimedia](https://commons.wikimedia.org/wiki/File:Main-qimg-48d5bd214e53d440fa32fc9e5300c894.png).
 {: style="text-align: center; font-size:0.7em;"}
 
@@ -185,7 +185,7 @@ $$ \theta_i := \theta_i - \frac{\alpha}{m} \sum_{i=1}^{m} (h_\theta (x) -y)x_i $
 
 Теперь мы рассмотрим классификацию данных более чем в двух категориях. Вместо $y = \lbrace 0, 1 \rbrace$ мы расширим наше определение так, чтобы $y = \lbrace 0,1 ... n \rbrace$.
 
-![Multiclassification](https://miro.medium.com/max/700/1*4Ii3aorSLU50RV6V5xalzg.png "Multiclassification"){: .align-center style="width: 80%;"}
+![Multiclassification](https://miro.medium.com/max/700/1*4Ii3aorSLU50RV6V5xalzg.png "Multiclassification"){: .align-center style="width: 800px;"}
 Источник: [Medium](https://www.google.com/url?sa=i&url=https%3A%2F%2Fantonhaugen.medium.com%2Fintroducing-mllibs-one-vs-rest-classifier-402eeab22493&psig=AOvVaw1MR6k70nP2mdGdtR_eFmIh&ust=1647355347284000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIDI3oTrxfYCFQAAAAAdAAAAABAD).
 {: style="text-align: center; font-size:0.7em;"}
 

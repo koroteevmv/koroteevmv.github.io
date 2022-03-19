@@ -22,7 +22,7 @@ sections:
     textbook: # ссылка на главу из учебника
 
   - title: "Практика: знакомство с интерфейсом Android Studio" 
-    youtube: # jKyuM0ciuBM
+    youtube: jKyuM0ciuBM
 
   - title: "Практика: создание первого проекта в Android Studio" 
     youtube: # 8p9znyCGyHw

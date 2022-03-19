@@ -33,7 +33,7 @@ title: "Введение в машинное обучение"
 
 ### Связь с другими дисциплинами
 
-![styled-image](/assets/images/ml_text/ml0-3.jpeg "Машинное обучение и математика"){: .align-center style="width: 30%;"}
+![styled-image](/assets/images/ml_text/ml0-3.jpeg "Машинное обучение и математика"){: .align-center style="width: 300px;"}
 Источник: [Medium](https://medium.com/nybles/understanding-machine-learning-through-memes-4580b67527bf).
 {: style="text-align: center; font-size:0.7em;"}
 
@@ -53,7 +53,7 @@ title: "Введение в машинное обучение"
 
 ### Что такое машинное обучение?
 
-![styled-image](/assets/images/ml_text/ml0-1.svg "Машинное обучение и искусственный интеллект"){: .align-center style="width: 50%;"}
+![styled-image](/assets/images/ml_text/ml0-1.svg "Машинное обучение и искусственный интеллект"){: .align-center style="width: 500px;"}
 Источник: [Wikimedia](https://commons.wikimedia.org/wiki/File:AI-ML-DL.svg).
 {: style="text-align: center; font-size:0.7em;"}
 
@@ -119,7 +119,7 @@ title: "Введение в машинное обучение"
 
 Давайте рассмотрим для примера в качестве модели самую простую математическую функцию - линейную. Ее формула $ ax+b $ или в других обозначениях $$ y = \theta_0 + \theta_1 x $$. Здесь $ y $ - выходная переменная, значение или целевая переменная, $ x $ - входная переменная, аргумент или фактор (в данном случае, это одно значение, но несложно обобщить эту функцию на произвольное количество факторов, этим мы займемся в следующих главах), $ \vec{\theta}$ - параметры модели, их мы уже сразу обозначим именно как вектор. В данном случае это двумерный вектор параметров или можно просто сказать, что у этой модели два параметра. Понятно, что в зависимости от значения вектора параметров линейная функция будет принимать различные значения. Если добавить сюда данные, то может получиться картина типа такой:
 
-![styled-image](/assets/images/ml_text/ml0-2.png "Модель и ее параметры"){: .align-center style="width: 50%;"}
+![styled-image](/assets/images/ml_text/ml0-2.png "Модель и ее параметры"){: .align-center style="width: 500px;"}
 Источник: [Wikimedia](https://commons.wikimedia.org/wiki/File:Visualization_of_errors-in-variables_linear_regression.png).
 {: style="text-align: center; font-size:0.7em;"}
 
@@ -143,7 +143,7 @@ title: "Введение в машинное обучение"
 
 #### Обучение с учителем
 
-![styled-image](/assets/images/ml_text/ml0-4.png "Обучение с учителем и без учителя"){: .align-center style="width: 75%;"}
+![styled-image](/assets/images/ml_text/ml0-4.png "Обучение с учителем и без учителя"){: .align-center style="width: 750px;"}
 Источник: [Wikimedia](https://commons.wikimedia.org/wiki/File:Machin_learning.png).
 {: style="text-align: center; font-size:0.7em;"}
 
