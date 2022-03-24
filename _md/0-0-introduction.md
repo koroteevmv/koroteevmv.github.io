@@ -25,5 +25,5 @@ sections:
     youtube: jKyuM0ciuBM
 
   - title: "Практика: создание первого проекта в Android Studio" 
-    youtube: # 8p9znyCGyHw
+    youtube: 8p9znyCGyHw
 ---
