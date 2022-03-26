@@ -88,7 +88,7 @@ author:
 
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/koroteevmv/"
+      # url: "https://www.linkedin.com/in/koroteevmv/"
 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -108,7 +108,7 @@ author:
 
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/mihail.koroteev"
+      # url: "https://facebook.com/mihail.koroteev"
 
     - label: "Vkontakte"
       icon: "fab fa-fw fa-vk"
@@ -123,9 +123,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/mihail.koroteev"
+    # - label: "Facebook"
+      # icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/mihail.koroteev"
 
     - label: "Vkontakte"
       icon: "fab fa-fw fa-vk"
@@ -282,8 +282,8 @@ defaults:
       classes: None
       author_profile: true
       read_time: true
-      share: true
-      comments: true
+      share: false
+      comments: false
       related: true
       toc: true
       toc_sticky: true
@@ -297,8 +297,8 @@ defaults:
       read_time: true
       show_date: false
       author_profile: false
-      share: true
-      comments: true
+      share: false
+      comments: false
       related: true
       last_modified_at: false
       toc: false
@@ -313,8 +313,8 @@ defaults:
       read_time: false
       show_date: false
       author_profile: false
-      share: true
-      comments: true
+      share: false
+      comments: false
       related: false
       last_modified_at: false
       toc: true
@@ -330,8 +330,8 @@ defaults:
       read_time: false
       show_date: false
       author_profile: false
-      share: true
-      comments: true
+      share: false
+      comments: false
       related: false
       last_modified_at: false
       toc: true
@@ -347,8 +347,8 @@ defaults:
       read_time: false
       show_date: false
       author_profile: false
-      share: true
-      comments: true
+      share: false
+      comments: false
       related: false
       last_modified_at: false
       toc: true
@@ -364,8 +364,8 @@ defaults:
       read_time: false
       show_date: false
       author_profile: false
-      share: true
-      comments: true
+      share: false
+      comments: false
       related: false
       last_modified_at: false
       toc: true
@@ -380,3 +380,5 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: false
+      comments: false
