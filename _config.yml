@@ -116,7 +116,7 @@ author:
 
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/koroteev_m
+      # url: https://twitter.com/koroteev_m
 
       # https://fontawesome.com/icons?d=gallery
 

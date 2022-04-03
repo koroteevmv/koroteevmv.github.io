@@ -1,5 +1,5 @@
 ---
-title: "Домашняя страница"
+title: ""
 layout: single
 classes: wide
 related: true
@@ -12,6 +12,25 @@ permalink: /
 header:
   overlay_image: /assets/images/splash_image.jpg
 excerpt: "Михаил Коротеев - преподаватель, ученый и разработчик, специализирующийся на системах машинного обучения в экономике и финансах."
+
+
+feature_row_certs:
+
+  - url: /assets/images/certs/ml.png
+    image_path: "/assets/images/certs/ml.png"
+    title: ""
+
+  - url: /assets/images/certs/google.png
+    image_path: "/assets/images/certs/google.png"
+
+  - url: /assets/images/certs/md.png
+    image_path: "/assets/images/certs/md.png"
+
+  - url: /assets/images/certs/pgm.png
+    image_path: "/assets/images/certs/pgm.png"
+
+  - url: /assets/images/certs/python.png
+    image_path: "/assets/images/certs/python.png"
 
 
 feature_row_projects:
@@ -67,22 +86,6 @@ feature_row_courses:
     url: "/ml"
     btn_label: "Перейти"
     btn_class: "btn--primary"
-
-  - image_path: /assets/images/tk_logo.png
-    caption: "Photo credit: [**Nerd Paradise**](https://nerdparadise.com/)"
-    title: "Практикум"
-    excerpt: "Практикум по программированию Python"
-    url: # "/pd"
-    btn_label: "Перейти"
-    btn_class: "btn--primary"
-
-  - image_path: /assets/images/html.png
-    title: "Web разработка"
-    excerpt: "Базовый курс для начинающих по своременным веб-технологиям"
-    url: "/wd"
-    btn_label: "Перейти"
-    btn_class: "btn--primary"
-
 ---
 
 
@@ -96,16 +99,20 @@ feature_row_courses:
 
 
 <h2>Разделы</h2>
-<a href='/courses'><button href='#' class='btn btn-primary'> Курсы </button></a>
-<a href='/scipop'><button href='#' class='btn btn-primary'> Публицистика </button></a>
+<a href='/courses'><button href='#' class='btn btn-primary'> Все курсы </button></a>
+<a href='/scipop'><button href='#' class='btn btn-primary'> Научпоп </button></a>
 <a href='/talks'><button href='#' class='btn btn-primary'> Выступления </button></a>
-<a href='/cv'><button href='#' class='btn btn-primary'> Резюме </button></a>
+<!-- <a href='/cv'><button href='#' class='btn btn-primary'> Резюме </button></a> -->
 
 <h2>Мои курсы</h2>
 {% include  feature_row id="feature_row_courses" %}
 
 <h2>Последние проекты</h2>
 {% include  feature_row id="feature_row_projects" %}
+<br>
+
+<h2>Мои дипломы</h2>
+{% include gallery id="feature_row_certs" %}
 <br>
 
 <h2>Мои научные интересы:</h2>
@@ -116,3 +123,10 @@ feature_row_courses:
 	<li>Математическое моделирование экономических процессов</li>
 	<li>ИТ образование и разработка профильных курсов</li>
 </ul>
+
+<h2>Последние публикации</h2>
+
+{% for post in site.posts limit 10 %}
+  <h2></h2>
+  {% include archive-single-tags.html %}
+{% endfor %}
