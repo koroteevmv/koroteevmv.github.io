@@ -17,6 +17,9 @@ sections:
       - title: "Express JS Crash Course"
         url: https://www.youtube.com/watch?v=L72fhGm1tfE
 
+      - title: "Репозиторий с кодом к видео"
+        url: https://github.com/bradtraversy/express_crash_course
+
       - title: "Node.js & Express From Scratch"
         url: https://www.youtube.com/watch?v=k_0ZzvHbNBQ&list=PLillGF-RfqbYRpji8t4SxUkMxfowG4Kqp
 
