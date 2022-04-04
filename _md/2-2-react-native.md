@@ -8,10 +8,10 @@ sections:
 
   - title: "Лекция: Основы react native" 
     overview: ""
-    document:  # ссылка на методические указания
+    document: /text/md22/ # ссылка на методические указания
     youtube: # Видеозапись занятия
     slides: https://docs.google.com/presentation/d/1U9ct_-9C4Yx5jkJzhwBNQ6_6OjaU5UR0wEu4Aqvjsuc/edit?usp=sharing
-    textbook: # ссылка на главу из учебника
+    textbook: /text/md22/ # ссылка на главу из учебника
     test: 
     additional: 
       - title: "Официальная документация react native"
