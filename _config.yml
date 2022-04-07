@@ -41,9 +41,9 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
-search_provider          : lunr
+search                   : false # true, false (default)
+search_full_content      : false # true, false (default)
+search_provider          : algolia
 
 # SEO Related
 google_site_verification :
