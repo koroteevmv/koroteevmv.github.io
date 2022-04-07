@@ -12,7 +12,7 @@ sections:
     youtube: fcCX1HnEQ5M # Видеозапись занятия
     document: # https://docs.google.com/document/d/1T-jAwp-kErdU-OZUEj77_P9SPYiuzaoAyFMJVx4zTbg/edit?usp=sharing 
     slides: https://docs.google.com/presentation/d/1MFIX0V6_h1tIV3ziMrSjFvsnm5Wuc7RoZx-tI5ZDvfA/edit?usp=sharing # ссылка на презентацию к занятию
-    textbook: /text/lx0-0/
+    textbook: /text/os00-0/
     test: https://campus.fa.ru/mod/quiz/view.php?id=81999
 
   - title: "Лабораторная: Установка Linux в виртуальную машину" # Назввание работы
@@ -20,7 +20,7 @@ sections:
     document: # https://drive.google.com/open?id=1pG88LVHgAikQO0bvRDDjeJSkw2QyKgh5oln981Qi4bk # ссылка на методические указания
     youtube: WNMyK4QBTS0 # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
-    textbook: /text/lx0-1/
+    textbook: /text/os00-1/
     additional: # ссылки на дополнительные материалы
       - title: "Oracle VirtualBox"
         url: https://www.virtualbox.org/
