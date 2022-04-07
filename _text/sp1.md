@@ -740,7 +740,7 @@ app.listen(PORT, () => console.log(`Server started on port ${PORT}.`));
   </head>
   <body>
     <div class="container mt-4">
-      {{{body}}}
+      {% raw %}{{{ body }}}{% endraw %}
     </div>
   </body>
 </html>
@@ -816,9 +816,9 @@ app.listen(PORT, () => console.log(`Server started on port ${PORT}.`));
 
 <h4>Members</h4>
 <ul class="list-group">
-  {{#each members}}
+  {% raw %}{{ #each members}}{% endraw %}
   <li class="list-group-item">{{this.name}}: {{this.email}}</li>
-  {{/each}}
+  {% raw %}{{ /each }}{% endraw %}
 </ul>
 ```
 
@@ -842,9 +842,9 @@ app.listen(PORT, () => console.log(`Server started on port ${PORT}.`));
 
 <h4>Members</h4>
 <ul class="list-group">
-  {{#each members}}
+  {% raw %}{{#each members}}{% endraw %}
   <li class="list-group-item">{{this.name}}: {{this.email}}</li>
-  {{/each}}
+  {% raw %}{{/each}}{% endraw %}
 </ul>
 ```
 

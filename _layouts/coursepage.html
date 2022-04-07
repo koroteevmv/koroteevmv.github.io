@@ -1,5 +1,6 @@
 ---
 layout: single
+author_profile: false
 ---
 
 {% for section in page.sections %}
@@ -36,7 +37,7 @@ layout: single
         {% for p1 in site.documents %}
         {% if p1.url == section.textbook %}
 <div>
-  {{ p1.content | markdownify }}
+  {{ p1.content }}
 </div>
         {% endif %}
         {% endfor %}

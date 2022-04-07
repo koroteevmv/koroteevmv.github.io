@@ -291,6 +291,7 @@ defaults:
       toc: true
       toc_sticky: true
       show_date: true
+      
   # text
   - scope:
       path: "_text"
