@@ -261,6 +261,9 @@ collections:
   text:
     output: true
     permalink: /:collection/:path/
+  pres:
+    output: true
+    permalink: /:collection/:path/
   ml:
     output: true
     permalink: /:collection/:path/
@@ -307,6 +310,13 @@ defaults:
       last_modified_at: false
       toc: false
       word_count: true
+      
+  # presentations
+  - scope:
+      path: "_pres"
+      type: pres
+    values:
+      layout: shower
       
   # os
   - scope:
