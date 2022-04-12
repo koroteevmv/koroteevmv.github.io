@@ -24,7 +24,7 @@
 
         #cover h2 {
             margin: 30px 0 0;
-            color: white;
+            /*color: white;*/
             text-align: center;
             font-size: 70px;
         }
@@ -34,16 +34,43 @@
             text-align: center;
             color: white;
             font-style: italic;
-            font-size: 20px;
+            font-size: 12px;
         }
 
         #cover p a {
-            color: white;
+            /*color: white;*/
         }
 
         #temp {
             display: none;
             visibility: hidden;
+        }
+
+        section {
+            font-size: 20px;
+        }
+
+        section h2 {
+            font-size: 50px;
+        }
+
+        .slide ol, .slide ul {
+            line-height: 1.2em;
+        }
+
+        pre {
+            overflow-x: hidden; 
+            line-height: 1em;
+        }
+
+        img {
+            height: 330px;
+            width: auto;
+        }
+
+        img#cover{
+            height: 100%;
+            width: auto;
         }
     </style>
 </head>
@@ -58,15 +85,12 @@
         <!-- <p>Yours Truly, Famous Inc.</p> -->
     </header>
 
-    <section class="slide" id="cover">
-        <h2>{{page.title}}</h2>
+    <section class="slide">
+        <h2 class="shout">{{page.title}}</h2>
         <!-- <p>Brought to you by <a href="https://pepelsbey.net">Vadim Makeev</a></p> -->
-        <figure>
-            <img class="cover" src="/assets/images/splash_image.jpg" alt="Hands on the orange typewriter in a park">
-            <figcaption class="copyright right white">
-                <!-- <a href="https://fiftyfootshadows.net">© John Carey</a> -->
-            </figcaption>
-        </figure>
+<!--         <figure>
+            <img class="cover" src="/assets/images/splash_image.jpg">
+        </figure> -->
     </section>
 
     <!-- <section class="slide">
@@ -232,7 +256,7 @@
         let points;
         let code;
         let image;
-        let mics;
+        let misc;
 
         function commit() {
             if (current_slide) {
@@ -251,25 +275,27 @@
                         slide_header.innerHTML = current_slide;
                         slide.appendChild(slide_header);
 
-                        // console.log("ИТЕРАЦИЯ " + current_slide);
-                        // console.log("До добавления");
-                        // console.log(slide);
-                        // console.log("Сам элемент");
-                        // console.log(elem);
                         slide.appendChild(elem.cloneNode(true));
-                        // console.log("После добавления");
-                        // console.log(slide);
 
                         document.body.appendChild(slide);
                     }
                 });
+
+                mics = undefined;
+                points = undefined;
+                image = undefined;
+                code = undefined;
             }
         }
 
         childern.forEach(elem => {
-            if (elem.tagName == "H3") {
+            if (elem.tagName == "H3" || elem.tagName == "H4") {
                 commit();
-                current_slide = elem.innerHTML;                
+                current_slide = elem.innerHTML;
+                mics = undefined;
+                points = undefined;
+                image = undefined;
+                code = undefined;
             }
 
             if (elem.tagName == "DIV" && elem.classList.contains("notice--info")) {
@@ -288,6 +314,12 @@
 
             if (elem.tagName == "DIV" && elem.classList.contains("presentation")) {
                 misc = elem;
+                commit();
+            } 
+
+            if (elem.tagName == "P" && elem.getElementsByTagName('img').length > 0) {
+                image = elem.getElementsByTagName('img')[0];
+                image.style.width = "auto";
                 commit();
             } 
         });
