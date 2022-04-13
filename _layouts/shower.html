@@ -159,19 +159,25 @@
 
 
             let new_size = Math.sqrt(ratio) / 1.2;
-            if (new_size > 2.3) {
-                new_size = 2.3
+            if (new_size > 2.5) {
+                new_size = 2.5
             }
             element.style["font-size"] = new_size + "em";
 
-            // new_size = Math.sqrt(ratio) / 1.2;
+            new_size = Math.pow(ratio, 1.1) * 12;
+            if (new_size > 30) {
+                new_size = 30
+            }
 
             element.querySelectorAll("pre").forEach(e => {
-                e.style["font-size"] = new_size + "em";
-                e.style["line-height"] = new_size + "em";
+                e.style["font-size"] = new_size + "px";
+                e.style["line-height"] = new_size * 1.2 + "px";
             });
 
-            console.log(realHeight, ratio, new_size, element.offsetHeight);
+            console.log(
+                // realHeight, ratio, 
+                new_size, 
+                element.offsetHeight);
 
             return element;
         }
