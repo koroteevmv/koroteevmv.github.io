@@ -159,12 +159,12 @@
 
 
             let new_size = Math.sqrt(ratio) / 1.2;
-            if (new_size > 2.5) {
-                new_size = 2.5
+            if (new_size > 2.3) {
+                new_size = 2.3
             }
             element.style["font-size"] = new_size + "em";
 
-            new_size = Math.sqrt(ratio);
+            // new_size = Math.sqrt(ratio) / 1.2;
 
             element.querySelectorAll("pre").forEach(e => {
                 e.style["font-size"] = new_size + "em";

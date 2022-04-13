@@ -261,22 +261,22 @@ title: "Тест"
 ### Код
 
 ```py
-Одна строка
+$ command1 | command2 | command3 >output-file
 ```
 
 ### Код
 
 ```py
-Одна строка
-Одна строка
+$ command1 | command2 | command3 >output-file
+$ command1 | command2 | command3 >output-file
 ```
 
 ### Код
 
 ```py
-Одна строка
-Одна строка
-Одна строка
+$ command1 | command2 | command3 >output-file
+$ command1 | command2 | command3 >output-file
+$ command1 | command2 | command3 >output-file
 ```
 
 ### Код
