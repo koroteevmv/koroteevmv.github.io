@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/assets/shower/themes/ribbon/styles/styles.css">
     <style>
         .shower {
-            --slide-ratio: calc(16 / 9);
+            --slide-ratio: calc(16 / 12);
         }
     </style>
     <style>
@@ -54,23 +54,34 @@
             font-size: 50px;
         }
 
-        .slide ol, .slide ul {
+        .slide{
             line-height: 1.2em;
+            font-size: 1em;
         }
 
-        pre {
-            overflow-x: hidden; 
+        .slide ol, .slide ul {
             line-height: 1em;
         }
 
+        .slide pre {
+            overflow-x: hidden; 
+            overflow-y: hidden; 
+            line-height: 1.2em;
+            /*font-size: 1em;*/
+        }
+
         img {
-            height: 330px;
+            max-height: 550px;
             width: auto;
         }
 
         img#cover{
             height: 100%;
             width: auto;
+        }
+
+        .slide .shout {
+            font-size: 120px;
         }
     </style>
 </head>
@@ -87,163 +98,11 @@
 
     <section class="slide">
         <h2 class="shout">{{page.title}}</h2>
-        <!-- <p>Brought to you by <a href="https://pepelsbey.net">Vadim Makeev</a></p> -->
-<!--         <figure>
-            <img class="cover" src="/assets/images/splash_image.jpg">
-        </figure> -->
     </section>
 
-    <!-- <section class="slide">
-        <h4>Shower key features</h2>
-        <ol>
-            <li>Built on HTML, CSS and JavaScript</li>
-            <li>Works in all modern browsers</li>
-            <li>Themes are separated from engine</li>
-            <li>Fully keyboard accessible</li>
-            <li>Printable to PDF</li>
-        </ol>
-        <p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-    </section>
-
-    <section class="slide">
-        <h2>Plain text on your slides</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-
-    <section class="slide">
-        <h2>Two columns if you like</h2>
-        <div class="columns two">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-        </div>
-    </section>
-
-    <section class="slide">
-        <h2>All kind of lists</h2>
-        <ol>
-            <li>Simple lists are marked with bullets</li>
-            <li>Ordered lists begin with a number</li>
-            <li>You can even nest lists one inside another
-                <ul>
-                    <li>Or mix their types</li>
-                    <li>But do not go too far</li>
-                    <li>Otherwise audience will be bored</li>
-                </ul>
-            </li>
-            <li>Look, seven rows exactly!</li>
-        </ol>
-    </section>
-
-    <section class="slide">
-        <h2>Serious citations</h2>
-        <figure>
-            <blockquote>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-            </blockquote>
-            <figcaption>Marcus Tullius Cicero</figcaption>
-        </figure>
-    </section>
-
-    <section class="slide">
-        <h2>Code samples</h2>
-        <pre>
-            <code>&lt;!DOCTYPE html&gt;</code>
-            <code class="mark">&lt;html lang="en"&gt;</code>
-            <code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-            <code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-            <code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-            <code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-            <code><mark>&lt;/head&gt;</mark></code>
-        </pre>
-    </section>
-
-    <section class="slide">
-        <h2>Even tables</h2>
-        <table>
-        <tr>
-            <th scope="col">Locavore</th>
-            <th>Umami</th>
-            <th>Helvetica</th>
-            <th>Vegan</th>
-        </tr>
-        <tr>
-            <th scope="row">Fingerstache</th>
-            <td>Kale</td>
-            <td>Chips</td>
-            <td>Keytar</td>
-        </tr>
-        <tr>
-            <th scope="row">Sriracha</th>
-            <td>Gluten-free</td>
-            <td>Ennui</td>
-            <td>Keffiyeh</td>
-        </tr>
-        <tr>
-            <th scope="row">Thundercats</th>
-            <td>Jean</td>
-            <td>Shorts</td>
-            <td>Biodiesel</td>
-        </tr>
-        <tr>
-            <th scope="row">Terry</th>
-            <td>Richardson</td>
-            <td>Swag</td>
-            <td>Blog</td>
-        </tr>
-        </table>
-        <p>It’s good to have information organized.</p>
-    </section>
-
-    <section class="slide" id="picture">
-        <h2>Pictures</h2>
-        <figure>
-            <img class="cover" src="/assets/shower/pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-            <figcaption class="copyright right white">
-                <a href="https://fiftyfootshadows.net">© John Carey</a>
-            </figcaption>
-        </figure>
-        <style>
-            #picture h2 {
-                color: white;
-            }
-        </style>
-    </section>
-
-    <section class="slide">
-        <h2 class="shout shrink">You can even shout this way</h2>
-    </section>
-
-    <section class="slide">
-        <h2>Inner navigation</h2>
-        <ol>
-            <li>Lets you reveal list items one by one</li>
-            <li class="next">To keep some key points</li>
-            <li class="next">In secret from audience</li>
-            <li class="next">But it will work only once</li>
-            <li class="next">Nobody wants to see the same joke twice</li>
-        </ol>
-    </section>
-
-    <section class="slide" id="see-more">
-        <h2 class="shout">
-            <img src="/assets/shower/pictures/logo.svg" alt="Shower logo">
-            <a href="https://github.com/shower/shower">See more on GitHub</a>
-        </h2>
-        <style>
-            #see-more h2 {
-                font-size: 100px
-            }
-
-            #see-more img {
-                width: 0.72em;
-                height: 0.72em;
-            }
-        </style>
-    </section> -->
-
-<!--     <footer class="badge">
-        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
-    </footer> -->
+    <footer class="badge">
+        <a href="https://github.com/shower/shower">Build with shower</a>
+    </footer>
 
     <script src="/assets/shower/shower.js"></script>
     <!-- Copyright © 3000 Yours Truly, Famous Inc. -->
@@ -267,7 +126,8 @@
 
                 elems.forEach(elem => {
                     if (elem) {
-                        // console.log("ИТЕРАЦИЯ");
+                        // console.log("ИТЕРАЦИЯ " + current_slide);
+                        // console.log([image, code, points, misc]);
 
                         slide = document.createElement('section');
                         slide.className = "slide";
@@ -275,27 +135,51 @@
                         slide_header.innerHTML = current_slide;
                         slide.appendChild(slide_header);
 
-                        slide.appendChild(elem.cloneNode(true));
+                        slide.appendChild(elem);
 
                         document.body.appendChild(slide);
+
+                        fit_in_slide(elem);
                     }
                 });
 
-                mics = undefined;
+                misc = undefined;
                 points = undefined;
                 image = undefined;
                 code = undefined;
             }
         }
 
+        function fit_in_slide(element) {
+            console.log("ИТЕРАЦИЯ " + current_slide);
+            // console.log(element);
+
+            const realHeight = element.offsetHeight;
+            const ratio = 550 / realHeight;
+
+
+            let new_size = Math.sqrt(ratio) / 1.2;
+            if (new_size > 2.5) {
+                new_size = 2.5
+            }
+            element.style["font-size"] = new_size + "em";
+
+            new_size = Math.sqrt(ratio);
+
+            element.querySelectorAll("pre").forEach(e => {
+                e.style["font-size"] = new_size + "em";
+                e.style["line-height"] = new_size + "em";
+            });
+
+            console.log(realHeight, ratio, new_size, element.offsetHeight);
+
+            return element;
+        }
+
         childern.forEach(elem => {
             if (elem.tagName == "H3" || elem.tagName == "H4") {
                 commit();
                 current_slide = elem.innerHTML;
-                mics = undefined;
-                points = undefined;
-                image = undefined;
-                code = undefined;
             }
 
             if (elem.tagName == "DIV" && elem.classList.contains("notice--info")) {
@@ -306,14 +190,17 @@
                 });
 
                 points = list;
+                // points = fit_in_slide(points);
             } 
 
             if (elem.tagName == "DIV" && elem.classList.contains("highlighter-rouge")) {
                 code = elem;
+                // code = fit_in_slide(code);
             } 
 
             if (elem.tagName == "DIV" && elem.classList.contains("presentation")) {
                 misc = elem;
+                // misc = fit_in_slide(misc);
                 commit();
             } 
 
