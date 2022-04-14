@@ -21,9 +21,12 @@ sections:
     slides: # ссылка на презентацию к занятию
     textbook: # ссылка на главу из учебника
 
-  - title: "Практика: знакомство с интерфейсом Android Studio" 
+  - title: "Практика: Знакомство с интерфейсом Android Studio" 
     youtube: jKyuM0ciuBM
 
-  - title: "Практика: создание первого проекта в Android Studio" 
+  - title: "Практика: Создание первого проекта в Android Studio" 
     youtube: 8p9znyCGyHw
+
+  - title: "Практика: Структура кода Android проекта" 
+    youtube: 5v8xEiE1BNg
 ---

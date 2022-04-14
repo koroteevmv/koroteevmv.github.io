@@ -14,6 +14,21 @@ sections:
     textbook: # ссылка на главу из учебника
     test:
 
+  - title: "Практика: Контейнеры андроид элементов: LinearLayout" 
+    youtube: s4T0QDe6Ie8
+
+  - title: "Практика: Контейнеры андроид элементов: RelativeLayout" 
+    youtube: rFhjGmLvTzc
+
+  - title: "Практика: Контейнеры андроид элементов: TableLayout" 
+    youtube: VuNcCZ7JGKc
+
+  - title: "Практика: Контейнеры андроид элементов: ConstraintLayout" 
+    youtube: v5VwDmxxcik
+
+  - title: "Практика: Контейнеры андроид элементов: WebView" 
+    youtube: TQGJO_JDUh0
+
   - title: "Практика: Представления элементов" 
     overview: "В этой работе мы познакомимся с основными приемами визуального представления элементов приложения, управления их взаимным расположением, оформлением, работы с соответствующими атрибутами из XML и из Java кода."
     document: https://drive.google.com/open?id=1KZ4g3gUdVBrJhVm25DEtQED9RzWkXBigd-MQEXCo7VM
