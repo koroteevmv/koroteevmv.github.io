@@ -8,10 +8,10 @@ sections:
 
   - title: "Лекция: Серверный JavaScript - node.js, npm" 
     overview: ""
-    document: /text/sp0/ # ссылка на методические указания
+    document: /text/wd41/ # ссылка на методические указания
     youtube: # Видеозапись занятия
-    slides: https://docs.google.com/presentation/d/1oV2YOOkNeResPqw5lyk2uxAxI0h6LEg3pQ0366ukKsg/edit?usp=sharing
-    textbook: /text/sp0/
+    slides: /pres/wd41/
+    textbook: /text/wd41/
     test: 
     additional: 
       - title: "Node.js Crash Course"
