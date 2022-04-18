@@ -83,7 +83,36 @@
         .slide .shout {
             font-size: 120px;
         }
+
+        .mjx-chtml{
+        	font-size: 25px !important;
+        }
+
+        section > div.presentation, section > img{
+		  margin: 0;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  -ms-transform: translate(-50%, -50%);
+		  transform: translate(-50%, -50%);
+		}
     </style>
+
+    <script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+	</script>
+
+    <script type="text/x-mathjax-config">
+	   MathJax.Hub.Config({
+	     extensions: ["tex2jax.js"],
+	     jax: ["input/TeX", "output/HTML-CSS"],
+	     tex2jax: {
+	       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+	       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+	       processEscapes: true
+	     },
+	     "HTML-CSS": { availableFonts: ["TeX"] }
+	   });
+	</script>
 </head>
 <body class="shower list">
 
@@ -152,10 +181,12 @@
 
         function fit_in_slide(element) {
             console.log("ИТЕРАЦИЯ " + current_slide);
-            // console.log(element);
+            console.log(element);
 
-            const realHeight = element.offsetHeight;
-            const ratio = 550 / realHeight;
+            let ratio = Math.min(
+            	550 / element.offsetHeight,
+            	// 1600 / element.offsetWidth,
+            	);
 
 
             let new_size = Math.sqrt(ratio) / 1.2;
@@ -168,8 +199,29 @@
             if (new_size > 30) {
                 new_size = 30
             }
+            
+            console.log(element.querySelectorAll("pre"));
 
             element.querySelectorAll("pre").forEach(e => {
+                e.style["font-size"] = new_size + "px";
+                e.style["line-height"] = new_size * 1.2 + "px";
+            });
+
+            ratio = Math.min(
+            	550 / element.offsetHeight,
+            	1600 / element.offsetWidth,
+            	);
+
+            new_size = Math.pow(ratio, 1.1) * 12;
+            if (new_size > 30) {
+                new_size = 30
+            }
+
+            console.log(element.innerHTML);            
+            console.log(element.querySelectorAll("*"));
+
+            element.querySelectorAll("span").forEach(e => {
+            	console.log("found");
                 e.style["font-size"] = new_size + "px";
                 e.style["line-height"] = new_size * 1.2 + "px";
             });
@@ -177,7 +229,8 @@
             console.log(
                 // realHeight, ratio, 
                 new_size, 
-                element.offsetHeight);
+                element.offsetHeight,
+                element.offsetWidth);
 
             return element;
         }
