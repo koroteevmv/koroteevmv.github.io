@@ -131,7 +131,7 @@
 
                         slide = document.createElement('section');
                         slide.className = "slide";
-                        slide_header = document.createElement('h2');
+                        let slide_header = document.createElement('h2');
                         slide_header.innerHTML = current_slide;
                         slide.appendChild(slide_header);
 
@@ -183,12 +183,26 @@
         }
 
         childern.forEach(elem => {
+            if (elem.tagName == "H3") {
+                commit();
+                let slide = document.createElement('section');
+                slide.className = "slide";
+                let slide_header = document.createElement('h2');
+                slide_header.className = "shout shrink"
+                slide_header.innerHTML = elem.innerHTML;
+                slide.appendChild(slide_header);
+
+                // slide.appendChild(elem);
+
+                document.body.appendChild(slide);
+            }
+
             if (elem.tagName == "H3" || elem.tagName == "H4") {
                 commit();
                 current_slide = elem.innerHTML;
             }
 
-            if (elem.tagName == "DIV" && elem.classList.contains("notice--info")) {
+            else if (elem.tagName == "DIV" && elem.classList.contains("notice--info")) {
                 let list = elem.getElementsByTagName('ol')[0];
 
                 list.childNodes.forEach(elem => {
@@ -199,19 +213,19 @@
                 // points = fit_in_slide(points);
             } 
 
-            if (elem.tagName == "DIV" && elem.classList.contains("highlighter-rouge")) {
+            else if (elem.tagName == "DIV" && elem.classList.contains("highlighter-rouge")) {
                 code = elem;
                 commit()
                 // code = fit_in_slide(code);
             } 
 
-            if (elem.tagName == "DIV" && elem.classList.contains("presentation")) {
+            else if (elem.tagName == "DIV" && elem.classList.contains("presentation")) {
                 misc = elem;
                 // misc = fit_in_slide(misc);
                 commit();
             } 
 
-            if (elem.tagName == "P" && elem.getElementsByTagName('img').length > 0) {
+            else if (elem.tagName == "P" && elem.getElementsByTagName('img').length > 0) {
                 image = elem.getElementsByTagName('img')[0];
                 image.style.width = "auto";
                 commit();
