@@ -8,7 +8,7 @@ sections:
 
   - title: "Лекция: Основы Express" 
     overview: ""
-    document: /text/sp1/ # ссылка на методические указания
+    document: /text/wd42/ # ссылка на методические указания
     youtube: # Видеозапись занятия
     slides: /pres/wd42/
     textbook: /text/wd42/
