@@ -100,11 +100,11 @@ author:
 
     - label: "Elibrary"
       icon: "fab fa-fw fa-erlang"
-      url: "https://elibrary.ru/author_items.asp?authorid=647967"
+      # url: "https://elibrary.ru/author_items.asp?authorid=647967"
 
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
-      url: "https://orcid.org/0000-0002-8768-6564"
+      # url: "https://orcid.org/0000-0002-8768-6564"
 
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
