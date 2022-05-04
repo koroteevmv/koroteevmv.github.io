@@ -44,20 +44,4 @@ sections:
 
   - title: "Практика: Контейнеры андроид элементов: WebView" 
     youtube: TQGJO_JDUh0
-
-  - title: "Практика: Создание главного меню приложения" 
-    overview: "В этой работе мы познакомимся с инструментами и приемами создания меню мобильного приложения и способами взаимодействия с ним."
-    document: https://drive.google.com/open?id=1hjqa2GJNZEqUVF54g4_DKuR4ILUUEdp17ZdelN8_MTQ
-    youtube: 
-    slides: 
-    textbook: # ссылка на главу из учебника
-    test:
-
-  - title: "Практика: Создание контекстного меню" 
-    overview: "В этой работе мы научимся создавать и использовать контекстное меню на отдельных элементах приложения"
-    document: https://drive.google.com/open?id=1Eoot6nUlr17mcksjWcZE3dDZoIYMXdqy-cz891RMCtc
-    youtube: 
-    slides: 
-    textbook: # ссылка на главу из учебника
-    test:
 ---

@@ -99,12 +99,14 @@ md:
       url: /md/1/1-ui-elements/
     - title: Активности
       url: /md/1/2-acivities/
+    - title: Интерактивные возможности
+      url: /md/1/3-interactive/
     - title: Хранение данных
-      url: /md/1/3-content/
+      url: /md/1/4-content/
     - title: Сервисы
-      url: /md/1/4-services/
+      url: /md/1/5-services/
     - title: Тестирование и безопасность
-      url: /md/1/5-testing/
+      url: /md/1/6-testing/
     # - title: Работа с фрагментами
       # url: /md/1/6-fragments/
     # - title: Работа с системой
@@ -112,7 +114,7 @@ md:
 
   - title: Разработка кроссплатформенных приложений
     children:
-      - title: Адаптация веб-сайта для мобильных устройств
+      - title: Адаптивная верстка
         url: /md/2/1-mobile-first/
       - title: Фреймворк react native
         url: /md/2/2-react-native/
