@@ -15,7 +15,7 @@ sections:
 
   - title: "Практика: Кластеризация данных" 
     overview: ""
-    document: 
+    document: https://docs.google.com/document/d/1TdHTamZCCpi0b8TE1rwy1HKM-juVAQPC/edit?usp=sharing&ouid=116003821381017651142&rtpof=true&sd=true
     youtube:
     slides:
     test:

@@ -14,6 +14,22 @@ sections:
     textbook: # ссылка на главу из учебника
     test:
 
+  - title: "Практика: Основные элементы" 
+    overview: "В этой работе мы познакомимся с основными визуальными элементами приложения и приемами работы с ними."
+    document: https://docs.google.com/document/d/1iEl_ObV2JyzzVT-33mcOOyaObE206SwLOXeDS64__d0
+    youtube: fqlE8OaA0wM
+    slides: 
+    textbook: # ссылка на главу из учебника
+    test:
+
+  - title: "Практика: Представления элементов" 
+    overview: "В этой работе мы познакомимся с основными приемами визуального представления элементов приложения, управления их взаимным расположением, оформлением, работы с соответствующими атрибутами из XML и из Java кода."
+    document: https://drive.google.com/open?id=1KZ4g3gUdVBrJhVm25DEtQED9RzWkXBigd-MQEXCo7VM
+    youtube: 
+    slides: 
+    textbook: # ссылка на главу из учебника
+    test:
+
   - title: "Практика: Контейнеры андроид элементов: LinearLayout" 
     youtube: s4T0QDe6Ie8
 
@@ -28,38 +44,6 @@ sections:
 
   - title: "Практика: Контейнеры андроид элементов: WebView" 
     youtube: TQGJO_JDUh0
-
-  - title: "Практика: Представления элементов" 
-    overview: "В этой работе мы познакомимся с основными приемами визуального представления элементов приложения, управления их взаимным расположением, оформлением, работы с соответствующими атрибутами из XML и из Java кода."
-    document: https://drive.google.com/open?id=1KZ4g3gUdVBrJhVm25DEtQED9RzWkXBigd-MQEXCo7VM
-    youtube: 
-    slides: 
-    textbook: # ссылка на главу из учебника
-    test:
-
-  - title: "Практика: Кликер" 
-    overview: "В этой работе мы познакомимся с основными элементами управления приложения и научиться их использовать согласно логике приложения."
-    document: https://drive.google.com/open?id=1Wk5-fK_VYJJ12lAjyn0EgWa-tnUJlB-iGO2-7UdC2qw
-    youtube: 
-    slides: 
-    textbook: # ссылка на главу из учебника
-    test:
-
-  - title: "Практика: Угадай число" 
-    overview: "В этой работе мы разработаем простое приложение, помогающее понять структуру приложения, освоить основные операторы, привыкнуть к среде разработки."
-    document: https://drive.google.com/open?id=1vFXCZSOrgFg21WeVGqjNhECYzWNWkQE36jgDBgK-Y8s
-    youtube: 
-    slides: 
-    textbook: # ссылка на главу из учебника
-    test:
-
-  - title: "Практика: Основные элементы" 
-    overview: "В этой работе мы познакомимся с основными визуальными элементами приложения и приемами работы с ними."
-    document: https://docs.google.com/document/d/1iEl_ObV2JyzzVT-33mcOOyaObE206SwLOXeDS64__d0
-    youtube: 
-    slides: 
-    textbook: # ссылка на главу из учебника
-    test:
 
   - title: "Практика: Создание главного меню приложения" 
     overview: "В этой работе мы познакомимся с инструментами и приемами создания меню мобильного приложения и способами взаимодействия с ним."

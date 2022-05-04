@@ -14,6 +14,28 @@ sections:
     textbook: # ссылка на главу из учебника
     test: https://docs.google.com/forms/d/e/1FAIpQLSdvrdtBhJ0NRLu-nuppWy9boizDnoRwgY96xt6W1At-t1XtKg/viewform
 
+  - title: "Практика: Создание обработчика событий"
+    youtube: TObESO3SZR4
+
+  - title: "Практика: Обработка нескольких событий"
+
+  - title: "Практика: Кликер" 
+    overview: "В этой работе мы познакомимся с основными элементами управления приложения и научиться их использовать согласно логике приложения."
+    document: https://drive.google.com/open?id=1Wk5-fK_VYJJ12lAjyn0EgWa-tnUJlB-iGO2-7UdC2qw
+    youtube: enCM-GMZT-0
+    slides: 
+    textbook: # ссылка на главу из учебника
+    test:
+    youtube: Rr8DOanMPj8
+
+  - title: "Практика: Угадай число" 
+    overview: "В этой работе мы разработаем простое приложение, помогающее понять структуру приложения, освоить основные операторы, привыкнуть к среде разработки."
+    document: https://drive.google.com/open?id=1vFXCZSOrgFg21WeVGqjNhECYzWNWkQE36jgDBgK-Y8s
+    youtube: 
+    slides: 
+    textbook: # ссылка на главу из учебника
+    test:
+
   - title: "Практика: Второе окно" 
     overview: "В этом занятии мы познакомимся со способом создания и запуска второго окна в составе мобильного приложения."
     document: https://drive.google.com/open?id=1a_u1b-DL4SJdhIB-p_58ExwtN6Sk1HEaO2RVt4Q2dtg
