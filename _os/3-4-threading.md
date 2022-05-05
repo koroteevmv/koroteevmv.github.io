@@ -10,6 +10,7 @@ sections:
     slides: https://docs.google.com/presentation/d/1loEJNHmKluY0o40Q6iml7m6RG5QYUqZ4wmt1G8TZ23Q/edit?usp=sharing # ссылка на презентацию к занятию
     document: # ссылка на методические указания
     additional: # 
+    textbook: /text/os34-0/
 
   - title: "Практика: Многопоточный сервер" # Название работы
     overview: "В данной работе мы познакомимся с приемами работы с многопоточностью на примере создания сокетного TCP-сервера, способного работать с несколькими клиентами одновременно."

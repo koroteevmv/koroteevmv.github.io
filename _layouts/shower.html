@@ -91,7 +91,7 @@
         section > div.presentation, section > img{
 		  margin: 0;
 		  position: absolute;
-		  top: 50%;
+		  top: 460px;
 		  left: 50%;
 		  -ms-transform: translate(-50%, -50%);
 		  transform: translate(-50%, -50%);
@@ -199,13 +199,6 @@
             if (new_size > 30) {
                 new_size = 30
             }
-            
-            console.log(element.querySelectorAll("pre"));
-
-            element.querySelectorAll("pre").forEach(e => {
-                e.style["font-size"] = new_size + "px";
-                e.style["line-height"] = new_size * 1.2 + "px";
-            });
 
             ratio = Math.min(
             	550 / element.offsetHeight,
@@ -218,7 +211,13 @@
             }
 
             console.log(element.innerHTML);            
-            console.log(element.querySelectorAll("*"));
+            console.log(element.querySelectorAll("*"));            
+            console.log(element.querySelectorAll("pre"));
+
+            element.querySelectorAll("pre").forEach(e => {
+                e.style["font-size"] = new_size + "px";
+                e.style["line-height"] = new_size * 1.2 + "px";
+            });
 
             element.querySelectorAll("span").forEach(e => {
             	console.log("found");
