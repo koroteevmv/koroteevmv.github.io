@@ -1,7 +1,7 @@
 ---
 collection: ml
-permalink: /ml/1/3-metrics/
-title: "ML3 Диагностика моделей машинного обучения"
+permalink: /ml/1/4-metrics/
+title: "ML4 Диагностика моделей машинного обучения"
 excerpt: ""
 
 sections:
@@ -15,15 +15,15 @@ sections:
 
   - title: "Практика: Диагностика и кривые обучения" 
     overview: ""
-    document: https://docs.google.com/document/d/1aITUCPyDcrx8Aeum1yjDK7vaOOQMtA4kk5yLqeXZQr4/edit?usp=sharing
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML4.1_curves
     youtube:
     slides:
     test:
 
-  - title: "Практика: Анализ ошибок" 
-    overview: ""
-    document: 
-    youtube:
-    slides:
-    test:
+  # - title: "Практика: Анализ ошибок" 
+  #   overview: ""
+  #   document: 
+  #   youtube:
+  #   slides:
+  #   test:
 ---

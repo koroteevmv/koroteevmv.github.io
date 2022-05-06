@@ -9,8 +9,7 @@ sections:
     			Вы поймете, зачем нужно пользоваться командной строкой, какова структура команды, 
     			как находить информацию по командам. " # Пояснительный текст
     youtube: QjYEkVXH4t4 # Видеозапись занятия
-    slides: https://docs.google.com/presentation/d/1EOAbuo8cxsAuMJuYN4NUjg5ek__IJpRK_Y2PiAI2VzI/edit?usp=sharing # ссылка на презентацию к занятию
-    document: # https://docs.google.com/document/d/1wClItXKr6d-aqk4MIFMW99mA4Z4UO64h3l9BXINbyIk/edit?usp=sharing # ссылка на методические указания
+    slides: /pres/os11-0/
     additional: # 
     textbook: /text/os11-0/
     test: https://campus.fa.ru/mod/quiz/view.php?id=82013
@@ -37,7 +36,7 @@ sections:
     overview: ""
     document: # https://drive.google.com/open?id=1Dima-0RuvXL5AKK2NDTbpFnqcMuc-mL3TaXFWe_hlYw
     youtube: # Видеозапись занятия
-    slides: # ссылка на презентацию к занятию
+    slides: /pres/os11-3/
     textbook: /text/os11-3/
     additional: # ссылки на дополнительные материалы
 

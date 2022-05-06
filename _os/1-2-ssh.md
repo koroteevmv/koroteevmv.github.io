@@ -7,7 +7,7 @@ sections:
   - title: "Лекция: Удаленная работа по SSH"
     overview: "Мы узнаем, как и зачем подключаться к удаленной машине по сети, какие для этого существуют программы и протоколы."
     youtube: # Видеозапись занятия
-    slides: https://docs.google.com/presentation/d/1zxMOq4gurFJ7hqo5wH5FcXXpOtpJNR6rnNy-CyX0R3E/edit?usp=sharing # ссылка на презентацию к занятию
+    slides: /pres/os12-0/
     document:  # ссылка на методические указания
     additional: # 
     textbook: /text/os12-0/

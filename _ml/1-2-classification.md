@@ -15,21 +15,21 @@ sections:
 
   - title: "Практика: Простая классификация" 
     overview: ""
-    document: https://docs.google.com/document/d/1LMLA5OMOn0MQ41nAhX-KP-VwpP2FLp2DpmraiTBgOlI/edit?usp=sharing
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML2.1_classification
     youtube:
     slides:
     test:
 
   - title: "Практика: Классификация изображений" 
     overview: ""
-    document: https://docs.google.com/document/d/1-acb-JE165h0mQQ_c8dsvCPdW84dpeRNRtJD9PRXXOg/edit?usp=sharing
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML2.2%20_images
     youtube:
     slides:
     test:
 
   - title: "Практика: Классификация текстов" 
     overview: ""
-    document: https://docs.google.com/document/d/1zE5qsLRtLK9UgESbWeFUnoXwut8iaL2yMM8WZ_4HE0g/edit?usp=sharing
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML2.3_text
     youtube:
     slides:
     test:

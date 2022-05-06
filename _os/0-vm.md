@@ -11,7 +11,7 @@ sections:
     <!-- document: https://docs.google.com/document/d/1CbR66VfSwjuAOUESDgGxlHDbk33snLiINdjJ2sdkdUI/edit#heading=h.g6b0x7swgei # ссылка на методические указания -->
     youtube: fcCX1HnEQ5M # Видеозапись занятия
     document: # https://docs.google.com/document/d/1T-jAwp-kErdU-OZUEj77_P9SPYiuzaoAyFMJVx4zTbg/edit?usp=sharing 
-    slides: https://docs.google.com/presentation/d/1MFIX0V6_h1tIV3ziMrSjFvsnm5Wuc7RoZx-tI5ZDvfA/edit?usp=sharing # ссылка на презентацию к занятию
+    slides: /pres/os00-0/
     textbook: /text/os00-0/
     test: https://campus.fa.ru/mod/quiz/view.php?id=81999
 

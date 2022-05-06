@@ -16,22 +16,22 @@ sections:
 
   - title: "Практика: Парная линейная регрессия" 
     overview: ""
-    document: https://docs.google.com/document/d/1qaXgiv23dXfOFehqAvmnZQRa4DhyZbZKL-_Lhdm_UrM/edit?usp=sharing
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML1.1_sgd
     youtube:
     slides:
     test:
 
   - title: "Практика: Множественная регрессия" 
     overview: ""
-    document: https://docs.google.com/document/d/1qHuGZayaTBuzf1gyYe5cBSfADt31BiNO5IkJwFO2TPY/edit?usp=sharing
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML1.2_regression
     youtube:
     slides:
     test:
 
-  - title: "Практика: Полиномиальная регрессия" 
-    overview: ""
-    document:
-    youtube:
-    slides:
-    test:
+  # - title: "Практика: Полиномиальная регрессия" 
+  #   overview: ""
+  #   document:
+  #   youtube:
+  #   slides:
+  #   test:
 ---

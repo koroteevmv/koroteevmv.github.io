@@ -16,14 +16,14 @@ sections:
 
   - title: "Практика: Работа с numpy" 
     overview: ""
-    document: https://docs.google.com/document/d/1c6615vDBS2EOGftod8iYLnYRnnfNlVNXrXaSq68PA6E/edit?usp=sharing
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML0.1_numpy
     youtube:
     slides:
     test:
 
   - title: "Практика: Работа с pandas" 
     overview: ""
-    document: https://docs.google.com/document/d/15spqDUJhCeX2enNOhvPpTf0R5cr7cpvy-hLYKiUT5vw/edit?usp=sharing
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML0.2_pandas
     youtube:
     slides:
     test:

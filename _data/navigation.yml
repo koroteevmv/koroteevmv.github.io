@@ -132,33 +132,18 @@ ml:
         # url: /ml/textbook
   - title: Введение в машинное обучение
     url: /ml/0/0-intro/
-
-  - title: Основы обучения с учителем
-    children:
-    - title: Задача регрессии
-      url: /ml/1/1-regression/
-    - title: Классификация
-      url: /ml/1/2-classification/
-    - title: Метрики качества и диагностика
-      url: /ml/1/3-metrics/
-    - title: Предобработка данных
-      url: /ml/1/4-preprocessing/
-
-  - title: Задачи обучения без учителя
-    children:
-    - title: Задача кластеризации
-      url: /ml/2/1-clustering/
-    - title: Понижение размерности
-      url: /ml/2/2-reduction/
-    - title: Обнаружение аномалий
-      url: /ml/2/3-anomalies/
-#    - title: Рекомендательные системы
-#      url: /ml/2/4-recommenders/
-
-  - title: Дополнительные главы
-    children:
-    - title: Ансамблевые модели
-      url: /ml/3/1-ensembles/
+  - title: Задача регрессии
+    url: /ml/1/1-regression/
+  - title: Классификация
+    url: /ml/1/2-classification/
+  - title: Метрики качества и диагностика
+    url: /ml/1/4-metrics/
+  - title: Предобработка данных
+    url: /ml/1/5-preprocessing/
+  - title: Методы обучения без учителя
+    url: /ml/1/6-unsupervised/
+  - title: Практическое применение
+    url: /ml/1/7-ensembles/
 
 
 wd:

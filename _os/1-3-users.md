@@ -8,7 +8,7 @@ sections:
     overview: "В этой лекции вы узнаете, как устроена система разделения прав доступа в Linux, а также зачем нужен суперпользователь и как отслеживать и изменять права доступа к файлам и папкам." # Пояснительный текст
     document: # ссылка на методические указания
     youtube: # Видеозапись занятия
-    slides: https://docs.google.com/presentation/d/1jn_K0GBSDaeC_7XxNrj8-ljZElWHaXxIqJyiyBdJmls/edit?usp=sharing # ссылка на презентацию к занятию
+    slides: /pres/os13-0/
     textbook: # ссылка на главу из учебника
     additional: # ссылки на дополнительные материалы
     test: https://campus.fa.ru/mod/quiz/view.php?id=82138
