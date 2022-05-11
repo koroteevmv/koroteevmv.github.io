@@ -209,6 +209,8 @@ $$ b_1 := b_1 - \alpha \frac{1}{m} \sum_{i=1}^{m} (h_b(x)^{(i)} - y^{(i)}) \cdot
 
 ### Линейная регрессия с несколькими переменными
 
+#### Множественная линейная регрессия
+
 ![Множественная регрессия](/assets/images/ml_text/ml1-9.png "Множественная регрессия"){: .align-center style="width: 800px;"}
 {: style="text-align: center; font-size:0.7em;"}
 
@@ -397,15 +399,119 @@ $$ b = (X^T X)^{-1} X^T y $$
 Однако, у него есть и недостатки:
 
 1. Имеет асимптотику O(n<sup>3</sup>) по сравнению с O(n<sup>2</sup>) у градиентного спуска. Поэтому довольно медленно работает при больших n.
-2. Требует вычисления обратной матрицы. В некоторых случаях матрица $X^T X$ может быть вырожденной, что затруднит использование нормального уравнения.
+2. Требует вычисления обратной матрицы. В некоторых случаях матрица $X^T X$ может быть вырожденной, что затруднит использование нормального уравнения. -->
 
 
 ### Применение регрессионных моделей
 
 #### Как должны быть представлены данные для машинного обучения?
 
+```py
+import numpy as np
+import pandas as pd
+
+x = pd.read_csv('x.csv', index_col=0)
+x = np.array([1.46, 1.13, -2.30, 1.74, 0.04, 
+    -0.61, 0.32, -0.76, 0.58, -1.10, 
+     0.87, 1.62, -0.53, -0.25, -1.07, 
+    -0.38, -0.17, -0.32, -2.06, -0.88, ])
+
+y = pd.read_csv('y.csv', index_col=0)
+y = np.array([101.16, 78.44, -159.24, 120.72, 2.92, 
+    -42.33, 22.07, -52.67, 40.32, -76.10, 
+     59.88, 112.38, -36.54, -17.25, -74.24, 
+    -26.57, -11.93, -22.31, -142.54, -60.74,])
+
+plt.figure()
+plt.scatter(x, y)
+plt.show()
+```
+
+![Данные для регрессии](/assets/images/ml_text/ml1-11.png "Данные для регрессии"){: .align-center style="width: 800px;"}
+{: style="text-align: center; font-size:0.7em;"}
+
 #### Как работает метод машинного обучения "на пальцах"?
+
+```py
+class hypothesis(object):
+    """Модель парной линейной регрессии"""
+    def __init__(self):
+        self.b0 = 0
+        self.b1 = 0
+    def predict(self, x):
+        return self.b0 + self.b1 * x
+    def error(self, X, Y):    
+        return sum((self.predict(X) - Y)**2) / (2 * len(X)) 
+    def BGD(self, X, Y):  
+        alpha = 0.1
+        dJ0 = sum(self.predict(X) - Y) /len(X)
+        dJ1 = sum((self.predict(X) - Y) * X) /len(X)
+        self.b0 -= alpha * dJ0
+        self.b1 -= alpha * dJ1
+
+hyp = hypothesis()
+print(hyp.predict(0))
+print(hyp.predict(100))
+J = hyp.error(x, y)
+print("initial error:", J)
+hyp.BGD(x, y)
+J = hyp.error(x, y)
+print("error after gradient descent:", J)
+```
+
+#### Как оценить качество регрессионной модели?
+
+```py
+    def BGD(self, X, Y, alpha=0.1, accuracy=0.01, max_steps=1000):
+        steps, errors = [], []
+        step = 0        
+        old_err = hyp.error(X, Y)
+        new_err = hyp.error(X, Y) - 1
+        dJ = 1
+        while (dJ > accuracy) and (step < max_steps):
+            dJ0 = sum(self.predict(X) - Y) /len(X)
+            dJ1 = sum((self.predict(X) - Y) * X) /len(X)
+            self.b0 -= alpha * dJ0
+            self.b1 -= alpha * dJ1            
+            old_err = new_err
+            new_err = hyp.error(X, Y)
+            dJ = abs(old_err - new_err) 
+            step += 1            
+            steps.append(step)
+            errors.append(new_err)
+        return steps, errors
+```
+
+![Обученная регрессия](/assets/images/ml_text/ml1-12.png "Обученная регрессия"){: .align-center style="width: 800px;"}
+{: style="text-align: center; font-size:0.7em;"}
+
+![Прогресс обучения](/assets/images/ml_text/ml1-13.png "Прогресс обучения"){: .align-center style="width: 800px;"}
+{: style="text-align: center; font-size:0.7em;"}
+
 
 #### Как применять регрессию с использованием scikit-learn?
 
-#### Как оценить качество регрессионной модели? -->
+```py
+from sklearn import linear_model
+
+x = x.reshape((-1, 1))
+
+reg = linear_model.LinearRegression()
+reg.fit(x, y)
+print(reg.score(x, y))
+
+from sklearn.metrics import mean_squared_error, r2_score
+
+y_pred = reg.predict(x)
+print("Коэффициенты: \n", reg.coef_)
+print("Среднеквадратичная ошибка: %.2f" % mean_squared_error(y, y_pred))
+print("Коэффициент детерминации: %.2f" % r2_score(y, y_pred))
+
+plt.figure(figsize=(12, 9))
+plt.scatter(x, y, color="black")
+plt.plot(x, y_pred, color="blue", linewidth=3)
+plt.show()
+```
+
+![Библиотечная регрессия](/assets/images/ml_text/ml1-14.png "Библиотечная регрессия"){: .align-center style="width: 800px;"}
+{: style="text-align: center; font-size:0.7em;"}
