@@ -134,6 +134,9 @@ $$ z = \inf \rightarrow h_\theta (x) = 1 $$
 
 #### Функция ошибки логистической регрессии
 
+![Функция ошибки](/assets/images/ml_text/ml2-5.png "Функция ошибки"){: .align-center style="width: 800px;"}
+{: style="text-align: center; font-size:0.7em;"}
+
 Мы не можем использовать ту же самую функцию ошибки, которую мы используем для линейной регрессии, потому что логистическая функция породит немонотонную производную, имеющую множество локальных оптимумов. Другими словами, это не будет выпуклая функция.
 
 Вместо этого наша функция стоимости для логистической регрессии выглядит так:
@@ -178,7 +181,7 @@ $$ J(\theta) = -\frac{1}{m} \sum_{i-1}^{m} y \cdot log(h_\theta(x)) + (1 - y)(1 
 Теперь мы готовы найти полученную частную производную:
 
 {% capture block %}
-$$ \frac{\partial}{\partial \theta_i} = \frac{1}{m} \sum_{i=1}^{m} (h_\theta (x) -y)x_i $$
+$$ \frac{\partial}{\partial \theta_i} J(\theta) = \frac{1}{m} \sum_{i=1}^{m} (h_\theta (x) -y)x_i $$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>
 
