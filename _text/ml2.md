@@ -6,8 +6,8 @@ title: "Классификация как задача машинного обу
 ### Что такое классификация в машинном обучении?
 
 
-![classification](https://static.commonlounge.com/fp/original/zFLIFoonPPTXwNNJXCl09LILU1520492069_kc "classification"){: .align-center style="width: 600px;"}
-Источник: [CommonLounge](https://www.commonlounge.com/discussion/6caf49570d9c4d0789afbc544b32cdbf).
+![classification](https://production-media.paperswithcode.com/tasks/classification-algorithm-in-machine-learning_ta1IkVQ.png "classification"){: .align-center style="width: 600px;"}
+Источник: [Papers with code](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpaperswithcode.com%2Ftask%2Fclassification&psig=AOvVaw0l7A1DkviKQ8seWu7fktWH&ust=1652360072615000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPDo4ZG_1_cCFQAAAAAdAAAAABAZ).
 {: style="text-align: center; font-size:0.7em;"}
 
 {% capture notice-2 %}
@@ -20,7 +20,6 @@ title: "Классификация как задача машинного обу
 1. Почти любую практическую задачу машинного обучения можно сформулировать как задачу классификации.
 {% endcapture %}
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
-
 
 ### Как определяется задача классификации?
 
@@ -35,7 +34,7 @@ title: "Классификация как задача машинного обу
 {% capture notice-2 %}
 Выводы:
 1. На вход модели классификации подается вектор признаков объекта.
-1. На выходе модель классификации предсказывает одно из конечного набора значений - метка класса объекта.
+1. На выходе модель классификации предсказывает одно из конечного набора значений - метку класса объекта.
 1. Мы часто будем изображать классификацию на графике, но имейте в виду, что на практике это обычно многомерная задача.
 1. Обычно сначала рассматривается бинарная классификация, остальные типы строятся на ее основе. 
 {% endcapture %}
@@ -56,8 +55,8 @@ title: "Классификация как задача машинного обу
 
 Такой подход, в принципе имеет право на существование. Но есть один существенный недостаток: нам придется подгонять порог под наши исходные данные. 
 
-![regression 4 classification](https://scikit-learn.org/stable/_images/sphx_glr_plot_logistic_thumb.png "regression 4 classification"){: .align-center style="width: 500px;"}
-Источник: [Scikit-learn](https://www.google.com/url?sa=i&url=http%3A%2F%2Fscikit-learn.org%2Fstable%2Fmodules%2Fgenerated%2Fsklearn.linear_model.LogisticRegression.html&psig=AOvVaw25bUtmwo2_U65MI7QVCupr&ust=1647350393254000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKD8rcvYxfYCFQAAAAAdAAAAABAJ).
+![regression 4 classification](https://datascienceunwind.files.wordpress.com/2019/09/logistic-reg2.png "regression 4 classification"){: .align-center style="width: 500px;"}
+Источник: [GMC India](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.gmcindia.in%2Fperuse.aspx%3Fcname%3Dlogistic%2Bregression%2Btitanic%2Bpython%26cid%3D23&psig=AOvVaw3CVtMk6ZZYuC_SgQQQpLo4&ust=1652360261367000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIiPm-m_1_cCFQAAAAAdAAAAABAO).
 {: style="text-align: center; font-size:0.7em;"}
 
 Предположим, что данные сместились, как на графике. Тогда нам нужно брать другое пороговое значение. Это очень неудобно и ненадежно. И происходит потому, что регрессионные функции как правило неограничены. Но идея использовать регрессию здравая. Надо только преобразовать нашу функцию таким образом, чтобы вместо области значений $ y \in (-\inf, \inf) $ она имела, скажем, $ y \in [0, 1] $.
@@ -83,6 +82,9 @@ $$ h\theta (x) = P(y=1 \vert x, \theta) = 1 - P(y=0 \vert x, \theta) $$
 1. Можно взять регрессионную модель и ввести пороговое значение.
 1. Обычная регрессия плохо работает в задачах классификации за счет своей чувствительности и неограниченности.
 1. Метод логистической регрессии основан на применении логистической или сигмоидной функции.
+1. Логистическая регрессия - это линейная модель.
+1. Результат работы логичтической функции часто интерпретируется как вероятность отнесения объекта к положительному классу.
+1. Для четкой классификации обычно выбирают некоторое пороговое значение, обычно - 0,5.
 {% endcapture %}
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
@@ -125,12 +127,12 @@ $$ z = \inf \rightarrow h_\theta (x) = 1 $$
 2. Форма границы принятия решения определяется видом используемой модели.
 3. Данные бывают линейно разделимые или нет.
 4. Логистическая регрессия - это линейный метод, поэтому она хорошо работает с линейно разделимыми данными.
-5. Если данные линейно неразделимы можно попробовать ввести  в модель полиномиальные признаки.
+5. Если данные линейно неразделимы можно попробовать ввести в модель полиномиальные признаки.
 {% endcapture %}
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
 
-#### Функция ошибки
+#### Функция ошибки логистической регрессии
 
 Мы не можем использовать ту же самую функцию ошибки, которую мы используем для линейной регрессии, потому что логистическая функция породит немонотонную производную, имеющую множество локальных оптимумов. Другими словами, это не будет выпуклая функция.
 
@@ -140,9 +142,12 @@ $$ J(\theta) = \frac{1}{m} \sum_{i-1}^{m} Cost(h_\theta(x), y) $$
 
 где 
 
+{% capture block %}
 $$ Cost(h_\theta(x), y) = -log(h_\theta(x)) \vert y=1 $$
 
 $$ Cost(h_\theta(x), y) = -log(1 - h_\theta(x)) \vert y=0 $$
+{% endcapture %}
+<div class="presentation">{{ block | markdownify }}</div>
 
 Чем больше наша гипотеза отклоняется от y, тем больше получающая функция ошибки. Если наша гипотеза равна y, то наша стоимость равна 0.
 Если наш правильный ответ y равен 0, тогда функция стоимости будет равна 0, если наша функция гипотезы также выдает 0. Если наша гипотеза приближается к 1, то функция стоимости будет приближаться к бесконечности.
@@ -152,21 +157,30 @@ $$ Cost(h_\theta(x), y) = -log(1 - h_\theta(x)) \vert y=0 $$
 Заметим, что запись функции стоимости таким образом гарантирует, что J(b) выпукла для логистической регрессии.
 
 
-#### Градиентный спуск
+#### Градиентный спуск для логистической регрессии
 
 Мы можем сжать два условных случая функции стоимости в один случай:
 
+{% capture block %}
 $$ Cost(h_\theta(x), y) = - y \cdot log(h_\theta(x)) - (1 - y)(1 - log(h_\theta(x))) $$
+{% endcapture %}
+<div class="presentation">{{ block | markdownify }}</div>
 
 Обратите внимание, что когда y равно 1, то второй член будет равен нулю и не повлияет на результат. Если y равно 0, то первый член будет равен нулю и не повлияет на результат.
 
 Мы можем полностью выписать всю нашу функцию затрат следующим образом:
 
+{% capture block %}
 $$ J(\theta) = -\frac{1}{m} \sum_{i-1}^{m} y \cdot log(h_\theta(x)) + (1 - y)(1 - log(h_\theta(x))) $$
+{% endcapture %}
+<div class="presentation">{{ block | markdownify }}</div>
 
 Теперь мы готовы найти полученную частную производную:
 
+{% capture block %}
 $$ \frac{\partial}{\partial \theta_i} = \frac{1}{m} \sum_{i=1}^{m} (h_\theta (x) -y)x_i $$
+{% endcapture %}
+<div class="presentation">{{ block | markdownify }}</div>
 
 Обратите внимание, что мы получили точно такое же выражение, что и в случае с линейной регрессией. Также у нас выражение для частной производной выражено через функцию гипотезы. И опять же это не случайно. Так мы получаем, что алгоритм градиентного спуска полностью аналогичен для логистической и для линейной регрессии.
 
@@ -176,11 +190,12 @@ $$ \theta_i := \theta_i -\alpha \frac{\partial}{\partial \theta_i} J(\theta) $$
 
 Подставляя частную производную получаем следующее выражение:
 
+{% capture block %}
 $$ \theta_i := \theta_i - \frac{\alpha}{m} \sum_{i=1}^{m} (h_\theta (x) -y)x_i $$
+{% endcapture %}
+<div class="presentation">{{ block | markdownify }}</div>
 
 Обратите внимание, что этот алгоритм идентичен тому, который мы использовали в линейной регрессии. Мы все также должны одновременно обновлять все значения $\theta$ одновременно.
-
-### Практическое применение классификации
 
 #### Многоклассовая классификация: один против всех
 
@@ -204,13 +219,93 @@ $$ h_\theta^{(n)} = P(y=n \vert x, \theta); $$
 
 Данный метод называется "один против всех" (one vs all или one vs rest). Надо отметить, что во вех современных программных инструментах для машинного обучения, он уже реализован и встроен в существующие методы классификации, так что разработчику не придется программировать его специально.
 
-#### Как построить простую классификацию в scikit-learn?
+### Практическое построение классификации
+
+#### Как подготовить данные для классификации?
+
+```py
+from sklearn.datasets import make_classification
+X, Y = make_classification( n_features=2, n_redundant=0, 
+    n_informative=2, n_samples=20,
+    n_clusters_per_class=1, random_state=7,
+)
+plt.figure(figsize=(12, 9))
+plt.scatter(X[:, 0], X[:, 1], marker="o", c=Y, s=25, edgecolor="k")
+plt.show()
+
+X = X.T
+```
+
+![Данные для классификации](/assets/images/ml_text/ml2-1.png "Данные для классификации"){: .align-center style="width: 800px;"}
+{: style="text-align: center; font-size:0.7em;"}
+
+#### Как реализовать логистическую регрессию?
+
+```py
+class hypothesis(object):
+    """Модель логистической регрессии"""
+    def __init__(self):
+        self.b0 = 0
+        self.b1 = 0
+        self.b2 = 1
+    def predict(self, x):
+        x1, x2 = x
+        z = self.b0 + self.b1 * x1 + self.b2 * x2
+        return 1 / (1 + np.exp(-z))
+    def error(self, X, Y):
+        return -sum(Y * np.log2(self.predict(X)) + (1 - Y) *(1 - np.log2(self.predict(X)))) / len(X[0])
+    def BGD(self, X, Y):  
+        alpha = 0.5
+        for _ in range(1000):
+          dJ0 = sum(self.predict(X) - Y) /len(X)
+          dJ1 = sum((self.predict(X) - Y) * X[0]) /len(X[0])
+          dJ2 = sum((self.predict(X) - Y) * X[1]) /len(X[0])
+          self.b0 -= alpha * dJ0
+          self.b1 -= alpha * dJ1
+          self.b2 -= alpha * dJ2
+```
 
 #### Как оценить качество классификационной модели?
 
-#### Как работать со сложными типами данных?
+```py
+hyp = hypothesis()
+print(hyp.predict((0, 0)))
+J = hyp.error(X, Y)
+print("initial error:", J)
+hyp.BGD(X, Y)
+J = hyp.error(X, Y)
+print("error after gradient descent:", J)
 
-### Более сложные методы классификации
+xx, yy = np.meshgrid(np.arange(-2, 3, 0.1), np.arange(-3, 2, 0.1))
+Z = hyp.predict((xx, yy))
+Z = Z.reshape(xx.shape)
+plt.contourf(xx, yy, Z, alpha=0.4)
+plt.scatter(X.T[:, 0], X.T[:, 1], marker="o", c=Y, s=25, edgecolor="k")
+plt.show()
+```
+
+![Классификация](/assets/images/ml_text/ml2-2.png "Классификация"){: .align-center style="width: 800px;"}
+{: style="text-align: center; font-size:0.7em;"}
+
+![Классификация](/assets/images/ml_text/ml2-3.png "Классификация"){: .align-center style="width: 800px;"}
+{: style="text-align: center; font-size:0.7em;"}
+
+#### Как построить простую классификацию в scikit-learn?
+
+```py
+from sklearn import linear_model
+
+X = X.T
+
+reg = linear_model.LogisticRegression()
+reg.fit(X, Y)
+print(reg.score(X, Y))
+```
+
+![Библиотечная классификация](/assets/images/ml_text/ml2-4.png "Библиотечная классификация"){: .align-center style="width: 800px;"}
+{: style="text-align: center; font-size:0.7em;"}
+
+<!-- ### Более сложные методы классификации
 
 #### Метод опорных векторов
 
@@ -385,3 +480,4 @@ SVM будет отделять отрицательные и положител
 Выполняйте масштабирование признаков перед использованием гауссовского ядра.
 
 Не все функции подобия являются допустимыми ядрами. Они должны удовлетворять теореме Мерсера, которая гарантирует правильную работу оптимизаций пакета SVM и не расходится.
+ -->
