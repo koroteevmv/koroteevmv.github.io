@@ -7,7 +7,7 @@ sections:
   - title: "Лекция: Системы контроля версий - Git и GitHub"
     overview: "Полноценная разработка невозможна без использования систем контроля вресий. В данной лекции мы познакомимся с наиболее популярной СКВ. Мы узнаем основные понятия этот системы и попытаемся разобраться, зачем она вообще нужна разработчику."
     youtube: HZxQbtYhBYs # Видеозапись занятия
-    slides: https://docs.google.com/presentation/d/1uqYWOnkU0LZgMrJHivKrklqjPe8Z67RBkQOUHJeUFFk/edit?usp=sharing # ссылка на презентацию к занятию
+    slides: /pres/os32-0/
     document: https://docs.google.com/document/d/1adG4d1NmxaStrvhnSpt-X0qCW88byvXvJRUxy_bTXtE/edit?usp=sharing # ссылка на методические указания
     additional: 
       - title: "Справочник Pro Git"
