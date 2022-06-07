@@ -30,18 +30,22 @@ sections:
     textbook: # ссылка на главу из учебника
     test:
 
-  - title: "Практика: Контейнеры андроид элементов: LinearLayout" 
+  - title: "Практика: LinearLayout" 
     youtube: s4T0QDe6Ie8
 
-  - title: "Практика: Контейнеры андроид элементов: RelativeLayout" 
+  - title: "Практика: RelativeLayout" 
     youtube: rFhjGmLvTzc
 
-  - title: "Практика: Контейнеры андроид элементов: TableLayout" 
+  - title: "Практика: TableLayout" 
     youtube: VuNcCZ7JGKc
 
-  - title: "Практика: Контейнеры андроид элементов: ConstraintLayout" 
+  - title: "Практика: ConstraintLayout" 
     youtube: v5VwDmxxcik
 
-  - title: "Практика: Контейнеры андроид элементов: WebView" 
+  - title: "Практика: WebView" 
     youtube: TQGJO_JDUh0
+
+  - title: "Практика: Работа с ресурсами" 
+
+  - title: "Практика: Стили и темы" 
 ---

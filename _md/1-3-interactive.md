@@ -14,11 +14,20 @@ sections:
     textbook: # ссылка на главу из учебника
     test:
 
-  - title: "Практика: Создание контекстного меню" 
+  - title: "Практика: Главное меню" 
+    youtube: 3pGbaWf9lt8
+
+  - title: "Практика: Контекстное меню" 
     overview: "В этой работе мы научимся создавать и использовать контекстное меню на отдельных элементах приложения"
     document: https://drive.google.com/open?id=1Eoot6nUlr17mcksjWcZE3dDZoIYMXdqy-cz891RMCtc
-    youtube: 
+    youtube: 2Bsn6jJcsCg
     slides: 
     textbook: # ссылка на главу из учебника
     test:
+
+  - title: "Практика: Всплывающее меню" 
+    youtube: 0qbGA7zliac
+
+  - title: "Практика: ListView" 
+    youtube: UlcGSP4OpO8
 ---

@@ -18,6 +18,7 @@ sections:
     youtube: TObESO3SZR4
 
   - title: "Практика: Обработка нескольких событий"
+    youtube: Rr8DOanMPj8
 
   - title: "Практика: Кликер" 
     overview: "В этой работе мы познакомимся с основными элементами управления приложения и научиться их использовать согласно логике приложения."
@@ -31,26 +32,41 @@ sections:
   - title: "Практика: Угадай число" 
     overview: "В этой работе мы разработаем простое приложение, помогающее понять структуру приложения, освоить основные операторы, привыкнуть к среде разработки."
     document: https://drive.google.com/open?id=1vFXCZSOrgFg21WeVGqjNhECYzWNWkQE36jgDBgK-Y8s
-    youtube: 
+    youtube: Py6ai_AI0JU
     slides: 
     textbook: # ссылка на главу из учебника
     test:
+
+  - title: "Практика: Простой калькулятор" 
+    youtube: ur63IBa4rwg
 
   - title: "Практика: Второе окно" 
     overview: "В этом занятии мы познакомимся со способом создания и запуска второго окна в составе мобильного приложения."
     document: https://drive.google.com/open?id=1a_u1b-DL4SJdhIB-p_58ExwtN6Sk1HEaO2RVt4Q2dtg
-    youtube: 
+    youtube: V_zg5KNxP48
     slides: 
     textbook: # ссылка на главу из учебника
     test:
 
+  - title: "Практика: Жизненный цикл активности" 
+    youtube: SnlEPgtjSf4
+
   - title: "Практика: Фильтры намерений" 
     overview: "В этом занятии мы научимся использовать неявный вызов активности и создавать свои фильтры намерений (intent filters) для запуска независимых компонентов приложения."
     document: https://docs.google.com/document/d/13_9IJRAu5jOpYTIF2cCsYY8A9-rc1t-mHCWBZ0Zb00Q/edit?usp=sharing
-    youtube: 
+    youtube: f9qb2EFotb8
     slides: 
     textbook: # ссылка на главу из учебника
     test:
+
+  - title: "Практика: Возврат результата" 
+    youtube: fVqwsoTCoUU
+
+  - title: "Практика: Использование системных активностей" 
+    youtube: EK1m0O0UEQw
+
+  - title: "Практика: Работа с действием Send" 
+    youtube: xUCXJmnBToM
 
   - title: "Практика: Работа с изображениями" 
     overview: "В этом занятии мы научимся использовать графические изображения в качестве элементов визуального интерфейса мобильного приложения."
