@@ -58,32 +58,24 @@ os:
         url: /os/2/3-bash/
       - title: Средства обработки текста
         url: /os/2/4-text/
-  - title: "3. Linux для разработки"
+      - title: Настройка сети
+        url: /os/2/5-network/
+  - title: "3. Сетевое программирование"
     children:
       - title: Настройка окружения Python
         url: /os/3/0-environment/
-      - title: Работа с ОС в Python
-        url: /os/3/1-python-os/
-      - title: Настройка сети
-        url: /os/3/1-network/
       - title: Системы контроля версий
         url: /os/3/2-git/
       - title: Использование сокетов
         url: /os/3/3-sockets/
       - title: Асинхронное программирование
         url: /os/3/4-threading/
-  - title: "4. Сетевые службы"
-    children:
-     - title: Основы веб технологий
-       url: /os/4/0-web/
-     - title: Безопасность в сетях
-       url: /os/4/1-tls/
-     - title: Веб-сервер
-       url: /os/4/2-web-server/
-     - title: FTP-сервер
-       url: /os/4/3-ftp-server/
-     - title: Развертывание приложений
-       url: /os/4/5-deploy/
+      - title: Безопасность в сетях
+        url: /os/4/1-tls/
+      - title: Веб-служба
+        url: /os/4/2-web-server/
+      - title: Развертывание приложений
+        url: /os/4/5-deploy/
 
 md:
   - title: Содержание курса

@@ -24,12 +24,20 @@ sections:
     slides: # ссылка на презентацию к занятию
     document: https://github.com/fa-python-network/8_Assymmetric_ciphers
     additional: # 
+    additional: # 
 
-  - title: "Практика: SSL-сертификаты" # Название работы
+  - title: "Практика: Протокол рукопожатия" # Название работы
     overview: ""
     youtube: # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
-    document:  # ссылка на методические указания
+    document: # https://github.com/fa-python-network/8_Assymmetric_ciphers
     additional: # 
+
+  # - title: "Практика: SSL-сертификаты" # Название работы
+  #   overview: ""
+  #   youtube: # Видеозапись занятия
+  #   slides: # ссылка на презентацию к занятию
+  #   document:  # ссылка на методические указания
+  #   additional: # 
 ---
 
