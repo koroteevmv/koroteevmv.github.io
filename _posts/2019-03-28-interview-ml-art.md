@@ -3,7 +3,7 @@ title: "Машинное обучение – это искусство"
 categories:
   - talks
 tags:
-  - inderview
+  - interview
   - findata
 header:
   teaser: /assets/images/avatars/avatar4.jpg

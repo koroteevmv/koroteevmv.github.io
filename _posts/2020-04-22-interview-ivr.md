@@ -3,7 +3,7 @@ title: "IVR – это паллиативное решение"
 categories:
   - talks
 tags:
-  - inderview
+  - interview
   - findata
 header:
   teaser: /assets/images/avatars/avatar3.jpg
