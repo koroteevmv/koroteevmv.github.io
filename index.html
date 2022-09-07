@@ -104,6 +104,12 @@ feature_row_courses:
 <a href='/talks'><button href='#' class='btn btn-primary'> Выступления </button></a>
 <!-- <a href='/cv'><button href='#' class='btn btn-primary'> Резюме </button></a> -->
 
+<h2>Последние публикации</h2>
+
+{% for post in site.posts limit:5 %}
+  {% include archive-single-tags.html %}
+{% endfor %}
+
 <h2>Мои курсы</h2>
 
 {% include  feature_row id="feature_row_courses" %}
@@ -124,10 +130,3 @@ feature_row_courses:
 	<li>Математическое моделирование экономических процессов</li>
 	<li>ИТ образование и разработка профильных курсов</li>
 </ul>
-
-<h2>Последние публикации</h2>
-
-{% for post in site.posts limit:10 %}
-  <h2></h2>
-  {% include archive-single-tags.html %}
-{% endfor %}
