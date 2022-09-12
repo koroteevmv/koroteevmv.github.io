@@ -1,7 +1,7 @@
 ---
 collection: md
 permalink: /md/2/1-mobile-first/
-title: "CD1 Адаптация веб-сайтов для мобильных устройств"
+title: "CD0 Адаптация веб-сайтов для мобильных устройств"
 excerpt: ""
 
 sections:
