@@ -28,16 +28,16 @@ sections:
     slides:
     test:
 
-  # - title: "Практика: Работа с matplotlib" 
-  #   overview: ""
-  #   document:
-  #   youtube:
-  #   slides:
-  #   test:
-
   - title: "Практика: Простой анализ данных" 
     overview: ""
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML0.1_numpy
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML0.3_analysis
+    youtube:
+    slides:
+    test:
+
+  - title: "Практика: Работа с matplotlib" 
+    overview: ""
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML0.4_matplotlib
     youtube:
     slides:
     test:
