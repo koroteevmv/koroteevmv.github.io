@@ -14,13 +14,22 @@ sections:
     textbook: # ссылка на главу из учебника
     test: https://docs.google.com/forms/d/e/1FAIpQLSccJOlT0tiM2ZYrXseHF9L4tKYIyvNrZYzaUa8GjAJ5BapzCw/viewform
 
+  - title: "Практика: Создание фонового потока" 
+    youtube: lwTePPpVf-k
+
+  - title: "Практика: Управление интерфейсом через Handler" 
+    youtube: OqsJInROJOk
+
   - title: "Практика: Жизненный цикл сервиса" 
     overview: "В этой работе мы познакомимся с с жизненным циклом связанного и свободного сервиса в ОС Android, увидеть на практике порядок вызова методов жизненного цикла."
     document: https://docs.google.com/document/d/1Zf_mqdHIHmpHc7L9jZTrYLdmzLhGJhbNjt_BbR8gDk8/edit?usp=sharing
-    youtube: 
+    youtube: LWQeNGNT_Fw
     slides: 
     textbook: # ссылка на главу из учебника
     test: 
+
+  - title: "Практика: Возврат данных через Pending Intent" 
+    youtube: MO-9VbPsCmk
 
   - title: "Практика: Работа с уведомлениями" 
     overview: "В этой работе мы познакомимся с приемами работы с уведомлениями, из связи с сервисами и отложенными намерениями."

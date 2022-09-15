@@ -13,7 +13,7 @@ sections:
 
   - title: "Практика: Установка Apache" # Название работы
     overview: ""
-    youtube: # Видеозапись занятия
+    youtube: wdMx35irNKE
     slides: # ссылка на презентацию к занятию
     document: https://docs.google.com/document/d/1yWW0frd1MdW0onBCcwQYSQk_NZWtkNSQ_f9uzCEbA0Q/edit?usp=sharing # ссылка на методические указания
     additional: # 
