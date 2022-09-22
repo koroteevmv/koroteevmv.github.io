@@ -10,7 +10,7 @@ sections:
     overview: ""
     document: https://docs.google.com/document/d/109cbi22vJoh_KCpNc61Rg5WhwLP06j8dqd307aqeIFw/edit?usp=sharing
     youtube:
-    slides: https://docs.google.com/presentation/d/1QCSbS4B_oE6xz0RVi5uTkKc_u9lHyeZpdKD8U0D1Tkc/edit?usp=sharing
+    slides: /pres/ml1/
     test:
     textbook: # /text/ml1/
 

@@ -12,7 +12,7 @@ sections:
     youtube:
     slides: /pres/ml0/
     test: https://docs.google.com/forms/d/e/1FAIpQLSe-ITK3OXO500ick1DNDByVAo2hifNryFBJUt59Kr51RL49ew/viewform
-    textbook: /text/ml0/
+    # textbook: /text/ml0/
 
   - title: "Практика: Работа с numpy" 
     overview: ""
