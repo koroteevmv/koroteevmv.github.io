@@ -27,6 +27,13 @@ title: "Классификация как задача машинного обу
 
 Функция гипотезы в таком случае будет иметь точно такой же вид:$ y = h_\theta (x) $. Существенное отличие в том, что целевая переменная $y$ будет принимать одно из конечного множества значений: $ y \in \lbrace y_1, y_2, y_k \rbrace $, где $k$ - это количество классов.
 
+{% capture block %}
+$$ {(x_1, c_1), (x_2, c_2), (x_3, c_3), ...,  (x_m, c_m)} $$
+
+$$ c_i \in {1, 2, 3, ..., k} $$
+{% endcapture %}
+<div class="presentation">{{ block | markdownify }}</div>
+
 В дальнейшем для лучшего интуитивного понимания задач и алгоритмов классификации мы будем изображать объекты из датасета в виде точек на двумерном графике. А цвет или форма точек будут показывать, какому классу они относятся. Это хорошее визуальное представление. Но следует помнить, что на практике входной вектор может иметь сколько угодно измерений. То есть в датасете может быть сколько угодно признаков у каждого объекта. Тысяча или миллион признаков невозможно изобразить на графике, но это вполне реальный случай. 
 
 Как мы уже говорили, классов тоже может быть произвольное количество. Но мы в основном будем рассматривать именно бинарную классификацию. Более сложные модели множественной или мультиклассовой классификации все равно строятся на основе бинарной. И на этих алгоритмах мы тоже остановимся. В такой формулировке мы будем предполагать, что $ y \in \lbrace 0, 1 \rbrace $, где 0 обычно принимается как «отрицательный класс» и 1 как «положительный класс», но вы можете назначить этим значениям любое представление. 
@@ -43,38 +50,52 @@ title: "Классификация как задача машинного обу
 
 ### Логистическая регрессия
 
-![logistic regression](https://miro.medium.com/max/725/0*tLu8lvAEomHZm2YK.png "logistic regression"){: .align-center style="width: 800px;"}
-Источник: [Medium](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40mvanshika25%2Flogistic-regression-ee47cc89345f&psig=AOvVaw25bUtmwo2_U65MI7QVCupr&ust=1647350393254000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKD8rcvYxfYCFQAAAAAdAAAAABAD).
-{: style="text-align: center; font-size:0.7em;"}
-
 Одним из самых простых и распространенных алгоритмов классификации является логистическая регрессия. Пусть название «логистическая регрессия» не вводит в заблуждение. Метод назван таким образом по историческим причинам и на самом деле является подходом к проблемам классификации, а не регрессионным проблемам.
 
+{% capture block %}
+$y = \lbrace 0, 1 \rbrace$
+{% endcapture %}
+<div class="presentation">{{ block | markdownify }}</div>
+
 Почему мы не можем применить для классификации уже известные нам методы линейной регрессии? В самом деле, пусть модель предсказывает непрерывное значение, а мы будем его интерпретировать, как 0 или 1. 
+
+![Регрессия как классификация](/assets/images/ml_text/ml2-6.png "Регрессия как классификация"){: .align-center style="width: 50%;"}
 
 В этом подходе заключается проблема. Регрессионные модели по сути свое непрерывны и их значение может возрастать или убывать неограниченно. Предположим. что если модель выдает значение больше 0.5, мы предсказываем положительный класс, если меньше - то отрицательный. 
 
 Такой подход, в принципе имеет право на существование. Но есть один существенный недостаток: нам придется подгонять порог под наши исходные данные. 
 
-![regression 4 classification](https://datascienceunwind.files.wordpress.com/2019/09/logistic-reg2.png "regression 4 classification"){: .align-center style="width: 500px;"}
-Источник: [GMC India](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.gmcindia.in%2Fperuse.aspx%3Fcname%3Dlogistic%2Bregression%2Btitanic%2Bpython%26cid%3D23&psig=AOvVaw3CVtMk6ZZYuC_SgQQQpLo4&ust=1652360261367000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIiPm-m_1_cCFQAAAAAdAAAAABAO).
-{: style="text-align: center; font-size:0.7em;"}
+![Регрессия как классификация](/assets/images/ml_text/ml2-7.png "Регрессия как классификация"){: .align-center style="width: 80%;"}
 
 Предположим, что данные сместились, как на графике. Тогда нам нужно брать другое пороговое значение. Это очень неудобно и ненадежно. И происходит потому, что регрессионные функции как правило неограничены. Но идея использовать регрессию здравая. Надо только преобразовать нашу функцию таким образом, чтобы вместо области значений $ y \in (-\inf, \inf) $ она имела, скажем, $ y \in [0, 1] $.
 
 Это можно легко сделать, используя нелинейное преобразование. Например, так:
 
-$$ h_\theta (x) = \frac{1}{1 + e^{-z}} $$
+{% capture block %}
+$$ h_b (x) = \frac{1}{1 + e^{-z}} $$
 
-где $ z = \theta^T X $, то есть обычная линейная комбинация значений факторов и параметров. 
+где $ z = X \cdot \vec{b}$, 
+{% endcapture %}
+<div class="presentation">{{ block | markdownify }}</div>
+
+то есть обычная линейная комбинация значений факторов и параметров. 
+
+![logistic regression](https://miro.medium.com/max/725/0*tLu8lvAEomHZm2YK.png "logistic regression"){: .align-center style="width: 800px;"}
+Источник: [Medium](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40mvanshika25%2Flogistic-regression-ee47cc89345f&psig=AOvVaw25bUtmwo2_U65MI7QVCupr&ust=1647350393254000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKD8rcvYxfYCFQAAAAAdAAAAABAD).
+{: style="text-align: center; font-size:0.7em;"}
 
 В таком случае, значение функции гипотезы будет ограничено и асимптотически приближаться к 1 при неограниченном увеличении $z$ и приближаться к 0 при неограниченном уменьшении $z$. 
 
 В такой формулировке значение функции гипотезы $h_\theta (x)$ может быть проинтерпретировано как вероятность того, что данный объект принадлежит к положительному классу. Например, $h_\theta (x) = 0.7$ дает нам вероятность 70%, что наш выход равен 1. Другими словами, 
 
-$$ h\theta (x) = P(y=1 \vert x, \theta) = 1 - P(y=0 \vert x, \theta) $$
+$$ h_b(x) = P(y=1 \vert x, \vec{b}) = 1 - P(y=0 \vert x, \vec{b}) $$
 
 
 Наша вероятность того, что наше предсказание равна 0, является просто дополнением нашей вероятности того, что она равна 1 (например, если вероятность того, что она равна 1, равна 70%, то вероятность того, что она равна 0, равна 30%).
+
+![regression 4 classification](https://datascienceunwind.files.wordpress.com/2019/09/logistic-reg2.png "regression 4 classification"){: .align-center style="width: 500px;"}
+Источник: [GMC India](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.gmcindia.in%2Fperuse.aspx%3Fcname%3Dlogistic%2Bregression%2Btitanic%2Bpython%26cid%3D23&psig=AOvVaw3CVtMk6ZZYuC_SgQQQpLo4&ust=1652360261367000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIiPm-m_1_cCFQAAAAAdAAAAABAO).
+{: style="text-align: center; font-size:0.7em;"}
 
 {% capture notice-2 %}
 Выводы:
@@ -93,17 +114,17 @@ $$ h\theta (x) = P(y=1 \vert x, \theta) = 1 - P(y=0 \vert x, \theta) $$
 
 Чтобы получить нашу дискретную классификацию 0 или 1, мы можем перевести вывод функции гипотезы следующим образом:
 
-$$ h_\theta (x) \ge 0.5 \rightarrow y=1 $$
+$$ h_b (x) \ge 0.5 \rightarrow y=1 $$
 
-$$ h_\theta (x) \lt 0.5 \rightarrow y=0 $$
+$$ h_b (x) \lt 0.5 \rightarrow y=0 $$
 
 Логистическая функция g ведет себя таким образом, что когда ее вход больше или равен нулю, его выход больше или равен 0,5. Следует запомнить:
 
-$$ z = 0 \rightarrow h_\theta (x) = 0.5 $$
+$$ z = 0 \rightarrow h_b (x) = 0.5 $$
 
-$$ z = -\inf \rightarrow h_\theta (x) = 0 $$
+$$ z = -\inf \rightarrow h_b (x) = 0 $$
 
-$$ z = \inf \rightarrow h_\theta (x) = 1 $$
+$$ z = \inf \rightarrow h_b (x) = 1 $$
 
 Таим образом, область пространства признаков, где $z = 0$ формирует границу. Граница принятия решения - это линия, которая разделяет область, где y = 0 и где y = 1. Она создается нашей функцией гипотезы. Так как мы используем линейную функцию внутри логистической. Граница принятия решений такой модели всегда будет прямой линией, плоскостью или, в общем случае, гиперплоскостью.
 
@@ -134,21 +155,21 @@ $$ z = \inf \rightarrow h_\theta (x) = 1 $$
 
 #### Функция ошибки логистической регрессии
 
-![Функция ошибки](/assets/images/ml_text/ml2-5.png "Функция ошибки"){: .align-center style="width: 800px;"}
-{: style="text-align: center; font-size:0.7em;"}
-
 Мы не можем использовать ту же самую функцию ошибки, которую мы используем для линейной регрессии, потому что логистическая функция породит немонотонную производную, имеющую множество локальных оптимумов. Другими словами, это не будет выпуклая функция.
 
 Вместо этого наша функция стоимости для логистической регрессии выглядит так:
 
-$$ J(\theta) = \frac{1}{m} \sum_{i-1}^{m} Cost(h_\theta(x), y) $$
+{% capture block %}
+$$ J(\vec{b}) = \frac{1}{m} \sum_{i-1}^{m} Cost(h_b(x), y) $$
+{% endcapture %}
+<div class="presentation">{{ block | markdownify }}</div>
 
 где 
 
 {% capture block %}
-$$ Cost(h_\theta(x), y) = -log(h_\theta(x)) \vert y=1 $$
+$$ Cost(h_b(x), y) = -log(h_b(x)) \vert y=1 $$
 
-$$ Cost(h_\theta(x), y) = -log(1 - h_\theta(x)) \vert y=0 $$
+$$ Cost(h_b(x), y) = -log(1 - h_b(x)) \vert y=0 $$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>
 
@@ -156,6 +177,9 @@ $$ Cost(h_\theta(x), y) = -log(1 - h_\theta(x)) \vert y=0 $$
 Если наш правильный ответ y равен 0, тогда функция стоимости будет равна 0, если наша функция гипотезы также выдает 0. Если наша гипотеза приближается к 1, то функция стоимости будет приближаться к бесконечности.
 
 Если наш правильный ответ y равен 1, функция стоимости будет равна 0, если наша функция гипотезы выйдет 1. Если наша гипотеза приближается к 0, то функция стоимости приблизится к бесконечности.
+
+![Функция ошибки](/assets/images/ml_text/ml2-5.png "Функция ошибки"){: .align-center style="width: 800px;"}
+{: style="text-align: center; font-size:0.7em;"}
 
 Заметим, что запись функции стоимости таким образом гарантирует, что J(b) выпукла для логистической регрессии.
 
@@ -165,7 +189,7 @@ $$ Cost(h_\theta(x), y) = -log(1 - h_\theta(x)) \vert y=0 $$
 Мы можем сжать два условных случая функции стоимости в один случай:
 
 {% capture block %}
-$$ Cost(h_\theta(x), y) = - y \cdot log(h_\theta(x)) - (1 - y)(1 - log(h_\theta(x))) $$
+$$ Cost(h_b(x), y) = - y \cdot log(h_b(x)) - (1 - y)(1 - log(h_b(x))) $$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>
 
@@ -174,14 +198,14 @@ $$ Cost(h_\theta(x), y) = - y \cdot log(h_\theta(x)) - (1 - y)(1 - log(h_\theta(
 Мы можем полностью выписать всю нашу функцию затрат следующим образом:
 
 {% capture block %}
-$$ J(\theta) = -\frac{1}{m} \sum_{i-1}^{m} y \cdot log(h_\theta(x)) + (1 - y)(1 - log(h_\theta(x))) $$
+$$ J(\vec{b}) = -\frac{1}{m} \sum_{i-1}^{m} y_i \cdot log(h_b(x_i)) + (1 - y_i)(1 - log(h_b(x_i))) $$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>
 
 Теперь мы готовы найти полученную частную производную:
 
 {% capture block %}
-$$ \frac{\partial}{\partial \theta_i} J(\theta) = \frac{1}{m} \sum_{i=1}^{m} (h_\theta (x) -y)x_i $$
+$$ \frac{\partial}{\partial \theta_i} J(\vec{b}) = \frac{1}{m} \sum_{i=1}^{m} (h_b (x_i) -y_i) x_i $$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>
 
@@ -202,23 +226,34 @@ $$ \theta_i := \theta_i - \frac{\alpha}{m} \sum_{i=1}^{m} (h_\theta (x) -y)x_i $
 
 #### Многоклассовая классификация: один против всех
 
-Теперь мы рассмотрим классификацию данных более чем в двух категориях. Вместо $y = \lbrace 0, 1 \rbrace$ мы расширим наше определение так, чтобы $y = \lbrace 0,1 ... n \rbrace$.
+Теперь мы рассмотрим классификацию данных более чем в двух категориях. Вместо $y = \lbrace 0, 1 \rbrace$ мы расширим наше определение так, чтобы 
 
-![Multiclassification](https://miro.medium.com/max/700/1*4Ii3aorSLU50RV6V5xalzg.png "Multiclassification"){: .align-center style="width: 800px;"}
-Источник: [Medium](https://www.google.com/url?sa=i&url=https%3A%2F%2Fantonhaugen.medium.com%2Fintroducing-mllibs-one-vs-rest-classifier-402eeab22493&psig=AOvVaw1MR6k70nP2mdGdtR_eFmIh&ust=1647355347284000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIDI3oTrxfYCFQAAAAAdAAAAABAD).
+{% capture block %}
+$y = \lbrace 0,1 ... n \rbrace$.
+{% endcapture %}
+<div class="presentation">{{ block | markdownify }}</div>
+
+![Multiclassification](/assets/images/ml_text/ml2-8.png "Multiclassification"){: .align-center style="width: 800px;"}
 {: style="text-align: center; font-size:0.7em;"}
 
 В этом случае мы делим нашу задачу на $ n + 1 $ (потому что индекс начинается с 0) двоичных задач классификации. В каждом из них мы прогнозируем вероятность того, что $y$ является членом одного из наших классов.
 
-$$ h_\theta^{(0)} = P(y=0 \vert x, \theta); $$
+{% capture block %}
+$$ h_b^{(0)} = P(y=0 \vert x, \vec{b}); $$
 
-$$ h_\theta^{(1)} = P(y=1 \vert x, \theta); $$
+$$ h_b^{(1)} = P(y=1 \vert x, \vec{b}); $$
 
 $$ ... $$
 
-$$ h_\theta^{(n)} = P(y=n \vert x, \theta); $$
+$$ h_\b^{(n)} = P(y=n \vert x, \vec{b}); $$
+{% endcapture %}
+<div class="presentation">{{ block | markdownify }}</div>
 
 Таким образом мы выбираем один класс, а затем объединяем все остальные объекты в один второй класс. Мы делаем это неоднократно, применяя двоичную логистическую регрессию к каждому случаю, а затем используем гипотезу, которая вернула наивысшее значение в качестве нашего прогноза.
+
+![Multiclassification](https://miro.medium.com/max/700/1*4Ii3aorSLU50RV6V5xalzg.png "Multiclassification"){: .align-center style="width: 800px;"}
+Источник: [Medium](https://www.google.com/url?sa=i&url=https%3A%2F%2Fantonhaugen.medium.com%2Fintroducing-mllibs-one-vs-rest-classifier-402eeab22493&psig=AOvVaw1MR6k70nP2mdGdtR_eFmIh&ust=1647355347284000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIDI3oTrxfYCFQAAAAAdAAAAABAD).
+{: style="text-align: center; font-size:0.7em;"}
 
 Данный метод называется "один против всех" (one vs all или one vs rest). Надо отметить, что во вех современных программных инструментах для машинного обучения, он уже реализован и встроен в существующие методы классификации, так что разработчику не придется программировать его специально.
 
