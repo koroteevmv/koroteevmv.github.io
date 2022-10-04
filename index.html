@@ -107,7 +107,12 @@ feature_row_courses:
 <h2>Последние публикации</h2>
 
 {% for post in site.posts limit:5 %}
+
+  {% capture year %}{{ post.date | date: '%d %b %Y' }}{% endcapture %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
   {% include archive-single-tags.html %}
+  <p><br></p>
+
 {% endfor %}
 
 <h2>Мои курсы</h2>
