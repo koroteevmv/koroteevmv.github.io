@@ -11,7 +11,7 @@ sections:
     youtube: QjYEkVXH4t4 # Видеозапись занятия
     slides: /pres/os11-0/
     additional: # 
-    textbook: /text/os11-0/
+    textbook: # /text/os11-0/
     test: https://campus.fa.ru/mod/quiz/view.php?id=82013
 
   - title: "Практика: 10 основных команд" # Навзвание работы
@@ -37,7 +37,7 @@ sections:
     document: # https://drive.google.com/open?id=1Dima-0RuvXL5AKK2NDTbpFnqcMuc-mL3TaXFWe_hlYw
     youtube: # Видеозапись занятия
     slides: /pres/os11-3/
-    textbook: /text/os11-3/
+    textbook: # /text/os11-3/
     additional: # ссылки на дополнительные материалы
 
   - title: "Практика: Работа с файлами" # Название работы

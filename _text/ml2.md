@@ -5,11 +5,6 @@ title: "Классификация как задача машинного обу
 
 ### Что такое классификация в машинном обучении?
 
-
-![classification](https://production-media.paperswithcode.com/tasks/classification-algorithm-in-machine-learning_ta1IkVQ.png "classification"){: .align-center style="width: 600px;"}
-Источник: [Papers with code](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpaperswithcode.com%2Ftask%2Fclassification&psig=AOvVaw0l7A1DkviKQ8seWu7fktWH&ust=1652360072615000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPDo4ZG_1_cCFQAAAAAdAAAAABAZ).
-{: style="text-align: center; font-size:0.7em;"}
-
 {% capture notice-2 %}
 Выводы:
 1. Классификация - это задача машинного обучения, которая выражается в предсказании дискретного значения.
@@ -17,6 +12,7 @@ title: "Классификация как задача машинного обу
 1. Классификация - самая распространенная задача машинного обучения на практике.
 1. Классификация бывает бинарной и множественной, одноклассовой и мультиклассовой.
 1. К задачам классификации относятся задачи машинного перевода, диагностики, распознавания образов.
+1. Примеры задач классификации - распознавание объектов, генерация текстов, подбор тематики текстов, идентификация объектов на изображениях, распознавание речи и так далее.
 1. Почти любую практическую задачу машинного обучения можно сформулировать как задачу классификации.
 {% endcapture %}
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
@@ -35,6 +31,10 @@ $$ c_i \in {1, 2, 3, ..., k} $$
 <div class="presentation">{{ block | markdownify }}</div>
 
 В дальнейшем для лучшего интуитивного понимания задач и алгоритмов классификации мы будем изображать объекты из датасета в виде точек на двумерном графике. А цвет или форма точек будут показывать, какому классу они относятся. Это хорошее визуальное представление. Но следует помнить, что на практике входной вектор может иметь сколько угодно измерений. То есть в датасете может быть сколько угодно признаков у каждого объекта. Тысяча или миллион признаков невозможно изобразить на графике, но это вполне реальный случай. 
+
+![classification](https://production-media.paperswithcode.com/tasks/classification-algorithm-in-machine-learning_ta1IkVQ.png "classification"){: .align-center style="width: 600px;"}
+Источник: [Papers with code](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpaperswithcode.com%2Ftask%2Fclassification&psig=AOvVaw0l7A1DkviKQ8seWu7fktWH&ust=1652360072615000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPDo4ZG_1_cCFQAAAAAdAAAAABAZ).
+{: style="text-align: center; font-size:0.7em;"}
 
 Как мы уже говорили, классов тоже может быть произвольное количество. Но мы в основном будем рассматривать именно бинарную классификацию. Более сложные модели множественной или мультиклассовой классификации все равно строятся на основе бинарной. И на этих алгоритмах мы тоже остановимся. В такой формулировке мы будем предполагать, что $ y \in \lbrace 0, 1 \rbrace $, где 0 обычно принимается как «отрицательный класс» и 1 как «положительный класс», но вы можете назначить этим значениям любое представление. 
 
@@ -74,7 +74,7 @@ $y = \lbrace 0, 1 \rbrace$
 {% capture block %}
 $$ h_b (x) = \frac{1}{1 + e^{-z}} $$
 
-где $ z = X \cdot \vec{b}$, 
+где $ z = X \cdot \vec{b}$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>
 
@@ -114,17 +114,23 @@ $$ h_b(x) = P(y=1 \vert x, \vec{b}) = 1 - P(y=0 \vert x, \vec{b}) $$
 
 Чтобы получить нашу дискретную классификацию 0 или 1, мы можем перевести вывод функции гипотезы следующим образом:
 
+{% capture block %}
 $$ h_b (x) \ge 0.5 \rightarrow y=1 $$
 
 $$ h_b (x) \lt 0.5 \rightarrow y=0 $$
+{% endcapture %}
+<div class="presentation">{{ block | markdownify }}</div>
 
 Логистическая функция g ведет себя таким образом, что когда ее вход больше или равен нулю, его выход больше или равен 0,5. Следует запомнить:
 
+{% capture block %}
 $$ z = 0 \rightarrow h_b (x) = 0.5 $$
 
 $$ z = -\inf \rightarrow h_b (x) = 0 $$
 
-$$ z = \inf \rightarrow h_b (x) = 1 $$
+$$ z = \inf \rightarrow h_b (x) = 1 $
+{% endcapture %}
+<div class="presentation">{{ block | markdownify }}</div>$
 
 Таим образом, область пространства признаков, где $z = 0$ формирует границу. Граница принятия решения - это линия, которая разделяет область, где y = 0 и где y = 1. Она создается нашей функцией гипотезы. Так как мы используем линейную функцию внутри логистической. Граница принятия решений такой модели всегда будет прямой линией, плоскостью или, в общем случае, гиперплоскостью.
 
@@ -245,7 +251,7 @@ $$ h_b^{(1)} = P(y=1 \vert x, \vec{b}); $$
 
 $$ ... $$
 
-$$ h_\b^{(n)} = P(y=n \vert x, \vec{b}); $$
+$$ h_b^{(n)} = P(y=n \vert x, \vec{b}); $$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>
 
@@ -263,10 +269,12 @@ $$ h_\b^{(n)} = P(y=n \vert x, \vec{b}); $$
 
 ```py
 from sklearn.datasets import make_classification
+
 X, Y = make_classification( n_features=2, n_redundant=0, 
     n_informative=2, n_samples=20,
     n_clusters_per_class=1, random_state=7,
 )
+
 plt.figure(figsize=(12, 9))
 plt.scatter(X[:, 0], X[:, 1], marker="o", c=Y, s=25, edgecolor="k")
 plt.show()
