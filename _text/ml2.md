@@ -11,8 +11,7 @@ title: "Классификация как задача машинного обу
 1. Классификация - это задача обучения с учителем, поэтому в датасете должны быть "правильные ответы" - значения целевой переменной.
 1. Классификация - самая распространенная задача машинного обучения на практике.
 1. Классификация бывает бинарной и множественной, одноклассовой и мультиклассовой.
-1. К задачам классификации относятся задачи машинного перевода, диагностики, распознавания образов.
-1. Примеры задач классификации - распознавание объектов, генерация текстов, подбор тематики текстов, идентификация объектов на изображениях, распознавание речи и так далее.
+1. Примеры задач классификации - распознавание объектов, генерация текстов, подбор тематики текстов, идентификация объектов на изображениях, распознавание речи, машинный перевод и так далее.
 1. Почти любую практическую задачу машинного обучения можно сформулировать как задачу классификации.
 {% endcapture %}
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
@@ -74,7 +73,7 @@ $y = \lbrace 0, 1 \rbrace$
 {% capture block %}
 $$ h_b (x) = \frac{1}{1 + e^{-z}} $$
 
-где $ z = X \cdot \vec{b}$
+$ z = X \cdot \vec{b}$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>
 
@@ -104,7 +103,7 @@ $$ h_b(x) = P(y=1 \vert x, \vec{b}) = 1 - P(y=0 \vert x, \vec{b}) $$
 1. Обычная регрессия плохо работает в задачах классификации за счет своей чувствительности и неограниченности.
 1. Метод логистической регрессии основан на применении логистической или сигмоидной функции.
 1. Логистическая регрессия - это линейная модель.
-1. Результат работы логичтической функции часто интерпретируется как вероятность отнесения объекта к положительному классу.
+1. Результат работы логистической функции часто интерпретируется как вероятность отнесения объекта к положительному классу.
 1. Для четкой классификации обычно выбирают некоторое пороговое значение, обычно - 0,5.
 {% endcapture %}
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
@@ -128,7 +127,7 @@ $$ z = 0 \rightarrow h_b (x) = 0.5 $$
 
 $$ z = -\inf \rightarrow h_b (x) = 0 $$
 
-$$ z = \inf \rightarrow h_b (x) = 1 $
+$$ z = \inf \rightarrow h_b (x) = 1 $$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>$
 
@@ -242,6 +241,10 @@ $y = \lbrace 0,1 ... n \rbrace$.
 ![Multiclassification](/assets/images/ml_text/ml2-8.png "Multiclassification"){: .align-center style="width: 800px;"}
 {: style="text-align: center; font-size:0.7em;"}
 
+![Multiclassification](https://miro.medium.com/max/700/1*4Ii3aorSLU50RV6V5xalzg.png "Multiclassification"){: .align-center style="width: 800px;"}
+Источник: [Medium](https://www.google.com/url?sa=i&url=https%3A%2F%2Fantonhaugen.medium.com%2Fintroducing-mllibs-one-vs-rest-classifier-402eeab22493&psig=AOvVaw1MR6k70nP2mdGdtR_eFmIh&ust=1647355347284000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIDI3oTrxfYCFQAAAAAdAAAAABAD).
+{: style="text-align: center; font-size:0.7em;"}
+
 В этом случае мы делим нашу задачу на $ n + 1 $ (потому что индекс начинается с 0) двоичных задач классификации. В каждом из них мы прогнозируем вероятность того, что $y$ является членом одного из наших классов.
 
 {% capture block %}
@@ -256,10 +259,6 @@ $$ h_b^{(n)} = P(y=n \vert x, \vec{b}); $$
 <div class="presentation">{{ block | markdownify }}</div>
 
 Таким образом мы выбираем один класс, а затем объединяем все остальные объекты в один второй класс. Мы делаем это неоднократно, применяя двоичную логистическую регрессию к каждому случаю, а затем используем гипотезу, которая вернула наивысшее значение в качестве нашего прогноза.
-
-![Multiclassification](https://miro.medium.com/max/700/1*4Ii3aorSLU50RV6V5xalzg.png "Multiclassification"){: .align-center style="width: 800px;"}
-Источник: [Medium](https://www.google.com/url?sa=i&url=https%3A%2F%2Fantonhaugen.medium.com%2Fintroducing-mllibs-one-vs-rest-classifier-402eeab22493&psig=AOvVaw1MR6k70nP2mdGdtR_eFmIh&ust=1647355347284000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIDI3oTrxfYCFQAAAAAdAAAAABAD).
-{: style="text-align: center; font-size:0.7em;"}
 
 Данный метод называется "один против всех" (one vs all или one vs rest). Надо отметить, что во вех современных программных инструментах для машинного обучения, он уже реализован и встроен в существующие методы классификации, так что разработчику не придется программировать его специально.
 

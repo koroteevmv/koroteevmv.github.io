@@ -110,7 +110,10 @@
 	       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
 	       processEscapes: true
 	     },
-	     "HTML-CSS": { availableFonts: ["TeX"] }
+	     "HTML-CSS": { availableFonts: ["TeX"] },
+         CommonHTML: {
+            scale: 200
+          }
 	   });
 	</script>
 </head>
@@ -222,7 +225,7 @@
             element.querySelectorAll("span").forEach(e => {
             	console.log("found");
                 e.style["font-size"] = new_size + "px";
-                e.style["line-height"] = new_size * 1.2 + "px";
+                e.style["line-height"] = new_size * 1.4 + "px";
             });
 
             console.log(
