@@ -16,7 +16,7 @@ sections:
     overview: "Мы познакомимся с механизмом управления службами и автозапуском в Linux, создать и запустить собственноручно написанную программу как сервис операционной системы." # Пояснительный текст
     youtube: Kj_RK3y0U84 # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
-    document: https://docs.google.com/document/d/17EGC_c3shzYogdov5R30TofuXcfvdM2tYqgWeL8iv4w/edit?usp=sharing # ссылка на методические указания
+    textbook: /text/os21-1/
     additional: # 
       - title: "Setup a python script as a service through systemctl/systemd"
         url: https://medium.com/codex/setup-a-python-script-as-a-service-through-systemctl-systemd-f0cc55a42267

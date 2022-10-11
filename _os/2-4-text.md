@@ -13,19 +13,9 @@ sections:
     textbook: # 
 
   - title: "Практика: Создание HTML-отчета" # Навзвание работы
-    overview: ""
-    youtube: # Видеозапись занятия
-    slides: # ссылка на презентацию к занятию
-    document: https://docs.google.com/document/d/1d1TOeIhPYhkQIklUBLXQToLK4ckctkPmgrNGMQa1paE/edit?usp=sharing # ссылка на методические указания
-    additional: # 
-    textbook: # 
+    textbook: /text/os24-1/
 
   - title: "Практика: Парсинг лог-файлов" # Навзвание работы
-    overview: "" # Пояснительный текст
-    youtube: # Видеозапись занятия
-    slides: # ссылка на презентацию к занятию
-    document: https://docs.google.com/document/d/1pv8XmGzcX_IGE3EwCmyMkMFsax7cpjbxv-NX6M1Wy6E/edit?usp=sharing # ссылка на методические указания
-    additional: # 
-    textbook: # 
+    textbook: /text/os24-2/
 ---
 
