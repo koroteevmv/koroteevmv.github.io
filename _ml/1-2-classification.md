@@ -7,14 +7,12 @@ excerpt: ""
 sections:
 
   - title: "Лекция: Задача классификации" 
-    overview: ""
     document: https://docs.google.com/document/d/1P8YLjLdb11-oHW-e_ZLI04ueuxPLZRc6YZkCT3g1t5A/edit?usp=sharing
     youtube:
     slides: /pres/ml2/
     test:
 
   - title: "Практика: Простая классификация" 
-    overview: ""
     document: https://github.com/koroteevmv/ML_course/tree/main/ML2.1_classification
     youtube:
     slides:

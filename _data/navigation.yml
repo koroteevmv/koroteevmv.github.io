@@ -128,6 +128,8 @@ ml:
     url: /ml/1/1-regression/
   - title: Классификация
     url: /ml/1/2-classification/
+  - title: Методы обучения с учителем
+    url: /ml/1/3-supervised/
   - title: Метрики качества и диагностика
     url: /ml/1/4-metrics/
   - title: Предобработка данных
