@@ -227,6 +227,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-remote-include
 
 
 category_archive:
