@@ -275,7 +275,7 @@ $$
 
 {% capture block %}
 $$ 
-acc(y, _\hat{y}) = \frac{1}{n} \sum_{i=0}^{n} 1(\hat{y_i} = y_i) 
+acc(y, \hat{y}) = \frac{1}{n} \sum_{i=0}^{n} 1(\hat{y_i} = y_i) 
 $$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>
@@ -304,7 +304,7 @@ $$
 
 {% capture block %}
 $$ 
-tka(y, _\hat{f}) = \frac{1}{n} \sum_{i=0}^{n-1} 
+tka(y, \hat{f}) = \frac{1}{n} \sum_{i=0}^{n-1} 
 \sum_{j=1}^{k} 1(\hat{f_{ij}} = y_i) 
 $$
 {% endcapture %}
