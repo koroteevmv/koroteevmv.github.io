@@ -26,7 +26,7 @@ sections:
 
   - title: "Практика: Развертывание в ручном режиме"
     overview: ""
-    youtube: # Видеозапись занятия
+    youtube: jRM95_yCbQ4
     slides: 
     document: https://docs.google.com/document/d/1NwBwbqkxGtHXiuRLS9lOillQNAmX0sGripX9KiSnxaA/edit?usp=sharing # ссылка на методические указания
     additional: # 

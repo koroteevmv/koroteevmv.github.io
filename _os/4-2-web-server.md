@@ -20,7 +20,14 @@ sections:
 
   - title: "Практика: Установка nginx" # Название работы
     overview: ""
-    youtube: # Видеозапись занятия
+    youtube: UpS5s4z6odo
+    slides: # ссылка на презентацию к занятию
+    # document: https://docs.google.com/document/d/1yWW0frd1MdW0onBCcwQYSQk_NZWtkNSQ_f9uzCEbA0Q/edit?usp=sharing # ссылка на методические указания
+    additional: # 
+
+  - title: "Практика: Виртуальные хосты" # Название работы
+    overview: ""
+    youtube: ZyGfUllQ34I
     slides: # ссылка на презентацию к занятию
     # document: https://docs.google.com/document/d/1yWW0frd1MdW0onBCcwQYSQk_NZWtkNSQ_f9uzCEbA0Q/edit?usp=sharing # ссылка на методические указания
     additional: # 
@@ -39,9 +46,16 @@ sections:
     document: # ссылка на методические указания
     additional: # 
     
+  - title: "Практика: Простой веб-клиент" # Название работы
+    overview: ""
+    youtube: mtq-NRC5Wmk
+    slides: # ссылка на презентацию к занятию
+    document: https://github.com/fa-python-network/6_Web_server # ссылка на методические указания
+    additional: # 
+    
   - title: "Практика: Простой веб-сервер" # Название работы
     overview: "В этой работе мы построим свой собственный простой веб-сервер, и на этом примере в деталях разберемся, как работает протокол HTTP и веб-службы изнутри."
-    youtube: # Видеозапись занятия
+    youtube: AWi9_OEOojI
     slides: # ссылка на презентацию к занятию
     document: https://github.com/fa-python-network/6_Web_server # ссылка на методические указания
     additional: # 
