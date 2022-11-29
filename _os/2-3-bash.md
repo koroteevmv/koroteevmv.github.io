@@ -9,7 +9,15 @@ sections:
     youtube: 2f_TXMcAnJI # Видеозапись занятия
     slides: https://docs.google.com/presentation/d/1t02x185xtkJMoK2e3ML6nWPmafBZAa1V4HOdpWLBcmg/edit?usp=sharing # ссылка на презентацию к занятию
     document: # ссылка на методические указания
-    additional: # 
+    additional: 
+      - title: "Руководство по написанию скриптов в Linux Bash"
+        url: https://selectel.ru/blog/tutorials/linux-bash-scripting-guide/
+      - title: "Bash-скрипты: начало"
+        url: https://habr.com/ru/company/ruvds/blog/325522/
+      - title: "Искусство программирования на языке сценариев командной оболочки"
+        url: https://www.opennet.ru/docs/RUS/bash_scripting_guide/
+      - title: "Как писать bash-скрипты надежно и безопасно: минимальный шаблон"
+        url: https://habr.com/ru/post/590021/
     textbook: # 
 
   - title: "Практика: Ваш первый сценарий" # Навзвание работы

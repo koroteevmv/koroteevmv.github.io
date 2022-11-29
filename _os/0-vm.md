@@ -15,7 +15,7 @@ sections:
     textbook: # /text/os00-0/
     test: https://campus.fa.ru/mod/quiz/view.php?id=81999
 
-  - title: "Лабораторная: Установка Linux в виртуальную машину" # Назввание работы
+  - title: "Лабораторная: Установка Linux в виртуальную машину" # Название работы
     overview: "На этом занятии мы познакомимся с процессом установки ОС Linux на примере дистрибутива Linux Mint 20 в виртуальную машину Oracle VirtualBox" # Пояснительный текст
     document: # https://drive.google.com/open?id=1pG88LVHgAikQO0bvRDDjeJSkw2QyKgh5oln981Qi4bk # ссылка на методические указания
     youtube: WNMyK4QBTS0 # Видеозапись занятия
@@ -26,4 +26,8 @@ sections:
         url: https://www.virtualbox.org/
       - title: "Дистрибутив Linux Mint"
         url: https://linuxmint.com/
+      - title: "Официальная инструкция по установке Linux Mint"
+        url: https://linuxmint-installation-guide.readthedocs.io/ru/latest/install.html
+      - title: "Руководство по VirtualBox"
+        url: https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/index.html
 ---

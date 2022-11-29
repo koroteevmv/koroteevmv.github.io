@@ -10,7 +10,13 @@ sections:
     			как находить информацию по командам. " # Пояснительный текст
     youtube: QjYEkVXH4t4 # Видеозапись занятия
     slides: /pres/os11-0/
-    additional: # 
+    additional:
+      - title: "20 приёмов работы в командной строке Linux"
+        url: https://habr.com/ru/company/ruvds/blog/339820/
+      - title: "Официальная справка по командной строке Ubuntu"
+        url: https://help.ubuntu.ru/wiki/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0
+      - title: "Команды терминала Linux для начинающих"
+        url: https://tproger.ru/translations/instrumenty-terminala-linux-pervaja-chast/
     textbook: # /text/os11-0/
     test: https://campus.fa.ru/mod/quiz/view.php?id=82013
 

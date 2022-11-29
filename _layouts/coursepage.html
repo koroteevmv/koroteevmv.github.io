@@ -37,7 +37,7 @@ author_profile: false
         {% for p1 in site.documents %}
         {% if p1.url == section.textbook %}
 <div>
-  {{ p1.content }}
+  {{ p1.content | markdownify}}
 </div>
         {% endif %}
         {% endfor %}

@@ -9,7 +9,17 @@ sections:
     youtube: # Видеозапись занятия
     slides: /pres/os12-0/
     document:  # ссылка на методические указания
-    additional: # 
+    additional: 
+      - title: "Коротко об SSH"
+        url: https://habr.com/ru/sandbox/166705/
+      - title: "Магия SSH"
+        url: https://habr.com/ru/post/331348/
+      - title: "Руководство от Яндекса"
+        url: https://cloud.yandex.ru/docs/compute/operations/vm-connect/ssh
+      - title: "Руководство Ubuntu"
+        url: https://help.ubuntu.ru/wiki/ssh
+      - title: "Руководство от Microsoft"
+        url: https://learn.microsoft.com/ru-ru/windows-hardware/manufacture/desktop/factoryos/connect-using-ssh?view=windows-11
     textbook: # /text/os12-0/
 
   - title: "Практика: SSH" # Навзвание работы
