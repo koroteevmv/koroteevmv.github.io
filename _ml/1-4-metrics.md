@@ -10,7 +10,7 @@ sections:
     overview: ""
     document: https://docs.google.com/document/d/13K2w3oJdoda1ayaxpvgNL2oI_hhSTAlmlQgkqcrx6qU/edit?usp=sharing
     youtube:
-    slides: https://drive.google.com/open?id=1TG8lJck8wNLEZe3x2gTJu5TgFvBHTzpec3M026f1uHQ
+    slides: /pres/ml4/
     test:
 
   - title: "Практика: Диагностика и кривые обучения" 
