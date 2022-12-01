@@ -15,7 +15,7 @@ sections:
 
   - title: "Практика: Диагностика и кривые обучения" 
     overview: ""
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML4.1_curves
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML4.2_curves
     youtube:
     slides:
     test:

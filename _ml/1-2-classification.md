@@ -20,7 +20,7 @@ sections:
 
   - title: "Практика: Классификация изображений" 
     overview: ""
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML2.2%20_images
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML2.2_images
     youtube:
     slides:
     test:
