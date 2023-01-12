@@ -10,7 +10,7 @@ sections:
     overview: ""
     document:
     youtube:
-    slides: https://drive.google.com/open?id=1hfQiVYnMjRzE9Ui7M-dzbxn9fxQ8Sb3yXfdnRTHea5Y
+    slides: /pres/ml5/
     test:
 
   - title: "Практика: Простая предобработка" 
