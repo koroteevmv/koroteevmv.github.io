@@ -14,19 +14,25 @@ sections:
     test:
     textbook: # /text/ml1/
 
-  - title: "Практика: Парная линейная регрессия" 
-    overview: ""
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML1.1_sgd
-    youtube:
-    slides:
-    test:
+  # - title: "Практика: Парная линейная регрессия" 
+  #   overview: ""
+  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML1.1_sgd
+  #   youtube:
+  #   slides:
+  #   test:
+
+  - title: "Практика: Линейная регрессия" 
+    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML1.1%20linear%20regression
 
   - title: "Практика: Множественная регрессия" 
-    overview: ""
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML1.2_regression
-    youtube:
-    slides:
-    test:
+    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML1.2%20multivariate
+
+  # - title: "Практика: Множественная регрессия" 
+  #   overview: ""
+  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML1.2_regression
+  #   youtube:
+  #   slides:
+  #   test:
 
   # - title: "Практика: Полиномиальная регрессия" 
   #   overview: ""

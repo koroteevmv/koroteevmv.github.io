@@ -12,23 +12,23 @@ sections:
     slides: /pres/ml2/
     test:
 
-  - title: "Практика: Простая классификация" 
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML2.1_classification
-    youtube:
-    slides:
-    test:
+  # - title: "Практика: Простая классификация" 
+  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML2.1_classification
+  #   youtube:
+  #   slides:
+  #   test:
 
-  - title: "Практика: Классификация изображений" 
-    overview: ""
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML2.2_images
-    youtube:
-    slides:
-    test:
+  # - title: "Практика: Классификация изображений" 
+  #   overview: ""
+  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML2.2_images
+  #   youtube:
+  #   slides:
+  #   test:
 
-  - title: "Практика: Классификация текстов" 
-    overview: ""
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML2.3_text
-    youtube:
-    slides:
-    test:
+  # - title: "Практика: Классификация текстов" 
+  #   overview: ""
+  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML2.3_text
+  #   youtube:
+  #   slides:
+  #   test:
 ---

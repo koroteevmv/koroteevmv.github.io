@@ -13,12 +13,12 @@ sections:
     slides: /pres/ml5/
     test:
 
-  - title: "Практика: Простая предобработка" 
-    overview: ""
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML5.1_preprocessing
-    youtube:
-    slides:
-    test:
+  # - title: "Практика: Простая предобработка" 
+  #   overview: ""
+  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML5.1_preprocessing
+  #   youtube:
+  #   slides:
+  #   test:
 
   # - title: "Практика: Решкалирование данных" 
   #   overview: ""
@@ -34,10 +34,10 @@ sections:
   #   slides:
   #   test:
 
-  - title: "Практика: Комплексная предобработка данных" 
-    overview: ""
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML5.2_eda
-    youtube:
-    slides:
-    test:
+  # - title: "Практика: Комплексная предобработка данных" 
+  #   overview: ""
+  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML5.2_eda
+  #   youtube:
+  #   slides:
+  #   test:
 ---

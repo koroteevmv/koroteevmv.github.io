@@ -13,17 +13,13 @@ sections:
     slides: /pres/ml4/
     test:
 
-  - title: "Практика: Диагностика и кривые обучения" 
-    overview: ""
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML4.2_curves
-    youtube:
-    slides:
-    test:
-
-  # - title: "Практика: Анализ ошибок" 
+  # - title: "Практика: Диагностика и кривые обучения" 
   #   overview: ""
-  #   document: 
+  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML4.2_curves
   #   youtube:
   #   slides:
   #   test:
+
+  - title: "Практика: Кросс-валидация" 
+    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.1%20classification
 ---
