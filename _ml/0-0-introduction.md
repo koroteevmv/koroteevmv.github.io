@@ -6,13 +6,13 @@ excerpt: ""
 
 sections:
 
-  # - title: "Лекция: Основные понятия машинного обучения" 
-  #   overview: ""
-  #   document: # https://docs.google.com/document/d/1mSrJjN76haUaB-QaQHik5VUI8PFofcqKuglkF-Q3JT0/edit?usp=sharing
-  #   youtube:
-  #   slides: /pres/ml0/
-  #   test: https://docs.google.com/forms/d/e/1FAIpQLSe-ITK3OXO500ick1DNDByVAo2hifNryFBJUt59Kr51RL49ew/viewform
-  #   # textbook: /text/ml0/
+  - title: "Лекция: Основные понятия машинного обучения" 
+    overview: ""
+    document: # https://docs.google.com/document/d/1mSrJjN76haUaB-QaQHik5VUI8PFofcqKuglkF-Q3JT0/edit?usp=sharing
+    youtube:
+    slides: /pres/ml0/
+    test: https://docs.google.com/forms/d/e/1FAIpQLSe-ITK3OXO500ick1DNDByVAo2hifNryFBJUt59Kr51RL49ew/viewform
+    # textbook: /text/ml0/
 
   # - title: "Практика: Работа с numpy" 
   #   overview: ""
