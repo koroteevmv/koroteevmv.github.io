@@ -11,4 +11,7 @@ sections:
 
   - title: "Практика: Модели классификации" 
     document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.1%20classification
+
+  - title: "Практика: Модели регрессии" 
+    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.3%20regression
 ---

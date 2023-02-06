@@ -34,10 +34,6 @@ sections:
   #   slides:
   #   test:
 
-  # - title: "Практика: Комплексная предобработка данных" 
-  #   overview: ""
-  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML5.2_eda
-  #   youtube:
-  #   slides:
-  #   test:
+  - title: "Практика: Комплексная предобработка данных" 
+    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML5.4%20EDA
 ---
