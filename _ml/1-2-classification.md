@@ -12,11 +12,8 @@ sections:
     slides: /pres/ml2/
     test:
 
-  # - title: "Практика: Простая классификация" 
-  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML2.1_classification
-  #   youtube:
-  #   slides:
-  #   test:
+  - title: "Практика: Логистическая регрессия" 
+    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML2.1%20logistic%20regression
 
   # - title: "Практика: Классификация изображений" 
   #   overview: ""
