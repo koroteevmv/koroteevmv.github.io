@@ -446,6 +446,7 @@ print("Для удобства они выделены в блоки с подс
 
 1. Kaggle - соревнования и материалы по машинному обучению, большое коммьюнити: https://www.kaggle.com/
 1. Papers With Code - репозиторий научных статей и кода по машинному обучению: https://paperswithcode.com/
+1. OpenML - открытая лаборатория по машинному обучению: https://www.openml.org/
 1. Towards data science - тематический блог по машинному обучению: https://towardsdatascience.com/
 1. Loginom - тематический блог отечественного разработчика программного обеспечения: https://loginom.ru/blog
 1. Data Analytics - тематический блог по анализу данных, машинному обучению и другим смежным темам: https://vitalflux.com/
