@@ -1,7 +1,7 @@
 ---
 title: "Учебник по машинному обучению"
 permalink: /ml/textbook
-layout: textbook_page
+layout: textbook
 
 section: ml
 

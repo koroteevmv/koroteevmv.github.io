@@ -17,5 +17,5 @@ sections:
     document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML4.3%20diagnostics
 
   - title: "Практика: Кросс-валидация" 
-    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.1%20classification
+    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML4.4%20cross-validation
 ---
