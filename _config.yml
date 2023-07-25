@@ -278,7 +278,23 @@ collections:
     permalink: /:collection/:path/
 
 # Defaults
-defaults:
+defaults:      
+  # talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: single
+      read_time: false
+      show_date: true
+      author_profile: true
+      share: true
+      comments: true
+      related: true
+      last_modified_at: false
+      toc: false
+      word_count: false
+
   # _posts
   - scope:
       path: ""
