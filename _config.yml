@@ -79,12 +79,12 @@ author:
   name             : "Михаил Коротеев"
   avatar           : "/assets/images/avatar3.jpg"
   bio              : "Есть такая профессия - Родину автоматизировать."
-  # location         : "Москва"
-  # email            : koroteevmv@gmail.com
+  location         : "Москва"
+  email            : koroteevmv@gmail.com
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://koroteev.site"
+      # url: "https://koroteev.site"
 
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -129,11 +129,11 @@ footer:
 
     - label: "Vkontakte"
       icon: "fab fa-fw fa-vk"
-      url: "https://vk.com/koroteev_m"
+      # url: "https://vk.com/koroteev_m"
 
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/koroteev_m
+      #url: https://twitter.com/koroteev_m
 
 
 # Reading Files
@@ -246,9 +246,6 @@ compress_html:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -268,9 +265,6 @@ collections:
     output: true
     permalink: /:collection/:path/
   md:
-    output: true
-    permalink: /:collection/:path/
-  pd:
     output: true
     permalink: /:collection/:path/
   wd:

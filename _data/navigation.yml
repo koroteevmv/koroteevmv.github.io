@@ -6,28 +6,21 @@ main:
     url: /ml
   - title: "Android"
     url: /md
-  # - title: "ML"
-  #   url: /ml
-  - title: "Все курсы"
-    url: /courses
 
   - title: "Блог"
     url: /blog/
 
-  - title: "Проекты"
+  - title: "Наука"
     url: /science
 
-  # - title: "Публицистика"
-  #   url: /scipop
+  - title: "Выступления"
+    url: /talks
 
-  # - title: "Выступления"
-  #   url: /talks
+  - title: "Публицистика"
+    url: /scipop
 
-  # - title: "CV"
-  #   url: /cv
-
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Резюме"
+    url: /cv
 
 # documentation links
 os:

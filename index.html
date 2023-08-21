@@ -14,78 +14,20 @@ header:
 excerpt: "Михаил Коротеев - преподаватель, ученый и разработчик, специализирующийся на системах машинного обучения в экономике и финансах."
 
 
-feature_row_certs:
+highlights:
 
-  - url: /assets/images/certs/ml.png
-    image_path: "/assets/images/certs/ml.png"
-    title: ""
+  - title: "Готовится к печати"
+    excerpt: "Базовый учебник по основам машинного обучения. Уже написан и скоро будет издан."
 
-  - url: /assets/images/certs/google.png
-    image_path: "/assets/images/certs/google.png"
+  - title: "Анонс выступления"
+    excerpt: "Популярная лекция 'О нейросетях сегодня' планируется 20 сентября в ТПП Москвы."
 
-  - url: /assets/images/certs/md.png
-    image_path: "/assets/images/certs/md.png"
-
-  - url: /assets/images/certs/pgm.png
-    image_path: "/assets/images/certs/pgm.png"
-
-  - url: /assets/images/certs/python.png
-    image_path: "/assets/images/certs/python.png"
-
-
-feature_row_projects:
-
-  - title: "Обзор MLOps"
-    image_path: "/assets/images/mlops.png"
-    alt: "Обзор MLOps"
-    excerpt: "Эксперт попытался дать общую характеристику MLOps. Что это такое, зачем нужно и какие инструменты существуют?"
-    url: "/scipop/peterson-essay/"
-    btn_label: "Перевод"
-    btn_class: "btn--primary"
-
-  - image_path: /assets/images/inference-and-prediction-2/image6.png
-    alt: "Вывод и предсказания. Часть 2: статистика"
-    title: "Вывод и предсказания. Часть 2: статистика"
-    excerpt: "Перевод второй из трех статей про сравнение двух подходов к моделированию данных - статистическому и обучающему. Вторая часть посвящена связи простых алгоритмов машинного обучения и статистических моделей."
-    url: "scipop/inference-and-prediction-2/"
-    btn_label: "Перевод"
-    btn_class: "btn--primary"
-
-  - title: "Дж. Б. Питерсон. Руководство по написанию эссе"
-    image_path: "/assets/images/peterson.jpg"
-    alt: "Дж. Б. Питерсон. Руководство по написанию эссе"
-    excerpt: "Перевод прекрасного руководства по написанию эссе от профессора Питерсона. Инструкция учит структурированному и организованному процессу написания текстов."
-    url: "/scipop/peterson-essay/"
-    btn_label: "Перевод"
-    btn_class: "btn--primary"
-
-
-feature_row_courses:
-
-  - image_path: /assets/images/os_logo.png
-    overlay_filter: rgba(255, 0, 0, 0.5)
-    caption: "Photo credit: [**PBPython**](https://pbpython.com/wsl-python.html)"
-    title: "UNIX"
-    excerpt: "Курс по использованию и настройке ОС Linux для программирования и создания сетевых приложений"
-    url: "/os"
-    btn_label: "Перейти"
-    btn_class: "btn--primary"
-
-  - image_path: /assets/images/mobile_logo.png
-    caption: "Photo credit: [**PinClipart**](https://www.pinclipart.com/pindetail/bRmJwo_loading-speed-is-crucial-to-many-rn-apps/)"
-    title: "Android"
-    excerpt: "Вводный курс по основам разработки мобильных приложений для ОС Android"
-    url: "/md"
-    btn_label: "Перейти"
-    btn_class: "btn--primary"
-
-  - image_path: /assets/images/ml_logo.png
-    caption: "Photo credit: [**Quantum**](https://ml2quantum.com/scikit-learn/)"
-    title: "ML"
-    excerpt: "Баозвый курс по машинному обучению и анализу данных на языке Python"
-    url: "/ml"
-    btn_label: "Перейти"
-    btn_class: "btn--primary"
+  - title: "Новая дисциплина"
+    # image_path: "/assets/images/peterson.jpg"
+    excerpt: "В разработке учебный курс 'MLOps' - внедрение и поддержка моделей машинного обучения в продакшене. Осенью 2023 года - первая итерация для студентов."
+    # url: "/scipop/peterson-essay/"
+    # btn_label: "Перевод"
+    # btn_class: "btn--primary"
 ---
 
 
@@ -99,12 +41,18 @@ feature_row_courses:
 
 
 <h2>Разделы</h2>
-<a href='/courses'><button href='#' class='btn btn-primary'> Все курсы </button></a>
-<a href='/scipop'><button href='#' class='btn btn-primary'> Научпоп </button></a>
+<a href='/cv'><button href='#' class='btn btn-primary'> Резюме </button></a>
 <a href='/talks'><button href='#' class='btn btn-primary'> Выступления </button></a>
-<!-- <a href='/cv'><button href='#' class='btn btn-primary'> Резюме </button></a> -->
+<a href='/blog'><button href='#' class='btn btn-primary'> Блог </button></a>
+<a href='/courses'><button href='#' class='btn btn-primary'> Курсы </button></a>
+<a href='/science'><button href='#' class='btn btn-primary'> Наука </button></a>
+<a href='/scipop'><button href='#' class='btn btn-primary'> Публицистика </button></a>
 
-<h2>Последние публикации</h2>
+<h2>Обратите внимание</h2>
+{% include  feature_row id="highlights" %}
+<br>
+
+<h2>Из недавнего</h2>
 
 {% for post in site.posts limit:5 %}
 
@@ -114,24 +62,3 @@ feature_row_courses:
   <p><br></p>
 
 {% endfor %}
-
-<h2>Мои курсы</h2>
-
-{% include  feature_row id="feature_row_courses" %}
-
-<h2>Последние проекты</h2>
-{% include  feature_row id="feature_row_projects" %}
-<br>
-
-<h2>Мои дипломы</h2>
-{% include gallery id="feature_row_certs" %}
-<br>
-
-<h2>Мои научные интересы:</h2>
-<ul>
-  <li>MLops</li>
-  <li>Искусственный интеллект и машинное обучение</li>
-	<li>Проектирование и реализация сложных информационных систем</li>
-	<li>Математическое моделирование экономических процессов</li>
-	<li>ИТ образование и разработка профильных курсов</li>
-</ul>

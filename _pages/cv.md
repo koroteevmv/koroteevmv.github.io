@@ -5,7 +5,39 @@ title: "Резюме"
 toc: true
 permalink: /cv/
 author_profile: true 
+
+feature_row_certs:
+
+  - image_path: "/assets/images/certs/ml.png"
+    title: "Machine Learning"
+    url: https://www.coursera.org/account/accomplishments/certificate/BGSL4ETU4DQQ
+
+  - image_path: "/assets/images/certs/google.png"
+    title: "Google IT Automation Professional Certificate"
+    excerpt: "Курс по использованию и настройке ОС Linux для программирования и создания сетевых приложений"
+    url: https://www.youracclaim.com/badges/ee9779a7-6bd1-46d9-907f-f291b37d26f2?source=linked_in_profile
+
+  - image_path: "/assets/images/certs/md.png"
+    title: "Engeineering maintainable Android Apps"
+    url: https://www.coursera.org/account/accomplishments/verify/J4BCCUU8RGU3
+
+  - image_path: "/assets/images/certs/pgm.png"
+    title: "Probabilistic Graphical Models"
+    url: https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/82~1291820/pdf
+
+  - image_path: "/assets/images/certs/python.png"
+    url: https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/204~1291820/pdf
+    title: "An Introduction to Interactive Programming in Python" 
 ---
+
+Научные интересы
+======
+
+ - MLops
+ - Искусственный интеллект и машинное обучение
+ - Проектирование и реализация сложных информационных систем
+ - Математическое моделирование экономических процессов
+ - ИТ образование и разработка профильных курсов
 
 Анализ данных, машинное обучение и искусственный интеллект. Приложения, тренды и алгоритмы.
 Разработка ПО: интеллектуальные информационные системы.
@@ -16,18 +48,36 @@ author_profile: true
 - Математическое моделирование: Matplotlib + SciPy, FuzzyLogic, ANN, GA, pandas, sk-learn;
 Документирование, отладка, тестирование, прототипирование.
 
+Краткая биография
+======
+
+Коротеев Михаил Викторович, 1989 года рождения; закончил Волгоградский государственный технический университет в 2012 году (бакалавриат, магистратура). Тема диплома бакалавра: «Оценка программных систем с помощью нечетких квалификаторов качества». Тема магистерской диссертации: «Разработка информационной системы поддержки непараметрической экспертизы программных продуктов». 
+
+В 2014 году защитил кандидатскую диссертацию в аспирантуре Волгоградского государственного технического университета. Тема кандидатской диссертации: «Моделирование интерактивной системы оценки динамических интервальных предпочтений для сложных экономических систем».
+
+С сентября 2014 года занимался преподавательской деятельностью в основном на образовательной программе бакалавриата по направлению “Прикладная информатика”. В 2016-2017 годах занимал должность заместителя декана факультета экономикии и управления Волгоградского государственного технического университета. С 2017 года перешел на работу в качестве доцента департамента анализа данных, принятия решений и финансовых технологий Финансового университета при Правительстве РФ. С 2020 года - руководитель образовательной программы. 
+
+С 2021 года занимает должность заместителя декана факультета информационных технологий и анализа больших данных по учебной работе. За время преподавательской деятельности вел более 20 курсов, среди который “Операционные системы”, “Разработка программных приложений”, “Базы данных”, “Технологии разработки приложений для мобильных устройств”, “Эконометрика” и другие. Было опубликовано 5 учебных пособий общим объемом 22,6 п.л.
+
+Основные направления научных исследований - применение нечеткой логики к моделированию экономических процессов, методы машинного обучения и интеллектуального анализа данных. В ходе научной деятельности опубликовано более 80 научных работ общим объемом 95 п.л., в том числе 7 публикаций, индексируемых в Scopus общим объемом 2,2 п.л. 
+
+Автор более 80 научных публикаций, 25 результатов интеллектуальной деятельности, 10 учебно-методических изданий.
+
+
 Образование
 ======
 * бакалавр, прикладная информатика, Волгоградский государственный технический университет, 2010
 * магистр, математические методы в экономике, Волгоградский государственный технический университет, 2012
-* к.э.н. (08.00.13), Волгоградский государственный технический университетy, 2014
+* к.э.н. (08.00.13), Волгоградский государственный технический университет, 2014
+
+{% include gallery id="feature_row_certs" %}
 
 Опыт работы
 ======
 * Март 2021: заместитель декана по учебной работе Факультета информационных технологий и анализа больших данных, Финансовый университет при правительстве РФ.
   * Развитие линейки образовательных программ факультета, мониторинг их эффективности, вопросы лицензирования и аккредитации программ факультета;
   * Координация деятельности руководителей образовательных программ;
-  * Руководитель: Соловьев В.И.
+  * Руководитель: Владимир Игоревич Соловьев, Григорий Александрович Остапенко, Вадим Геннадьевич Феклин
 
 * Сентябрь 2017: доцент, Финансовый университет при правительстве РФ.
   * Руководитель образовательной программы "[Прикладная информатика](http://www.fa.ru/org/dep/findata/Pages/applied-computer-science.aspx)"
@@ -40,12 +90,12 @@ author_profile: true
     - Теория вероятностей и математическая статистика
     - Компьютерный практикум
     - Технологии обработки больших данных
-  * Руководитель: Соловьев В.И.
+  * Руководитель: Владимир Игоревич Соловьев, Давид Арегович Петросов
 
 * Декабрь 2017 - декабрь 2020: старший научный сотрудник, Институт проблем управления РАН.
   * Ведение исследований по проблемам управления крупномасштабных систем;
   * Участие в организации ежегодной международной конференции MLSD;
-  * Руководитель: Цвиркун А.Д.
+  * Руководитель: Анатолий ДАнилович Цвиркун
 
 * Сентябрь 2011 - июль 2017: преподаватель, Волгоградский государственный технический университет
   * Заместитель декана факультета Экономики и управления
@@ -64,58 +114,5 @@ author_profile: true
     - Информационные технологии
     - Организация и планирование производства
     - Теория систем и системный анализ
-  * Руководитель: Терелянский П.В.
-  
-Сертификаты
-======
-* [Google IT Automation Professional Certificate](https://www.youracclaim.com/badges/ee9779a7-6bd1-46d9-907f-f291b37d26f2?source=linked_in_profile)
-* [Machine Learning](https://www.coursera.org/account/accomplishments/certificate/BGSL4ETU4DQQ)
-* [Google IT Automation with Python](https://www.coursera.org/account/accomplishments/specialization/certificate/MB6ZUGHP3SN6)
-* Probabilistic Graphical Models
-* An Introduction to Interactive Programming in Python
+  * Руководитель: Павел Васильевич Терелянский, Сергей Константинович Волков
 
-Выступления
-======
-  <ul>{% for post in site.categories.talks %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Публикации
-======
-<!-- 
-<ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-
-
-<ol>
-
-<li> <a href="https://www.igi-global.com/chapter/a-method-of-predicting-moments-of-market-trend-reversal-for-decision-making-block-of-computer-based-intelligent-financial-agent-avatar/244784">Method of predicting moments of market trend reversal for decision-making block of computer-based intelligent financial agent-avatar М.В. Коротеев, В.С. Чернышенко, В.И. Соловьев, В.Г. Феклин, Н.А. Титов, коллективная монография. Сер. "Computational Intelligence and Robotics" Hershey, USA, 2020 </a>
-
-<li> <a href="https://ieeexplore.ieee.org/document/8911108">Main approaches to neuro-evolutionary imitation modeling of macroeconomic systems.// Koroteev M.V. Proceedings of 2019 12th International Conference 'Management of Large-Scale System Development', MLSD 2019 </a>
-
-<li> <a href="https://ieeexplore.ieee.org/document/8551784">Hierarchical classification compared to one-vs-all classifier on one problem of multiclassification in socio-economic modeling and application of hierarchical classifiers // Koroteev M.V. Proceedings of 2018 11th International Conference "Management of Large-Scale System Development", MLSD 2018 </a>
-
-<li> <a href="http://www.dunp.np.ac.rs/wp-content/uploads/2018/11/Vol10-2-3.pdf">Machine learning models overfitting and generalization in very big datasets. // Koroteev M.V. Book of abstracts CPMMI 2018. Novi pazar, 17-19 june 2018. </a>
-
-<li> <a href="https://www.elibrary.ru/download/elibrary_36767045_98949105.html">Обзор некоторых современных тенденций в технологии машинного обучения // М.В. Коротеев. E-Management, vol. 1, No 1, рp. 26–35. DOI: 10.26425/2658-3445-2018-1-26-35</a>
-
-<li> <a href="https://www.elibrary.ru/download/elibrary_37418333_24156930.pdf">Об основных задачах дескриптивного анализа данных как подготовительного этапа машинного обучения // М.В. Коротеев. В сборнике: Статистика – язык цифровой цивилизации Сборник докладов II Открытого российского статистического конгресса. В 2-х томах. 2018. С. 466-472.</a>
-
-<li> <a href="https://link.springer.com/article/10.1007/s10958-016-2929-4">
-  Fuzzy Inference as a Generalization of the Bayesian Inference. Koroteev, M.V., Terelyanskii, P.V., Ivanyuk, V.A. Journal of Mathematical Sciences (United States), 2016, 216(5), p. 685-691
-</a>
-
-<li> <a href="https://link.springer.com/article/10.1007/s10958-016-2930-y">
-  Approximation of Series of Expert Preferences by Dynamical Fuzzy Numbers. Koroteev, M.V., Terelyanskii, P.V., Ivanyuk, V.A. Journal of Mathematical Sciences (United States), 2016, 216(5), p. 692-695
-</a>
-
-<li> <a href="https://link.springer.com/article/10.1007%2Fs10958-016-2931-x">
-  Arithmetic of Fuzzy Numbers in Generalized Trapezoidal Form. Koroteev, M.V., Terelyanskii, P.V., Ivanyuk, V.A.Journal of Mathematical Sciences (United States), 2016, 216(5), p. 696-701
-</a>
-
-<li> <a href="http://www.arpnjournals.org/jeas/research_papers/rp_2016/jeas_0816_4734.pdf">
-  The variability of fuzzy aggregation methods for partial indicators of quality and the optimal method choice. Koroteev, M.V., Tereliansky, P.V., Vasilyev, O.I., ...Baktygulov, K., Ordobaev, B.S. ARPN Journal of Engineering and Applied Sciences, 2016, 11(15), стр. 9122-9129
-</a></li>
-
-</ol>

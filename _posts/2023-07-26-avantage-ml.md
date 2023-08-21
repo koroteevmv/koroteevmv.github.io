@@ -1,5 +1,5 @@
 ---
-title: "BTW о нейросетях"
+title: "О нейросетях сегодня"
 
 layout: single
 read_time: false
@@ -16,8 +16,8 @@ categories:
 tags:
   - interview
 header:
-  teaser: https://github.com/koroteevmv/koroteevmv.github.io/blob/master/assets/images/talks/2023-07-26-3.jpg?raw=true
-excerpt: "26 июля 2023 года в Холидей Инн Сокольники event-агентство Avantage project провело познавательный семинар о внедрении нейросетей в событийную индустрию. "
+  teaser: https://github.com/koroteevmv/koroteevmv.github.io/blob/master/assets/images/talks/2023-07-26-1.jpg?raw=true
+excerpt: "26 июля 2023 года в Holiday Inn Sokolniki Михаил Коротеев с коллегами познакомили слушателей с возможностями современных нейросетей"
 
 feature_row:
   - image_path: assets/images/talks/2023-07-26-1.jpg
