@@ -1,19 +1,19 @@
 ---
 collection: ml
-permalink: /ml/1/6-unsupervised/
-title: "ML6 Методы обучения без учителя"
+permalink: /ml/1/7-ensembles/
+title: "ML7 Ансамблирование моделей"
 excerpt: ""
 
 sections:
 
-  - title: "Лекция: Задачи и методы обучения без учителя" 
+  - title: "Лекция: Ансамбли моделей" 
   #   overview: ""
   #   document: https://docs.google.com/document/d/1SuEu5IVM6fyfowTn8K17pYFyXp2JB4ZamauXDiLNui8/edit?usp=sharing
   #   youtube:
   #   slides: 
   #   test:
 
-  - title: "Практика: Кластеризация данных" 
+  # - title: "Практика: Кластеризация данных" 
   #   overview: ""
   #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
   #   youtube:
@@ -27,7 +27,7 @@ sections:
   #   slides: 
   #   test:
 
-  - title: "Практика: Обнаружение аномалий" 
+  # - title: "Практика: Обнаружение аномалий" 
   #   overview: ""
   #   document: https://github.com/koroteevmv/ML_course/blob/main/ML6.2_pca
   #   youtube:

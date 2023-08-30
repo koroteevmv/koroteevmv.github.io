@@ -13,9 +13,24 @@ sections:
     slides: /pres/ml4/
     test:
 
-  - title: "Практика: Диагностика недо и переобучения" 
-    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML4.3%20diagnostics
+  - title: "Практика: Метрики эффективности" 
+    document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML4.3%20diagnostics
+
+  - title: "Практика: Модели классификации" 
+    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.1%20classification
+
+  - title: "Практика: Модели регрессии" 
+    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.3%20regression
+
+  - title: "Практика: Диагностические кривые" 
+    document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML4.3%20diagnostics
 
   - title: "Практика: Кросс-валидация" 
     document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML4.4%20cross-validation
+
+  - title: "Практика: Диагностика недо и переобучения" 
+    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML4.3%20diagnostics
+
+  - title: "Практика: Оптимизация гиперпараметров" 
+    document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML4.3%20diagnostics
 ---
