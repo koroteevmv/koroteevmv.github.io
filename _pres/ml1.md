@@ -616,7 +616,11 @@ $$ h_b (x) = b_0 + b_1 x + b_2 x_2 + b_3 x_1^2 + b_4 x_2^2 + b_5 x_1 x_2 $$
 
 Кубическая модель (полином степени 3):
 
-$$ \hat{y} = h_b (x) = b_0 + b_1 x_1 + b_2 x_2 + b_3 x_1^2 + b_4 x_2^2 + b_5 x_1 x_2 + b_6 x_1^3 + b_7 x_2^3 + b_7 x_1^2 x_2 + b_8 x_1 x_2^2 $$
+$$ 
+\hat{y} = h_b (x) = b_0 + b_1 x_1 + b_2 x_2 + \\ 
++ b_3 x_1^2 + b_4 x_2^2 + b_5 x_1 x_2 + \\
++ b_6 x_1^3 + b_7 x_2^3 + b_7 x_1^2 x_2 + b_8 x_1 x_2^2
+$$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>
 
