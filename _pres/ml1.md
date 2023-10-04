@@ -483,7 +483,7 @@ $$ J(\vec{b}) = \frac{1}{2m} (X \vec{b} - \vec{y})^T (X \vec{b} - \vec{y}) $$
 {% capture block %}
 $$
 \frac{\partial}{\partial b_j} J = 
-\frac{1}{m} \sum_{i=1}^{m} (h_b(x_i) - y_i) \cdot \frac{\partial}{\partial b_j} h_b(x_i)
+\frac{1}{m} \sum_{i=1}^{m} \Big( (h_b(x_i) - y_i) \cdot \frac{\partial}{\partial b_j} h_b(x_i) \Big)
 $$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>
@@ -504,11 +504,11 @@ $$ h_b(x) = b_0 x_0 + b_1 x_1 + b_2 x_2 + ... + b_n x_n $$
 
 $$ b_0 := b_0 - \alpha \frac{1}{m} \sum_{i=1}^{m} (h_b(x_i) - y_i) $$
 
-$$ b_1 := b_1 - \alpha \frac{1}{m} \sum_{i=1}^{m} (h_b(x_i) - y_i) \cdot x_{1i} $$
+$$ b_1 := b_1 - \alpha \frac{1}{m} \sum_{i=1}^{m} \Big( (h_b(x_i) - y_i) \cdot x_{1i} \Big) $$
 
 $$ ... $$
 
-$$ b_j := b_j - \alpha \frac{1}{m} \sum_{i=1}^{m} (h_b(x_i) - y_i) \cdot x_{ji} $$
+$$ b_j := b_j - \alpha \frac{1}{m} \sum_{i=1}^{m} \Big( (h_b(x_i) - y_i) \cdot x_{ji} \Big) $$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>
 
@@ -516,7 +516,7 @@ $$ b_j := b_j - \alpha \frac{1}{m} \sum_{i=1}^{m} (h_b(x_i) - y_i) \cdot x_{ji} 
 
 {% capture block %}
 
-$$ b_j := b_j - \alpha \frac{1}{m} \sum_{i=1}^{m} (h_b(x_i) - y_i) \cdot x_{ji} $$
+$$ b_j := b_j - \alpha \frac{1}{m} \sum_{i=1}^{m} \Big((h_b(x_i) - y_i) \cdot x_{ji} \Big) $$
 {% endcapture %}
 <div class="presentation">{{ block | markdownify }}</div>
 
