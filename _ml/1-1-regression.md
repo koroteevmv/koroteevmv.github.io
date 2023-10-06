@@ -27,6 +27,9 @@ sections:
   - title: "Практика: Множественная регрессия" 
     document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML1.2%20multivariate
 
+  - title: "Практика: Регрессия на реальном датасете" 
+    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.3%20regression
+
   # - title: "Практика: Множественная регрессия" 
   #   overview: ""
   #   document: https://github.com/koroteevmv/ML_course/tree/main/ML1.2_regression
