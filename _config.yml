@@ -92,7 +92,7 @@ author:
 
     - label: "Telegram"
       icon: "fab fa-brands fa-telegram"
-      url: "<i class="fa-brands fa-telegram"></i>"
+      url: "https://t.me/ai_tech_future"
       
     - label: "Website"
       icon: "fas fa-fw fa-link"
