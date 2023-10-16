@@ -82,6 +82,18 @@ author:
   location         : "Москва"
   email            : koroteevmv@gmail.com
   links:
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCPe6h6MY8XZpLV7oRLqRUwQ"
+
+    - label: "Vkontakte"
+      icon: "fab fa-fw fa-vk"
+      url: "https://vk.com/ai_tech_future"
+
+    - label: "Telegram"
+      icon: "fab fa-brands fa-telegram"
+      url: "<i class="fa-brands fa-telegram"></i>"
+      
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://koroteev.site"
@@ -94,10 +106,6 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/koroteevmv"
 
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/channel/UCPe6h6MY8XZpLV7oRLqRUwQ"
-
     - label: "Elibrary"
       icon: "fab fa-fw fa-erlang"
       # url: "https://elibrary.ru/author_items.asp?authorid=647967"
@@ -109,10 +117,6 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/mihail.koroteev"
-
-    - label: "Vkontakte"
-      icon: "fab fa-fw fa-vk"
-      url: "https://vk.com/koroteev_m"
 
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
