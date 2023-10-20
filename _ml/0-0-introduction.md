@@ -43,8 +43,8 @@ sections:
   #   test:
 
   - title: "Практика: Знакомство с инструментами" 
-    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML0.1%20intro
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML0.1%20intro
 
   - title: "Практика: Простой анализ данных" 
-    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML0.2%20simple%20analisys
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML0.2%20simple%20analisys
 ---

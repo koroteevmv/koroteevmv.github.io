@@ -13,7 +13,10 @@ sections:
     test:
 
   - title: "Практика: Логистическая регрессия" 
-    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML2.1%20logistic%20regression
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML2.1%20logistic%20regression
+
+  - title: "Практика: Классификация на реальных данных" 
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML2.2%20real%20classification
 
   # - title: "Практика: Классификация изображений" 
   #   overview: ""

@@ -22,13 +22,13 @@ sections:
   #   test:
 
   - title: "Практика: Линейная регрессия" 
-    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML1.1%20linear%20regression
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML1.1%20linear%20regression
 
   - title: "Практика: Множественная регрессия" 
-    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML1.2%20multivariate
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML1.2%20multivariate
 
   - title: "Практика: Регрессия на реальном датасете" 
-    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.3%20regression
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML1.3%20real%20regression
 
   # - title: "Практика: Множественная регрессия" 
   #   overview: ""

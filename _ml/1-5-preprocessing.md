@@ -44,7 +44,7 @@ sections:
     document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML5.4%20EDA
 
   - title: "Практика: Комплексная предобработка данных" 
-    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML5.4%20EDA
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML5.4%20EDA
 
   - title: "Практика: Отбор и инжиниринг признаков" 
     document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML5.4%20EDA
