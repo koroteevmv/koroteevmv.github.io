@@ -9,8 +9,8 @@ sections:
   - title: "Лекция: Методы обучения с учителем"
     slides: /pres/ml3/
 
-  - title: "Контрольная работа по регрессии" 
-    document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.1%20classification
+  - title: "Практика: Полиномиальные модели" 
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML3.1%20polynomial%20features
 
   - title: "Практика: Метод опорных векторов" 
     document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.1%20classification
