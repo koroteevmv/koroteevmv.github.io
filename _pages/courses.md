@@ -6,6 +6,15 @@ permalink: /courses/
 
 feature_row:
 
+  - image_path: https://www.cloudflight.io/app/uploads/2023/04/230424_ml-model-development_infographic_2.jpg
+    overlay_filter: rgba(255, 0, 0, 0.5)
+    caption: "Photo credit: [**CloudFlight**](https://www.cloudflight.io/en/blog/mlwhat-what-is-mlops-and-why-you-should-care/)"
+    title: "MLOps"
+    excerpt: "Курс по развертыванию и внедрению программных систем, использующих методы искусственного интеллекта и машинного обучения"
+    #url: "/os"
+    btn_label: "Перейти"
+    btn_class: "btn--primary"
+
   - image_path: /assets/images/os_logo.png
     overlay_filter: rgba(255, 0, 0, 0.5)
     caption: "Photo credit: [**PBPython**](https://pbpython.com/wsl-python.html)"

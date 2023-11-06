@@ -1,26 +1,28 @@
 # main links
 main:
-  - title: "UNIX"
-    url: /os
-  - title: "ML"
-    url: /ml
-  - title: "Android"
-    url: /md
-
-  - title: "Блог"
-    url: /blog/
-
-  - title: "Наука"
-    url: /science
 
   - title: "Выступления"
     url: /talks
 
-  - title: "Публицистика"
-    url: /scipop
+  - title: "Книги"
+    url: /books
 
-  - title: "Резюме"
-    url: /cv
+  - title: "Проекты"
+    url: /projects
+
+  - title: "UNIX"
+    url: /os
+  - title: "ML"
+    url: /ml
+
+  - title: "Наука"
+    url: /science
+
+  - title: "Все записи"
+    url: /blog/
+
+  - title: "Все курсы"
+    url: /courses
 
 # documentation links
 os:
