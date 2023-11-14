@@ -15,6 +15,9 @@ sections:
   - title: "Практика: Метод опорных векторов" 
     document: https://github.com/koroteevmv/ML_course/tree/main/ML3.2%20svm
 
+  - title: "Практика: Многослойный перцептрон" 
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML3.3%20mlp
+
   - title: "Практика: Деревья решений" 
     document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.1%20classification
 
