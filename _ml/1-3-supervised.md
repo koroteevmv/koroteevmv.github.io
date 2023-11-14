@@ -26,10 +26,4 @@ sections:
 
   - title: "Практика: Наивный Байесовский классификатор" 
     document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.1%20classification
-
-  - title: "Контрольная работа по классификации" 
-    document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.1%20classification
-
-  #- title: "Контрольная работа" 
-  #  document: https://docs.google.com/document/d/1swDjOc7ReywYRMUatQ1P5_e8TBNfTsiTDLS1_f7EvNA/edit?usp=sharing
 ---
