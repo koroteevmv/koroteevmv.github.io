@@ -19,7 +19,7 @@ sections:
     document: https://github.com/koroteevmv/ML_course/tree/main/ML3.3%20mlp
 
   - title: "Практика: Деревья решений" 
-    document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.1%20classification
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML3.4%20trees
 
   - title: "Практика: Метод К ближайших соседей" 
     document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.1%20classification
