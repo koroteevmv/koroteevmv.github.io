@@ -267,6 +267,9 @@ collections:
   ml:
     output: true
     permalink: /:collection/:path/
+  mo:
+    output: true
+    permalink: /:collection/:path/
   md:
     output: true
     permalink: /:collection/:path/
@@ -382,6 +385,23 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "ml"
+  # mo
+  - scope:
+      path: "_mo"
+      type: mo
+    values:
+      layout: coursepage
+      read_time: false
+      show_date: false
+      author_profile: false
+      share: false
+      comments: false
+      related: false
+      last_modified_at: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "mo"
   # wd
   - scope:
       path: "_wd"
