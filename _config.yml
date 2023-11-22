@@ -270,6 +270,9 @@ collections:
   mo:
     output: true
     permalink: /:collection/:path/
+  mo:
+    output: true
+    permalink: /:collection/:path/
   md:
     output: true
     permalink: /:collection/:path/

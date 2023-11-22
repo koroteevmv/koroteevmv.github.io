@@ -135,6 +135,11 @@ ml:
     url: /ml/1/7-ensembles/
 
 
+ml:
+  - title: Содержание курса
+    url: /mo/
+
+
 wd:
   - title: Содержание курса
     url: /wd/

@@ -1,13 +1,13 @@
 ---
-collection: ml
-permalink: /ml/1/8-mlops/
-title: "ML8 Основы MLOps"
+collection: m0
+permalink: /m0/0/0-mlops/
+title: "MO0 Основы MLOps"
 excerpt: ""
 
 sections:
 
   - title: "Лекция: Основы MLOps" 
-    document: https://docs.google.com/presentation/d/1BpMaCt4KxeTTO8UO1CL-IoQ3-FbFtMBh8KMI_yp_xDg/edit?usp=sharing
+    slides: https://docs.google.com/presentation/d/1BpMaCt4KxeTTO8UO1CL-IoQ3-FbFtMBh8KMI_yp_xDg/edit?usp=sharing
   #   overview: ""
   #   youtube:
   #   slides: 
