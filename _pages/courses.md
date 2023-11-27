@@ -11,7 +11,7 @@ feature_row:
     caption: "Photo credit: [**CloudFlight**](https://www.cloudflight.io/en/blog/mlwhat-what-is-mlops-and-why-you-should-care/)"
     title: "MLOps"
     excerpt: "Курс по развертыванию и внедрению программных систем, использующих методы искусственного интеллекта и машинного обучения"
-    #url: "/os"
+    url: "/mo"
     btn_label: "Перейти"
     btn_class: "btn--primary"
 
