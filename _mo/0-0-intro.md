@@ -13,19 +13,16 @@ sections:
   #   slides: 
   #   test:
 
-  - title: "Практика: Проект по машинному обучению" 
+  - title: "Практика: Входной контроль" 
   #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
 
-  - title: "Практика: Сериализация и десериализация моделей" 
-  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
+  - title: "Практика: Создание модели" 
+    document: https://docs.google.com/document/d/164QGfuX4dQkxiNUPk6BTu2fy0etByRNMUUshVoY9eAI/edit?usp=sharing
 
-  - title: "Практика: Веб-приложение и заглушка модели" 
-  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
+  - title: "Практика: Создание приложения" 
+    document: https://docs.google.com/document/d/1TWL2UxJxBE44bJxMqh460jN5CYsE70SObI6UrqUgGu8/edit?usp=sharing
 
-  - title: "Практика: API модели" 
-  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
-
-  - title: "Практика: Модель рисков ИИС" 
+  - title: "Практика: Инкапсуляция модели" 
   #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
 
   - title: "Практика: Развертывание через Docker" 
@@ -34,11 +31,14 @@ sections:
   - title: "Практика: Развертывание через MLFlow" 
   #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
 
-  - title: "Практика: Мониторинг моделей" 
+  - title: "Практика: Карта планирования ИИ-проекта" 
   #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
 
-  - title: "Практика: Управление артефактами" 
+  - title: "Практика: Модель рисков ИИС" 
   #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
+
+  # - title: "Практика: Управление артефактами" 
+  # #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
 
   - title: "Проект для самостоятельного выполнения" 
     document: https://docs.google.com/document/d/1Lwbg5QOAksm93DvwSvx1htb5mt70XUi7fI1c4_3Ch_I/edit?usp=sharing
