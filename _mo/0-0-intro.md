@@ -14,13 +14,19 @@ sections:
   #   test:
 
   - title: "Практика: Входной контроль" 
-  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
+    document: https://docs.google.com/document/d/1XyIF0r5DnXZiVjTCkelfFACdy_TsN9aj5YbY5DRASn4/edit?usp=sharing
 
   - title: "Практика: Создание модели" 
     document: https://docs.google.com/document/d/164QGfuX4dQkxiNUPk6BTu2fy0etByRNMUUshVoY9eAI/edit?usp=sharing
 
   - title: "Практика: Создание приложения" 
     document: https://docs.google.com/document/d/1TWL2UxJxBE44bJxMqh460jN5CYsE70SObI6UrqUgGu8/edit?usp=sharing
+
+  - title: "Практика: Повторная реализация" 
+    document: https://docs.google.com/document/d/1A1rZlZNWB4CBdpTVsQgmGAg5l7gHb0Rmd_qMPy8Upzk/edit?usp=sharing
+
+  - title: "Практика: Непосредственная интеграция" 
+    document: https://docs.google.com/document/d/18gUIeGw1qVl76aSf5waR23kXyZ_00UNHiUzB56Pblv4/edit?usp=sharing
 
   - title: "Практика: Инкапсуляция модели" 
   #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
