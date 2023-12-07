@@ -29,7 +29,7 @@ sections:
     document: https://docs.google.com/document/d/18gUIeGw1qVl76aSf5waR23kXyZ_00UNHiUzB56Pblv4/edit?usp=sharing
 
   - title: "Практика: Инкапсуляция модели" 
-  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
+    document: https://docs.google.com/document/d/1bCr22cvVQlV0Xm-JinSwh3fxbCjwf9b5Hfy2b6EMOzQ/edit?usp=sharing
 
   - title: "Практика: Развертывание через Docker" 
   #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
@@ -44,6 +44,9 @@ sections:
   #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
 
   # - title: "Практика: Управление артефактами" 
+  # #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
+
+  # - title: "Практика: Мониторинг модели" 
   # #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
 
   - title: "Проект для самостоятельного выполнения" 
