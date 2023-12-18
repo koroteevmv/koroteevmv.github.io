@@ -38,10 +38,10 @@ sections:
   #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
 
   - title: "Практика: Карта планирования ИИ-проекта" 
-  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
+    document: https://docs.google.com/document/d/1DlO2wu9SWsyzAFxMTL5kdj0FFz6GEEKaww3N__oqTFg/edit?usp=sharing
 
   - title: "Практика: Модель рисков ИИС" 
-  #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
+    document: https://docs.google.com/document/d/1VspURdjuOLjlFMVKjnLjk9Z30XKmdWq5-eUrH8Vyl5c/edit?usp=sharing
 
   # - title: "Практика: Управление артефактами" 
   # #   document: https://github.com/koroteevmv/ML_course/tree/main/ML6.1_clustering
