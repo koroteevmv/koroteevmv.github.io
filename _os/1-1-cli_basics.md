@@ -49,7 +49,7 @@ sections:
   - title: "Практика: Работа с файлами" # Название работы
     overview: "В этой работе вы познакомитесь с полезными приемами работы с файлами - созданием жестких и символических ссылок, командами архивации файлов."
     document: # https://drive.google.com/open?id=1Dima-0RuvXL5AKK2NDTbpFnqcMuc-mL3TaXFWe_hlYw
-    youtube: # Видеозапись занятия
+    youtube: 4yscPg8UhbU # Видеозапись занятия
     slides: # ссылка на презентацию к занятию
     textbook: /text/os11-4/
     additional: # ссылки на дополнительные материалы

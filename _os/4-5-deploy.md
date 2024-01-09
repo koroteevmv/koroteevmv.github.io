@@ -28,26 +28,19 @@ sections:
     overview: ""
     youtube: jRM95_yCbQ4
     slides: 
-    document: https://docs.google.com/document/d/1NwBwbqkxGtHXiuRLS9lOillQNAmX0sGripX9KiSnxaA/edit?usp=sharing # ссылка на методические указания
+    document: # https://docs.google.com/document/d/1NwBwbqkxGtHXiuRLS9lOillQNAmX0sGripX9KiSnxaA/edit?usp=sharing # ссылка на методические указания
     additional: # 
 
   - title: "Практика: Развертывание через Git"
     overview: ""
-    youtube: # Видеозапись занятия
+    youtube: oKqTB2nJ-Yc
     slides: 
     document: 
     additional: # 
 
   - title: "Практика: Развертывание через Docker"
     overview: ""
-    youtube: # Видеозапись занятия
-    slides: 
-    document: 
-    additional: # 
-
-  - title: "Практика: Создание инсталлятора"
-    overview: ""
-    youtube: # Видеозапись занятия
+    youtube: vd609d2Wc5E
     slides: 
     document: 
     additional: # 
