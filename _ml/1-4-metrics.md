@@ -14,7 +14,7 @@ sections:
     test:
 
   - title: "Практика: Метрики эффективности" 
-    document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML4.3%20diagnostics
+    document: https://github.com/koroteevmv/ML_course/blob/main/ML4.1%20metrics/README.md
 
   # - title: "Практика: Модели классификации" 
   #   document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.1%20classification
