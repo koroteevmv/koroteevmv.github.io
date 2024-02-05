@@ -37,6 +37,20 @@ feature_row:
     btn_label: "Читать"
     btn_class: "btn--primary"
     url: http://elib.fa.ru/rbook/books137315.pdf/info
+
+  - title: "Монография"
+    image_path: /assets/images/covers/mono1.jpg
+    btn_label: "Купить"
+    btn_class: "btn--primary"
+    url: https://www.litres.ru/book/david-aregovich-petr/optimizaciya-promyshlennogo-proizvodstva-metodami-imi-70250254/
+
+  - title: "Монография"
+    image_path: /assets/images/covers/mono2.jpg
+    btn_label: "Купить"
+    btn_class: "btn--primary"
+    url: https://www.litres.ru/book/vladimir-kosarev/intellektualnyy-strukturno-parametricheskiy-sintez-imitac-70250260/
 ---
+
+<a href='https://www.litres.ru/author/mihail-viktorovich-koroteev/'><button href='#' class='btn btn-primary'> Профиль на ЛитРесе </button></a>
 
 {% include feature_row %}
