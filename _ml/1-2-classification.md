@@ -7,13 +7,13 @@ excerpt: ""
 sections:
 
   - title: "Лекция: Задача классификации" 
-    document: https://docs.google.com/document/d/1P8YLjLdb11-oHW-e_ZLI04ueuxPLZRc6YZkCT3g1t5A/edit?usp=sharing
-    youtube:
+    youtube: oQltxNUaWxI&list=PLhgyvraU60gUGikJr3pzMLEXWZkX2uW5U&index=13
     slides: /pres/ml2/
     test:
 
   - title: "Практика: Логистическая регрессия" 
     document: https://github.com/koroteevmv/ML_course/tree/main/ML2.1%20logistic%20regression/README.md
+    youtube: 3EbmowRu-HA&list=PLhgyvraU60gUGikJr3pzMLEXWZkX2uW5U&index=14
 
   - title: "Практика: Классификация на реальных данных" 
     document: https://github.com/koroteevmv/ML_course/tree/main/ML2.2%20real%20classification/README.md

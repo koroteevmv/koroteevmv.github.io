@@ -8,8 +8,7 @@ sections:
 
   - title: "Лекция: Задача регрессии" 
     overview: ""
-    document: https://docs.google.com/document/d/109cbi22vJoh_KCpNc61Rg5WhwLP06j8dqd307aqeIFw/edit?usp=sharing
-    youtube:
+    youtube: MYcu8uikmPc&list=PLhgyvraU60gUGikJr3pzMLEXWZkX2uW5U&index=4
     slides: /pres/ml1/
     test:
     textbook: # /text/ml1/
@@ -23,12 +22,15 @@ sections:
 
   - title: "Практика: Линейная регрессия" 
     document: https://github.com/koroteevmv/ML_course/tree/main/ML1.1%20linear%20regression/README.md
+    youtube: sbFlI3PlP0M&list=PLhgyvraU60gUGikJr3pzMLEXWZkX2uW5U&index=6
 
   - title: "Практика: Множественная регрессия" 
     document: https://github.com/koroteevmv/ML_course/tree/main/ML1.2%20multivariate/README.md
+    youtube: rJww6OMd3PM&list=PLhgyvraU60gUGikJr3pzMLEXWZkX2uW5U&index=10
 
   - title: "Практика: Регрессия на реальном датасете" 
     document: https://github.com/koroteevmv/ML_course/tree/main/ML1.3%20real%20regression/README.md
+    youtube: u-fZdjyDBqA&list=PLhgyvraU60gUGikJr3pzMLEXWZkX2uW5U&index=11
 
   # - title: "Практика: Множественная регрессия" 
   #   overview: ""

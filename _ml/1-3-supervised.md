@@ -8,6 +8,7 @@ sections:
 
   - title: "Лекция: Методы обучения с учителем"
     slides: /pres/ml3/
+    youtube: B6BQI_Z_bJ0&list=PLhgyvraU60gUGikJr3pzMLEXWZkX2uW5U&index=16
 
   - title: "Практика: Полиномиальные модели" 
     document: https://github.com/koroteevmv/ML_course/tree/main/ML3.1%20polynomial%20features/README.md
