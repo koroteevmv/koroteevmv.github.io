@@ -26,11 +26,11 @@ sections:
     document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML4.3%20diagnostics
 
   - title: "Практика: Кросс-валидация" 
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML4.4%20cross-validation
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML4.4%20cross-validation/README.md
 
   - title: "Практика: Диагностика недо и переобучения" 
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML4.3%20diagnostics
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML4.3%20diagnostics/README.md
 
   - title: "Практика: Оптимизация гиперпараметров" 
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML4.5%20hyperparameters
+    document: https://github.com/koroteevmv/ML_course/tree/main/ML4.5%20hyperparameters/README.md
 ---
