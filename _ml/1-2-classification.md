@@ -17,6 +17,7 @@ sections:
 
   - title: "Практика: Классификация на реальных данных" 
     document: https://github.com/koroteevmv/ML_course/tree/main/ML2.2%20real%20classification/README.md
+    youtube: 3otnOJnmJdQ&list=PLhgyvraU60gUGikJr3pzMLEXWZkX2uW5U&index=16
 
   # - title: "Практика: Классификация изображений" 
   #   overview: ""
