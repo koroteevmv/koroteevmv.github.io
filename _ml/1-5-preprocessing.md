@@ -8,7 +8,7 @@ sections:
 
   - title: "Лекция: Задачи и методы предварительной обработки и очистки данных" 
     overview: ""
-    document: https://github.com/koroteevmv/ML_course/blob/main/ML5.1%20data%20integration/README.md
+    document: 
     youtube:
     slides: /pres/ml5/
     test:
@@ -35,7 +35,7 @@ sections:
   #   test:
 
   - title: "Практика: Сбор и интеграция данных" 
-    document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML5.4%20EDA
+    document: https://github.com/koroteevmv/ML_course/blob/main/ML5.1%20data%20integration/README.md
 
   - title: "Практика: Очистка данных" 
     document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML5.4%20EDA
