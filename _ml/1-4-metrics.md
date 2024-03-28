@@ -23,7 +23,7 @@ sections:
   #   document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML3.3%20regression
 
   - title: "Практика: Диагностические кривые" 
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML4.2%20threshold/README.md
+    document: https://github.com/koroteevmv/ML_course/tree/2023_new/ML4.2%20threshold/README.md
 
   - title: "Практика: Кросс-валидация" 
     document: https://github.com/koroteevmv/ML_course/tree/main/ML4.4%20cross-validation/README.md
