@@ -37,15 +37,15 @@ sections:
   - title: "Практика: Сбор и интеграция данных" 
     document: https://github.com/koroteevmv/ML_course/blob/main/ML5.1%20data%20integration/README.md
 
-  - title: "Практика: Очистка данных" 
+  - title: "Практика: Инжиниринг численных признаков" 
+    document: https://github.com/koroteevmv/ML_course/blob/main/ML5.2%20numeric%20features/README.md
+
+  - title: "Практика: Инжиниринг категориальных признаков" 
     document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML5.4%20EDA
 
-  - title: "Практика: Преобразование шкал" 
+  - title: "Практика: Тергет и отбор признаков" 
     document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML5.4%20EDA
 
   - title: "Практика: Комплексная предобработка данных" 
-    document: https://github.com/koroteevmv/ML_course/tree/main/ML5.4%20EDA
-
-  - title: "Практика: Отбор и инжиниринг признаков" 
-    document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML5.4%20EDA
+    document: https://github.com/koroteevmv/ML_course/blob/main/ML5.5%20EDA/README.md
 ---
