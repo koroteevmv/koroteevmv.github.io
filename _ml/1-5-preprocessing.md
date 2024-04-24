@@ -41,7 +41,7 @@ sections:
     document: https://github.com/koroteevmv/ML_course/blob/main/ML5.2%20numeric%20features/README.md
 
   - title: "Практика: Инжиниринг категориальных признаков" 
-    document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML5.4%20EDA
+    document: https://github.com/koroteevmv/ML_course/blob/main/ML5.3%20categorical%20features/README.md
 
   - title: "Практика: Тергет и отбор признаков" 
     document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML5.4%20EDA
