@@ -37,6 +37,10 @@ sections:
         url: https://www.geeksforgeeks.org/dbscan-clustering-in-ml-density-based-clustering/?ref=lbp
       - title: "DBSCAN (Википедия)"
         url: https://ru.wikipedia.org/wiki/DBSCAN
+      - title: "Introduction to Dimensionality Reduction (Geeks4Geeks)"
+        url: https://www.geeksforgeeks.org/dimensionality-reduction/
+      - title: "Introduction to Kernel PCA (Geeks4Geeks)"
+        url: https://www.geeksforgeeks.org/ml-introduction-to-kernel-pca/?ref=next_article
 
   - title: "Практика: Кластеризация данных" 
   #   overview: ""
