@@ -12,6 +12,17 @@ sections:
   #   youtube:
   #   slides: 
   #   test:
+    document: /text/ml7/
+    slides: /pres/ml7/?full#1
+    additional:
+      - title: "NLP"
+        url: https://www.kaggle.com/code/samuelcortinhas/nlp1-tokenization
+      - title: "The Complete Guide to Ensemble Learning"
+        url: https://www.v7labs.com/blog/ensemble-learning
+      - title: "Bagging, Boosting, and Stacking in Machine Learning"
+        url: https://www.baeldung.com/cs/bagging-boosting-stacking-ml-ensemble-models
+      - title: "When to Choose CatBoost Over XGBoost or LightGBM"
+        url: https://neptune.ai/blog/when-to-choose-catboost-over-xgboost-or-lightgbm
 
   # - title: "Практика: Кластеризация данных" 
   #   overview: ""
