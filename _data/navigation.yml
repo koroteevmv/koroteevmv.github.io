@@ -3,24 +3,14 @@ main:
 
   - title: "Выступления"
     url: /talks
-
   - title: "Книги"
     url: /books
-
   - title: "Проекты"
     url: /projects
-
-  - title: "UNIX"
-    url: /os
   - title: "ML"
     url: /ml
-
-  - title: "Наука"
-    url: /science
-
   - title: "Все записи"
     url: /blog/
-
   - title: "Все курсы"
     url: /courses
 
