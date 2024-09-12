@@ -9,6 +9,12 @@ entries_layout: grid
 
 feature_row:
 
+  - title: "Для студентов ФУ"
+    image_path: /assets/images/covers/book3.png
+    excerpt: "Продолжение пособия по дисциплине 'Машинное обучение'. Сборник лабораторных работ по основам машинного обучения в библиотеке sklearn."
+    btn_label: "Читать"
+    btn_class: "btn--primary"
+    url: https://elib.fa.ru/fbook/books139159.pdf/info
 
   - image_path:  /assets/images/covers/ml-textbook.jpg
     title: # "Основы машинного обучения на Python"
@@ -19,7 +25,7 @@ feature_row:
 
   - title: "Для студентов ФУ"
     image_path: /assets/images/covers/book1.jpeg
-    excerpt: "Учебное пособие по дисциплине Сетевые системы и приложения. Теоретический материал и практические задания по администрированию ОС Linux."
+    excerpt: "Учебное пособие по дисциплине 'Сетевые системы и приложения'. Теоретический материал и практические задания по администрированию ОС Linux."
     btn_label: "Читать"
     btn_class: "btn--primary"
     url: http://elib.fa.ru/rbook/books137316.pdf/info
@@ -33,7 +39,7 @@ feature_row:
 
   - title: "Для студентов ФУ"
     image_path: /assets/images/covers/book2.jpeg
-    excerpt: "Учебное пособие по дисциплине Машинное обучение. Сборник лабораторных работ по основам машинного обучения в библиотеке sklearn."
+    excerpt: "Учебное пособие по дисциплине 'Машинное обучение'. Сборник лабораторных работ по основам машинного обучения в библиотеке sklearn."
     btn_label: "Читать"
     btn_class: "btn--primary"
     url: http://elib.fa.ru/rbook/books137315.pdf/info
