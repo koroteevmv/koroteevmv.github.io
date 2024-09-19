@@ -33,4 +33,8 @@ sections:
   - title: "Практика: Наивный Байесовский классификатор" 
     document: https://github.com/koroteevmv/ML_course/blob/2024/ML3.6%20bayes/README.md
     youtube: WpJgFZ4irfw&list=PLhgyvraU60gUGikJr3pzMLEXWZkX2uW5U&index=34
+
+
+  - title: "Лекция: Метод обратного распространения ошибки"
+    slides: /pres/ml8/
 ---
