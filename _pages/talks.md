@@ -10,12 +10,12 @@ entries_layout: grid
 
 feature_row:
 
-  # - title: "17 ноября 2023"
-  #   image_path: https://static.tildacdn.com/tild3734-6136-4334-b766-363539363331/silver_white_111.png
-  #   excerpt: "На масштабном форуме MICE Exellence forum Михаил Коротеев расскажет о типичных ошибках при внедрении систем искусственного интеллекта."
-  #   btn_label: "Регистрация"
-  #   btn_class: "btn--primary"
-  #   url: https://mice-excellence.ru/
+  - title: "9 октября 2024"
+    image_path: https://b1.mskagency.ru/c/865665.jpg
+    excerpt: "В рамках Форума этики ИИ состоится панельная дискуссия по этике ИИ в финансовом секторе."
+    btn_label: "Регистрация"
+    btn_class: "btn--primary"
+    url: https://aiethic.ru/
 
   # - title: "19 ноября 2023"
   #   image_path: https://www.sut.ru/images/news/2018/11.09/5.jpg
