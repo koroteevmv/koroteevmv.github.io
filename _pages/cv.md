@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: "Резюме"
+title: "Биография"
 toc: true
 permalink: /cv/
 author_profile: true 
@@ -28,7 +28,20 @@ feature_row_certs:
   - image_path: "/assets/images/certs/python.png"
     url: https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/204~1291820/pdf
     title: "An Introduction to Interactive Programming in Python" 
+
+feature_row_avas:
+
+  - image_path: "/assets/images/avatar5_tn.jpg"
+    url: "/assets/images/avatar5.jpg"
+
+  - image_path: "/assets/images/avatar7.jpg"
+    url: "/assets/images/avatar7.jpg"
+
+  - image_path: "/assets/images/avatar6.jpg"
+    url: "/assets/images/avatar6.jpg"
 ---
+
+{% include gallery id="feature_row_avas" %}
 
 Научные интересы
 ======
