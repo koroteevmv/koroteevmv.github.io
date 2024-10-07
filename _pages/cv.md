@@ -202,4 +202,3 @@ feature_row_avas:
 <li> <a href="http://www.arpnjournals.org/jeas/research_papers/rp_2016/jeas_0816_4734.pdf">
   The variability of fuzzy aggregation methods for partial indicators of quality and the optimal method choice.</a> Koroteev, M.V., Tereliansky, P.V., Vasilyev, O.I., Baktygulov, K., Ordobaev, B.S.
 
-</ol>
