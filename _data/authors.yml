@@ -1,1 +1,15 @@
 # Authors
+Vadim Marchenko:
+  name             : "Вадим Марченко"
+  avatar           : "/assets/images/favicon-256.png"
+  bio              : "Лаборатория анализа данных"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:billyrick@rick.com"
+    - label: "Telegram"
+      icon: "fab fa-brands fa-telegram"
+      url: "https://t.me/bayesianinference"      
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://koroteev.site"
