@@ -12,18 +12,18 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ru-RU"
-title                    : "Кафедра искусственного интеллекта"
+title                    : "Михаил Коротеев"
 title_separator          : "|"
-subtitle                 : "Финансовый университет" # site tagline that appears below site title in masthead
-name                     : "Кафедра искусственного интеллекта"
+subtitle                 : "Официальный сайт" # site tagline that appears below site title in masthead
+name                     : "Михаил Коротеев"
 description              : ""
-url                      : ""
+url                      : "https://koroteev.site"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : Dep-AI/Dep-AI.github.io
+repository               : koroteevmv/koroteevmv.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : /assets/images/android-chrome-192x192.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -58,7 +58,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : /assets/images/favicon-256.png
+og_image                 : /assets/images/android-chrome-192x192.png
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -76,18 +76,52 @@ analytics:
 
 # Site Author
 author:
-  name             : "Кафедра искусственного интеллекта"
-  avatar           : "/assets/images/favicon-256.png"
-  bio              : ""
-  email            : mvkoroteev@fa.ru
+  name             : "Михаил Коротеев"
+  avatar           : "/assets/images/avatar3.jpg"
+  bio              : "Есть такая профессия - Родину автоматизировать."
+  email            : koroteevmv@gmail.com
   links:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
-      # url: "https://www.youtube.com/channel/UCPe6h6MY8XZpLV7oRLqRUwQ"
+      url: "https://www.youtube.com/channel/UCPe6h6MY8XZpLV7oRLqRUwQ"
+
+    - label: "Vkontakte"
+      icon: "fab fa-fw fa-vk"
+      url: "https://vk.com/ai_tech_future"
+
+    - label: "Telegram"
+      icon: "fab fa-brands fa-telegram"
+      url: "https://t.me/ai_tech_future"
       
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "http://www.fa.ru/org/chair/ai/Pages/Home.aspx"
+      # url: "https://koroteev.site"
+
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      # url: "https://www.linkedin.com/in/koroteevmv/"
+
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/koroteevmv"
+
+    - label: "Elibrary"
+      icon: "fab fa-fw fa-erlang"
+      # url: "https://elibrary.ru/author_items.asp?authorid=647967"
+
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      # url: "https://orcid.org/0000-0002-8768-6564"
+
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/mihail.koroteev"
+
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: https://twitter.com/koroteev_m
+
+      # https://fontawesome.com/icons?d=gallery
 
 # Site Footer
 footer:
@@ -213,9 +247,56 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  talks:
+    output: true
+    permalink: /:collection/:path/
+  scipop:
+    output: true
+    permalink: /:collection/:path/
+  os:
+    output: true
+    permalink: /:collection/:path/
+  text:
+    output: true
+    permalink: /:collection/:path/
+  pres:
+    output: true
+    permalink: /:collection/:path/
+  ml:
+    output: true
+    permalink: /:collection/:path/
+  mo:
+    output: true
+    permalink: /:collection/:path/
+  mo:
+    output: true
+    permalink: /:collection/:path/
+  md:
+    output: true
+    permalink: /:collection/:path/
+  wd:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
-defaults:
+defaults:      
+  # talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: single
+      read_time: false
+      show_date: true
+      author_profile: true
+      share: true
+      comments: true
+      related: true
+      last_modified_at: false
+      toc: false
+      word_count: false
 
   # _posts
   - scope:
@@ -225,13 +306,122 @@ defaults:
       layout: single
       classes: None
       author_profile: true
-      read_time: false
+      read_time: true
       share: false
       comments: false
       related: true
-      toc: false
+      toc: true
       toc_sticky: true
+      show_date: true
+      
+  # text
+  - scope:
+      path: "_text"
+      type: text
+    values:
+      layout: textbook_page
+      read_time: true
       show_date: false
+      author_profile: false
+      share: false
+      comments: false
+      related: true
+      last_modified_at: false
+      toc: false
+      word_count: true
+      
+  # presentations
+  - scope:
+      path: "_pres"
+      type: pres
+    values:
+      layout: shower
+      
+  # os
+  - scope:
+      path: "_os"
+      type: os
+    values:
+      layout: coursepage
+      read_time: false
+      show_date: false
+      author_profile: false
+      share: false
+      comments: false
+      related: false
+      last_modified_at: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "os"
+  # md
+  - scope:
+      path: "_md"
+      type: md
+    values:
+      layout: coursepage
+      read_time: false
+      show_date: false
+      author_profile: false
+      share: false
+      comments: false
+      related: false
+      last_modified_at: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "md"
+  # ml
+  - scope:
+      path: "_ml"
+      type: ml
+    values:
+      layout: coursepage
+      read_time: false
+      show_date: false
+      author_profile: false
+      share: false
+      comments: false
+      related: false
+      last_modified_at: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "ml"
+  # mo
+  - scope:
+      path: "_mo"
+      type: mo
+    values:
+      layout: coursepage
+      read_time: false
+      show_date: false
+      author_profile: false
+      share: false
+      comments: false
+      related: false
+      last_modified_at: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "mo"
+  # wd
+  - scope:
+      path: "_wd"
+      type: wd
+    values:
+      layout: coursepage
+      read_time: false
+      show_date: false
+      author_profile: false
+      share: false
+      comments: false
+      related: false
+      last_modified_at: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "wd"
         
   # _pages
   - scope:

@@ -1,47 +1,79 @@
 ---
-title: "КИИ"
+title: "Личный сайт"
 layout: single
 classes: wide
-related: false
-share: false
+related: true
+share: true
 toc: false
 comments: false
 author_profile: true
 permalink: /
 
 header:
-  overlay_image: /assets/images/splash.png
-excerpt: ""
+  overlay_image: /assets/images/splash_image.jpg
+excerpt: "Михаил Коротеев - преподаватель, ученый и разработчик, специалист в сфере прикладного машинного обучения, ИИ в финансах, этике и регулировании ИИ."
 
-entries_layout: grid
+
+highlights:
+
+
+  - image_path: https://www.litres.ru/pub/c/cover/70061098.jpg
+    title: "Учебник по машинному обучению"
+    excerpt: "В электронном виде вышел учебник 'Основы машинного обучения на Python'."
+    url: https://www.litres.ru/book/mihail-viktorovich-k/osnovy-mashinnogo-obucheniya-na-python-bakalavriat-uc-70061098/
+    btn_label: "ЛитРес"
+    btn_class: "btn--primary"
+
+  - image_path: https://www.cloudflight.io/app/uploads/2023/04/230424_ml-model-development_infographic_2.jpg
+    caption: "Photo credit: [**CloudFlight**](https://www.cloudflight.io/en/blog/mlwhat-what-is-mlops-and-why-you-should-care/)"
+    title: "MLOps"
+    excerpt: "Новый учебный курс 'MLOps' - внедрение и поддержка моделей машинного обучения в продакшене. Осенью 2023 года - первая итерация для студентов."
+    url: "/mo"
+    btn_label: "Перейти"
+    btn_class: "btn--primary"
+
+
+
 ---
 
-<h1>О кафедре</h1>
+
+<h1>Домашняя страница Михаила Коротеева</h1>
 <br>
 
-Кафедра искусственного интеллекта образована 1 июля 2024 года. Кафедра искусственного интеллекта занимается разработкой систем искусственного интеллекта и машинного обучения для бизнеса и государства. Основное внимание уделяется созданию инновационных решений, которые способствуют повышению эффективности и конкурентоспособности в различных отраслях экономики, включая финансы, логистику и здравоохранение.
+Я работаю заведущим кафедрой искусственного интеллекта Финансового университета при правительсте РФ. 
+Занимаюсь научными исследованиями и <a href="/projects">проектами</a> в области искусственного интеллекта и машинного обучения, разрабатываю и веду образовательные программы и учебные <a href="/courses">курсы</a>, занимаюсь <a href="talks">просветительской</a> деятельностью.
+Кроме того, я занимаюсь <a href="scipop">переводом</a> научно-популярных статей и видеороликов. 
+<br>
+<br>
+Автор более 100 научных публикаций, 25 результатов интеллектуальной деятельности, 10 учебно-методических изданий, учебников и учебных пособий, несколько десятков методических материалов - рабочих программ дисциплин, программ практик, программ ГИА, сборников лабораторных работ.
 <br>
 <br>
 
-В рамках научных и прикладных исследований кафедра разрабатывает высокотехнологичные продукты, основанные на принципах машинного обучения и искусственного интеллекта.
+С 2024 года являюсь членом национальной комиссии по этике ИИ.
 <br>
-<br>
-
-Кафедра ведет образовательные программы бакалавриата и магистратуры по направлению 01.03.02  и 01.04.02 - "Прикладная математика и информатика".
-
-
-
-      <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2>Активные проекты</h2>
-        <div class="entries-grid">
-          {% for post in site.tags.active %}
-            {% include archive-single.html type="grid" %}
-          {% endfor %}
-        </div>
-        <a href="#page-title" class="back-to-top">Наверх &uarr;</a>
-      </section>
-
-
+(Читать полную <a href="cv">биографию</a>)
 <br>
 
 
+<h2>Разделы</h2>
+<a href='/talks'><button href='#' class='btn btn-primary'> Выступления </button></a>
+<a href='/books'><button href='#' class='btn btn-primary'> Книги </button></a>
+<a href='/courses'><button href='#' class='btn btn-primary'> Курсы </button></a>
+<a href='/projects'><button href='#' class='btn btn-primary'> Проекты </button></a>
+<a href='/scipop'><button href='#' class='btn btn-primary'> Публицистика </button></a>
+<a href='/blog'><button href='#' class='btn btn-success'> Все записи в блоге </button></a>
+
+<h2>Обратите внимание</h2>
+{% include  feature_row id="highlights" %}
+<br>
+
+<h2>Из недавнего</h2>
+
+{% for post in site.posts limit:5 %}
+
+  {% capture year %}{{ post.date | date: '%d %b %Y' }}{% endcapture %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+  {% include archive-single-tags.html %}
+  <p><br></p>
+
+{% endfor %}
