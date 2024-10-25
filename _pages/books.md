@@ -9,6 +9,12 @@ entries_layout: grid
 
 feature_row:
 
+  - image_path: /assets/images/basic-web.png
+    excerpt: "Учебное пособие по началам разработки веб приложений. Книга концентрируется на знакомстве с технологиями создания клиентской части веб-приложений."
+    btn_label: "Купить"
+    btn_class: "btn--primary"
+    url: https://www.litres.ru/book/alevtina-urevna-shatalo/osnovy-veb-razrabotki-bakalavriat-uchebnoe-posobie-71184811/
+
   - title: "Для студентов ФУ"
     image_path: /assets/images/covers/book3.png
     excerpt: "Продолжение пособия по дисциплине 'Машинное обучение'. Сборник лабораторных работ по основам машинного обучения в библиотеке sklearn."
