@@ -60,7 +60,7 @@ sections:
   #   slides: 
   #   test:
 
-  # - title: "Практика: Обнаружение аномалий" 
+  - title: "Практика: Обнаружение аномалий" 
   #   overview: ""
   #   document: https://github.com/koroteevmv/ML_course/blob/main/ML6.2_pca
   #   youtube:

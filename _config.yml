@@ -87,11 +87,11 @@ author:
 
     - label: "Vkontakte"
       icon: "fab fa-fw fa-vk"
-      url: "https://vk.com/ai_tech_future"
+      url: "https://vk.com/koroteev_m"
 
     - label: "Telegram"
       icon: "fab fa-brands fa-telegram"
-      url: "https://t.me/ai_tech_future"
+      # url: "https://t.me/ai_tech_future"
       
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -107,7 +107,7 @@ author:
 
     - label: "Elibrary"
       icon: "fab fa-fw fa-erlang"
-      # url: "https://elibrary.ru/author_items.asp?authorid=647967"
+      url: "https://elibrary.ru/author_items.asp?authorid=647967"
 
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"

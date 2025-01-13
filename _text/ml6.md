@@ -1,5 +1,5 @@
 ---
-# section: ml
+section: ml
 title: "Обучение без учителя"
 ---
 
