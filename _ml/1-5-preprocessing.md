@@ -12,6 +12,11 @@ sections:
     youtube:
     slides: /pres/ml5/
     test:
+    additional:
+      - title: "Обзор методов отбора признаков"
+        url: https://www.analyticsvidhya.com/blog/2020/10/feature-selection-techniques-in-machine-learning/
+      - title: "Отбор признаков в scikit-learn"
+        url: https://scikit-learn.org/stable/modules/feature_selection.html#feature-selection-using-selectfrommodel
 
   # - title: "Практика: Простая предобработка" 
   #   overview: ""
