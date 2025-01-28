@@ -49,7 +49,7 @@ sections:
     document: https://github.com/koroteevmv/ML_course/blob/main/ML5.3%20categorical%20features/README.md
 
   - title: "Практика: Таргет и отбор признаков" 
-    document: # https://github.com/koroteevmv/ML_course/tree/2023_new/ML5.4%20EDA
+    document: https://github.com/koroteevmv/ML_course/blob/main/ML5.4%20target/README.md
 
   - title: "Практика: Комплексная предобработка данных" 
     document: https://github.com/koroteevmv/ML_course/blob/main/ML5.5%20EDA/README.md
