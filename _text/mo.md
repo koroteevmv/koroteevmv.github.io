@@ -1,1 +1,0 @@
-/home/koroteeev/projects/koroteevmv.github.io/_pres/mo.md
