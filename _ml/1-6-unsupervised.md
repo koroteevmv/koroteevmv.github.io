@@ -59,16 +59,15 @@ sections:
   #   slides: 
   #   test:
 
-  - title: "Практика: Обнаружение аномалий" 
-  #   overview: ""
-  #   document: https://github.com/koroteevmv/ML_course/blob/main/ML6.2_pca
+  - title: "Практика: Понижение размерности" 
+    document: https://github.com/koroteevmv/ML_course/blob/main/ML6.2%20pca/README.md
   #   youtube:
   #   slides:
   #   test:
 
-  - title: "Практика: Понижение размерности" 
+  - title: "Практика: Обнаружение аномалий" 
   #   overview: ""
-  #   document: https://github.com/koroteevmv/ML_course/blob/main/ML6.2_pca
+  #   document: https://github.com/koroteevmv/ML_course/blob/main/ML6.3%20anomalies/README.md
   #   youtube:
   #   slides:
   #   test:
