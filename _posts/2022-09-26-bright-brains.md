@@ -3,7 +3,7 @@ title: "Куда будет расти искусственный интелле
 categories:
   - talks
 tags:
-  - interview
+  - ai
 header:
   teaser: http://brightmagazine.ru/wp-content/uploads/2022/10/christina-wocintechchat-com-qZYNQp_Lm3o-unsplash.jpg
 link: http://brightmagazine.ru/ie/

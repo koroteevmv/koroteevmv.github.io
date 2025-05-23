@@ -10,12 +10,12 @@ entries_layout: grid
 
 feature_row:
 
-  # - title: "9 октября 2024"
-  #   image_path: https://b1.mskagency.ru/c/865665.jpg
-  #   excerpt: "В рамках Форума этики ИИ состоится панельная дискуссия по этике ИИ в финансовом секторе."
-  #   btn_label: "Регистрация"
-  #   btn_class: "btn--primary"
-  #   url: https://aiethic.ru/
+  - title: "31 мая 2025"
+    image_path: https://russiasmartcity.ru/wp-content/uploads/2025/04/photo_2025-04-22_17-24-02.jpg
+    excerpt: "На церемонии вручения премии Гравитация поговорим о практиках регулирования ИИ в вузах"
+    btn_label: "Регистрация"
+    btn_class: "btn--primary"
+    url: https://gravitation.ai/
 
   # - title: "19 ноября 2023"
   #   image_path: https://www.sut.ru/images/news/2018/11.09/5.jpg

@@ -14,6 +14,7 @@ word_count: false
 categories:
   - talks
 tags:
+  - ai_regulation
 header:
   teaser: /assets/images/talks/2025-01-31.jpg
 excerpt: "В Муромском институте ВлГУ поговорили о перспективах использования ИИ в сфере образования"
