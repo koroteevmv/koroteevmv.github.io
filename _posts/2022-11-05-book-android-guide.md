@@ -2,8 +2,9 @@
 title: "Введение в Android разработку на Java"
 categories:
   - book
+  - course
 tags:
-  - book
+  - Android
 header:
   teaser: https://cv0.litres.ru/pub/c/cover_415/69382102.webp
 link: https://www.litres.ru/book/alevtina-urevna-shat/vvedenie-v-android-razrabotku-na-java-bakalavriat-uch-69382102/

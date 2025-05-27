@@ -3,11 +3,10 @@ title: "Обзор MLOps"
 classes: None
 categories:
   - scipop
-tags:
   - translation
   - article
-  - machine-learning
-  - mlops
+tags:
+  - MLOps
 toc: true
 excerpt: "Эксперт попытался дать общую характеристику MLOps. Что это такое, зачем нужно и какие инструменты существуют?"
 ---

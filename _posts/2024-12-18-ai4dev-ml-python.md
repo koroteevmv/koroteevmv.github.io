@@ -13,8 +13,9 @@ word_count: false
 
 categories:
   - talks
+  - artezio
 tags:
-  - interview
+  - Инструменты ИИ
 header:
   teaser: /assets/images/talks/2024-12-18.jpg
 excerpt: "Лекция о Python и не только в ИИ"

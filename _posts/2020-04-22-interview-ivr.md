@@ -2,9 +2,10 @@
 title: "IVR – это паллиативное решение"
 categories:
   - talks
-tags:
   - interview
-  - findata
+tags:
+  - Кейсы ИИ
+  - Тренды ИИ
 header:
   teaser: /assets/images/avatars/avatar3.jpg
 link: http://www.fa.ru/org/dep/findata/News/2020-04-22-koroteev-interview2.aspx?fbclid=IwAR1-OG3z3tK3008uT_E-OTBRPCE4rwPlV5CF_dPXXOw1eDf5Dh2ZyUnbb7E

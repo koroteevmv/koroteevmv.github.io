@@ -2,13 +2,12 @@
 title: "MLOps меняет процесс разработки моделей машинного обучения"
 categories:
   - scipop
-tags:
   - translation
   - article
-  - machine-learning
-  - mlops
+tags:
+  - MLOps
 toc: true
-excerpt: "Многие говорят сейчс об MLOps. Каковы его ключевые принципы? Поможет разобраться в этом статья от одного из практикующих экспертов."
+excerpt: "Многие говорят сейчас об MLOps. Каковы его ключевые принципы? Поможет разобраться в этом статья от одного из практикующих экспертов."
 ---
 
 [Оригинал](https://www.kdnuggets.com/2020/12/mlops-changing-machine-learning-developed.html)

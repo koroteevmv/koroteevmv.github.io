@@ -2,11 +2,11 @@
 title: "Градиентный спуск: как учатся нейронные сети"
 categories:
   - scipop
-tags:
-  - sciberia
   - 3b1b
-  - math
   - editing
+tags:
+  - Математика
+  - Deep learning
 excerpt: "Мы подготовили долгожданное продолжение лекций по нейросетям. Обучение сложный процесс не только для человека, но и для сущностей, порожденных разумом человека."
 link: https://www.youtube.com/watch?v=f9oDe4Yq4E0&feature=emb_logo
 ---

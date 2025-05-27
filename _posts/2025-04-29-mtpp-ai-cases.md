@@ -13,8 +13,9 @@ word_count: false
 
 categories:
   - talks
+  - avantage
 tags:
-  - ai_cases
+  - Кейсы ИИ
 header:
   teaser: https://mostpp.ru/upload/iblock/1d5/P4199460.JPG
 excerpt: "В МТПП прошел круглый стол по кейсам применения ИИ в бизнесе"

@@ -13,8 +13,10 @@ word_count: false
 
 categories:
   - talks
-tags:
   - interview
+  - VK
+tags:
+  - Внедрение ИТ
 header:
   teaser: https://github.com/koroteevmv/koroteevmv.github.io/blob/master/assets/images/talks/2023-04-20-3.jpg?raw=true
 excerpt: "20-21 апреля 2023 года в Санкт Петербурге прошел VK WorkSpace Meetup от компании «VK»."
