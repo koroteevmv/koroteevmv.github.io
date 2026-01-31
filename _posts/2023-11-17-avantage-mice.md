@@ -16,7 +16,7 @@ categories:
   - avantage
 tags:
   - Кейсы ИИ
-  - Внедение ИИ
+  - Внедрение ИИ
 header:
   teaser: /assets/images/talks/2023-11-17-4.jpg
 excerpt: "На масштабном форуме MICE Exellence forum Михаил Коротеев рассказал о типичных ошибках при внедрении систем искусственного интеллекта"

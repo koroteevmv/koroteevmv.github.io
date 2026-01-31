@@ -13,7 +13,6 @@ word_count: false
 
 categories:
   - talks
-  - interview
   - VK
 tags:
   - Внедрение ИТ

@@ -1,7 +1,7 @@
 ---
 title: "Как использовать ChatGPT для учебы?"
 categories:
-  - interview
+  - media
   - lenta
 tags:
   - ИИ в образовании

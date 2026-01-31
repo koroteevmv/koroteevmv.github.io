@@ -1,7 +1,7 @@
 ---
 title: "Сколько получают IT-специалисты в России?"
 categories:
-  - interview
+  - media
   - bright
 tags:
   - ИТ-образование

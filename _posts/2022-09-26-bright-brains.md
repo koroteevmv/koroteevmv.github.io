@@ -1,7 +1,7 @@
 ---
 title: "Куда будет расти искусственный интеллект?"
 categories:
-  - talks
+  - media
   - bright
 tags:
   - Тренды ИИ

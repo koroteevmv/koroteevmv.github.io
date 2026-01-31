@@ -2,7 +2,6 @@
 title: "IVR – это паллиативное решение"
 categories:
   - talks
-  - interview
 tags:
   - Кейсы ИИ
   - Тренды ИИ

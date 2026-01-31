@@ -1,5 +1,5 @@
 ---
-title: "ИИ: новые цифровые сервисы и решения. Практики использования, тренды"
+title: "ИИ: новые цифровые сервисы и решения"
 
 layout: single
 read_time: false
@@ -18,7 +18,7 @@ tags:
   - Кейсы ИИ
 header:
   teaser: https://mostpp.ru/upload/iblock/1d5/P4199460.JPG
-excerpt: "В МТПП прошел круглый стол по кейсам применения ИИ в бизнесе"
+excerpt: "В МТПП прошел круглый стол по кейсам применения ИИ в бизнесе, трендам, практикам использования."
 
 feature_row:
   - image_path: https://mostpp.ru/upload/iblock/693/P4199468.JPG
