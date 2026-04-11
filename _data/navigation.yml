@@ -5,13 +5,15 @@ main:
     url: /talks
   - title: "Книги"
     url: /books
-  - title: "Проекты"
-    url: /projects
+  - title: "СМИ"
+    url: /categories/#media
+  # - title: "Проекты"
+  #   url: /projects
   - title: "ML"
     url: /ml
-  - title: "Все записи"
+  - title: "Блог"
     url: /blog/
-  - title: "Все курсы"
+  - title: "Курсы"
     url: /courses
 
 # documentation links
