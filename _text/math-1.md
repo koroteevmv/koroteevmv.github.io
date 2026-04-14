@@ -657,7 +657,11 @@ $$\vec{x} = 3\vec{e}_1 + 5\vec{e}_2 = 3\begin{bmatrix} 1 \\ 0 \end{bmatrix} + 5\
 
 Но можно выбрать другой базис! Например, на плоскости базис может состоять из векторов $\vec{a}_1 = [1, 1]$ и $\vec{a}_2 = [1, -1]$. Эти вектора линейно независимы (не коллинеарны), значит, образуют базис. В этом базисе тот же вектор $\vec{x} = [3, 5]$ будет иметь другие координаты.
 
-[КАРТИНКА: Один и тот же вектор в двух разных базисах — показать стандартный базис и какой-то другой, отметить разные координаты одного вектора]
+![Один вектор в разных базисах](/assets/images/math_text/vectors/VectorInTwoBases.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/vectors/VectorInTwoBases.mp4" type="video/mp4">
+</video>
 
 #### Примеры базисов
 
@@ -842,7 +846,11 @@ $$\mid\vec{x}\mid = \sqrt{x_1^2 + x_2^2 + \cdots + x_n^2} = \sqrt{\sum_{i=1}^n x
 {% endcapture %}
 <div class="notice--success">{{ notice | markdownify }}</div>
 
-[КАРТИНКА: Вектор на плоскости [3, 4] с прямоугольным треугольником, катеты подписаны 3 и 4, гипотенуза (длина вектора) = 5]
+![Длина вектора](/assets/images/math_text/vectors/VectorLength.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/vectors/VectorLength.mp4" type="video/mp4">
+</video>
 
 {% capture notice %}
 Свойства длины вектора:
@@ -894,7 +902,11 @@ $$d(\vec{x}, \vec{y}) = \mid\vec{x} - \vec{y}\mid = \sqrt{\sum_{i=1}^n (x_i - y_
 {% endcapture %}
 <div class="notice--success">{{ notice | markdownify }}</div>
 
-[КАРТИНКА: Два вектора на плоскости, их разность показана как вектор, соединяющий их концы, подписано “расстояние между векторами”]
+![Расстояние между векторами](/assets/images/math_text/vectors/VectorDifference.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/vectors/VectorDifference.mp4" type="video/mp4">
+</video>
 
 #### Применение в машинном обучении
 
@@ -922,7 +934,11 @@ $$\langle \vec{a}, \vec{b} \rangle = |\vec{a}| \cdot |\vec{b}| \cdot \cos \varph
 {% endcapture %}
 <div class="notice--success">{{ notice | markdownify }}</div>
 
-[КАРТИНКА: Два вектора с углом между ними, обозначенным как φ]
+![Угол между векторами](/assets/images/math_text/vectors/ScalarProduct.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/vectors/ScalarProduct.mp4" type="video/mp4">
+</video>
 
 {% capture notice %}
 **Определение (алгебраическое)**. Для векторов $\vec{a} = [a_1, \ldots, a_n]$ и $\vec{b} = [b_1, \ldots, b_n]$ в $\mathbb{R}^n$ скалярное произведение вычисляется как сумма произведений соответствующих компонент:
@@ -957,7 +973,11 @@ $$\vec{a} \perp \vec{b} \iff \langle \vec{a}, \vec{b} \rangle = 0$$
 
 Это следует из того, что $\cos 90° = 0$.
 
-[КАРТИНКА: Два перпендикулярных вектора, подпись “ортогональные: скалярное произведение = 0”]
+![Ортогональные вектора](/assets/images/math_text/vectors/OrthogonalVectors.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/vectors/OrthogonalVectors.mp4" type="video/mp4">
+</video>
 
 #### Геометрический смысл скалярного произведения
 
@@ -965,7 +985,11 @@ $$\vec{a} \perp \vec{b} \iff \langle \vec{a}, \vec{b} \rangle = 0$$
 - Произведение длины вектора $\vec{a}$ на проекцию вектора $\vec{b}$ на направление $\vec{a}$
 - Мера «согласованности» направлений векторов: положительное значение означает, что вектора смотрят примерно в одну сторону, отрицательное — в противоположные, ноль — перпендикулярны
 
-[КАРТИНКА: Вектор и его проекция на другой вектор, показать, что скалярное произведение связано с длиной проекции]
+![Вектор и его проекция](/assets/images/math_text/vectors/VectorProjection.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/vectors/VectorProjection.mp4" type="video/mp4">
+</video>
 
 #### Применение в машинном обучении
 
