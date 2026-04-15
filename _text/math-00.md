@@ -2,6 +2,3 @@
 section: math
 title: "Черновик"
 ---
-
-
-
