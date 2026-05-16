@@ -1329,11 +1329,19 @@ $$A^{-1} = \begin{bmatrix} 0.5 & 0 \\ 0 & 0.5 \end{bmatrix}$$
 
 Произведение $A^{-1}A$ даст единичную матрицу $I$ — аналог единицы в мире матриц, которая оставляет векторы неизменными.
 
-[АНИМАЦИЯ: Демонстрация действия матрицы A (растяжение в 2 раза по обеим осям) на вектор, затем действие обратной матрицы A⁻¹ (сжатие в 2 раза), возвращающее вектор в исходное состояние. Подпись: «Обратная матрица "отменяет" преобразование».]
+![Обратная матрица "отменяет" преобразование](/assets/images/math_text/matricies/InverseMatrixScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/InverseMatrixScene.mp4" type="video/mp4">
+</video>
 
 Если матрица $A$ поворачивает пространство на некоторый угол, то обратная матрица поворачивает его обратно на тот же угол. Если $A$ отражает относительно прямой, то обратная матрица сделает ещё одно отражение и вернёт всё на свои места.
 
-[АНИМАЦИЯ: Последовательное применение матрицы поворота и обратной ей матрицы поворота к множеству точек на плоскости. Точки сначала смещаются по окружности, затем возвращаются.]
+![Обратная матрица поворота](/assets/images/math_text/matricies/RotationInverseScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/RotationInverseScene.mp4" type="video/mp4">
+</video>
 
 {% capture notice %}
 Таким образом, обратная матрица $A^{-1}$ — это такое линейное преобразование, которое в точности компенсирует преобразование, задаваемое матрицей $A$.
@@ -1364,7 +1372,11 @@ $$A = \begin{bmatrix} 1 & 2 \\ 2 & 4 \end{bmatrix}$$
 
 отображает всю плоскость на прямую, потому что второй столбец в два раза больше первого. Такое сжатие информации необратимо: по точке на прямой невозможно однозначно восстановить исходную точку на плоскости.
 
-[АНИМАЦИЯ: Два графика: слева — действие невырожденной матрицы (сетка деформируется, но сохраняет «двумерность»), справа — действие вырожденной матрицы (вся сетка сплющивается в линию).]
+![Действие вырожденной и невырожденной матрицы](/assets/images/math_text/matricies/DegenerateMatrixScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/DegenerateMatrixScene.mp4" type="video/mp4">
+</video>
 
 Алгебраически вырожденность эквивалентна тому, что **определитель** матрицы равен нулю: $\det(A) = 0$. У вырожденных матриц обратная матрица не определена. Ведь нельзя однозначно привести противоположное действие. Вырожденные матрицы соответствуют необратимым линейным операторам.
 
@@ -1727,7 +1739,11 @@ print(np.round(R_gamma, 6))
 
 Повороты — не единственный вид ортогональных преобразований. Есть ещё отражения: преобразования, которые «зеркально отражают» пространство относительно некоторой оси или плоскости.
 
-[АНИМАЦИЯ: Отражение относительно горизонтальной оси. Выводится матрица и показывается ее действие.]
+![Отражение относительно горизонтальной оси](/assets/images/math_text/matricies/ReflectionMatrixScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/ReflectionMatrixScene.mp4" type="video/mp4">
+</video>
 
 Простейший пример — отражение относительно горизонтальной оси:
 $$
@@ -1757,7 +1773,11 @@ $$
 
 Эта формула полезна, например, в аугментации данных для компьютерного зрения: мы можем зеркально отражать изображения относительно произвольной оси, увеличивая обучающую выборку.
 
-[АНИМАЦИЯ: Отражение относительно прямой. Выводится матрица и показывается ее действие, показывается прямая, относительно которой происходит отражение]
+![Отражение относительно прямой](/assets/images/math_text/matricies/ReflectionLineScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/ReflectionLineScene.mp4" type="video/mp4">
+</video>
 
 ```py
 def reflection_matrix(alpha):
@@ -1852,7 +1872,11 @@ $$
 
 Если применить её к вектору $\begin{bmatrix}3 \\ 7\end{bmatrix}$, получим $\begin{bmatrix}7 \\ 3\end{bmatrix}$ — координаты поменялись местами. Длина вектора при этом очевидно не изменилась: $\sqrt{3^2 + 7^2} = \sqrt{7^2 + 3^2}$.
 
-[АНИМАЦИЯ: Перестановка в двумерном пространстве. Показывается матрица перестановок и анимируется ее действие.]
+![Перестановка в двумерном пространстве](/assets/images/math_text/matricies/PermutationMatrixScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/PermutationMatrixScene.mp4" type="video/mp4">
+</video>
 
 Интересное наблюдение: перестановка двух координат — это на самом деле отражение относительно прямой $y = x$. Действительно, $\det(P) = 0 \cdot 0 - 1 \cdot 1 = -1$. Перестановка двух элементов меняет ориентацию.
 
@@ -1862,7 +1886,11 @@ $$
 P = \begin{bmatrix} 0 & 0 & 1 \\ 1 & 0 & 0 \\ 0 & 1 & 0 \end{bmatrix}
 $$
 
-[АНИМАЦИЯ: Перестановка в трехмерном пространстве. Показывается матрица перестановок и анимируется ее действие. Второй пример с другой перестановкой]
+![Перестановка в трехмерном пространстве](/assets/images/math_text/matricies/Permutation3DScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/Permutation3DScene.mp4" type="video/mp4">
+</video>
 
 Проверим ортогональность:
 
@@ -1954,7 +1982,11 @@ U = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-[АНИМАЦИЯ: Продемонстрировать, как верхнетреугольная матрица влияет на двумерное пространство - сдвиг.]
+![Действие верхнетреугольной матрицы в двумерном пространстве](/assets/images/math_text/matricies/UpperTriangularShearScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/UpperTriangularShearScene.mp4" type="video/mp4">
+</video>
 
 {% capture notice %}
 Определение (Нижнетреугольная матрица). Квадратная матрица называется нижнетреугольной, если все элементы выше главной диагонали равны нулю: $a_{ij} = 0$ при $i < j$.
@@ -1972,7 +2004,11 @@ L = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-[АНИМАЦИЯ: Продемонстрировать, как верхнетреугольная матрица влияет на трехмерное пространство]
+![Действие верхнетреугольной матрицы в трехмерном пространстве](/assets/images/math_text/matricies/UpperTriangularScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/UpperTriangularScene.mp4" type="video/mp4">
+</video>
 
 Треугольные матрицы важны в численных методах. LU-разложение представляет матрицу как произведение нижней и верхней треугольных, что значительно упрощает решение систем линейных уравнений. В глубоком обучении, рекуррентные сети (RNN, LSTM) часто работают с треугольными матрицами масок для обработки последовательностей переменной длины.
 
@@ -2063,7 +2099,11 @@ $$
 {% endcapture %}
 <div class="notice--warning">{{ notice | markdownify }}</div>
 
-[АНИМАЦИЯ: На левой половине — произвольная матрица применяется к окружности из точек, превращая её в искажённый эллипс, который ещё и повёрнут. На правой половине — симметричная матрица превращает окружность в эллипс, оси которого совпадают с осями координат. Подпись: «Симметричная матрица растягивает вдоль ортогональных осей, без вращения».]
+![Действие симметричной матрицы](/assets/images/math_text/matricies/SymmetricMatrixScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/SymmetricMatrixScene.mp4" type="video/mp4">
+</video>
 
 #### Ковариационная матрица
 
@@ -2092,7 +2132,11 @@ $$\Sigma_{ij} = \frac{1}{m-1} \sum_{k=1}^m (x_{ki} - \bar{x}_i)(x_{kj} - \bar{x}
 
 Одно из самых наглядных представлений ковариационной матрицы — это **эллипсоид рассеяния**. Представьте облако точек в двумерном пространстве признаков (например, рост и вес человека). Если признаки независимы и имеют одинаковую дисперсию, облако будет похоже на круг. Если дисперсии разные — на эллипс, вытянутый вдоль оси с большей дисперсией. Если признаки ещё и коррелированы, эллипс окажется повёрнутым.
 
-[АНИМАЦИЯ: scatter plot'а с точками данных и наложенным эллипсом рассеяния, соответствующим ковариационной матрице. (a) диагональная матрица с равными дисперсиями — круг; (b) диагональная с разными дисперсиями — эллипс по осям; (c) полная матрица с ненулевыми внедиагональными элементами — повёрнутый эллипс.]
+![Варианты ковариационной матрицы](/assets/images/math_text/matricies/CovarianceEllipseScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/CovarianceEllipseScene.mp4" type="video/mp4">
+</video>
 
 Давайте напишем код, который вычисляет ковариационную матрицу «вручную», шаг за шагом, чтобы закрепить понимание. Затем сравним с библиотечной реализацией.
 
@@ -2139,7 +2183,11 @@ $$D_M(\mathbf{x}, \mathbf{y}) = \sqrt{(\mathbf{x} - \mathbf{y})^\top \Sigma^{-1}
 
 Геометрически это эквивалентно переходу в систему координат, где ковариационная матрица становится единичной — данные «отбеливаются». Это расстояние широко применяется в задачах обнаружения аномалий и классификации.
 
-[АНИМАЦИЯ: Две точки в облаке данных, соединённые отрезком. Показан эллипс рассеяния. Подпись: «Евклидово расстояние не учитывает форму распределения, а расстояние Махаланобиса измеряет расстояние в единицах стандартного отклонения вдоль эллипсоида».]
+![Расстояние Евклида и Махаланобиса](/assets/images/math_text/matricies/MahalanobisTwoPointsScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/MahalanobisTwoPointsScene.mp4" type="video/mp4">
+</video>
 
 ```python
 def mahalanobis_distance(x, y, cov_inv):
@@ -2168,7 +2216,11 @@ $$\Sigma_{\text{reg}} = \Sigma + \lambda I.$$
 
 Это эквивалентно предположению, что к каждому признаку добавляется небольшой независимый шум. В байесовской интерпретации это соответствует априорному распределению на параметры. Регуляризованная ковариационная матрица всегда обратима и лучше обусловлена.
 
-[АНИМАЦИЯ: Два эллипса: сплошной — по выборочной ковариационной матрице (очень узкий в одном направлении), пунктирный — по регуляризованной (более «округлый»). Подпись: «Регуляризация делает оценку ковариационной матрицы более устойчивой».]
+![Отбеливание данных](/assets/images/math_text/matricies/MahalanobisDistanceScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/MahalanobisDistanceScene.mp4" type="video/mp4">
+</video>
 
 В коде это выглядит так:
 
@@ -2196,7 +2248,11 @@ print(np.round(cov_reg, 4))
 {% endcapture %}
 <div class="notice--warning">{{ notice | markdownify }}</div>
 
-[АНИМАЦИЯ: на двумерной плоскости показана координатная сетка и множество векторов-стрелок. При умножении на матрицу A большинство стрелок и поворачиваются, и меняют длину. Но два особенных вектора (выделены цветом) лишь растягиваются вдоль своего направления, не поворачиваясь. Рядом с ними подписаны соответствующие собственные числа.]
+![Интерпретация собственных векторов и чисел](/assets/images/math_text/matricies/EigenvectorScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/EigenvectorScene.mp4" type="video/mp4">
+</video>
 
 {% capture notice %}
 **Определение**. Пусть $A$ — квадратная матрица размера $n \times n$. Ненулевой вектор $\vec{v} \in \mathbb{R}^n$ называется собственным вектором матрицы $A$, если существует число $\lambda \in \mathbb{R}$ (или $\mathbb{C}$) такое, что
@@ -2270,7 +2326,11 @@ $$\det(A - \lambda I) = 0$$
 
 Интуитивно это можно понять так. Мы вычитаем $\lambda$ из диагонали матрицы $A$ и спрашиваем: «при каком $\lambda$ получившаяся матрица перестаёт быть обратимой?» Когда определитель обращается в ноль, матрица «схлопывает» пространство вдоль некоторого направления — именно это направление и задаёт собственный вектор.
 
-[АНИМАЦИЯ: показана матрица A, из диагональных элементов которой постепенно вычитается число λ. Визуально на плоскости показано, как при изменении λ от 0 до нужного значения преобразование (A − λI) постепенно «сплющивает» пространство, пока при определённом λ оно не коллапсирует в линию. Эта линия — направление собственного вектора.]
+![Коллапс вдоль собственных векторов](/assets/images/math_text/matricies/EigenvalueCollapseScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/EigenvalueCollapseScene.mp4" type="video/mp4">
+</video>
 
 Для нашей матрицы $A = \begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix}$ вычислим характеристический многочлен:
 
@@ -2321,11 +2381,19 @@ NumPy:   λ = [2. 3.]
 {% endcapture %}
 <div class="notice--warning">{{ notice | markdownify }}</div>
 
-[АНИМАЦИЯ: пять примеров последовательно. Исходный вектор (серый) и результат (цветной) для случаев λ = 2 (растяжение), λ = 0.5 (сжатие), λ = 1 (без изменений), λ = 0 (коллапс в точку), λ = −1 (разворот). Каждый случай подписан.]
+![Интерпретация разных собственных значений](/assets/images/math_text/matricies/EigenvalueInterpretationScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/EigenvalueInterpretationScene.mp4" type="video/mp4">
+</video>
 
 Это напрямую связано с машинным обучением. Например, в методе главных компонент (PCA) мы вычисляем собственные числа ковариационной матрицы данных. Большое собственное число означает, что в соответствующем направлении данные сильно «разбросаны» — там содержится много информации. Маленькое собственное число означает, что вдоль этого направления данные почти не варьируются и его можно отбросить, сократив размерность без существенной потери информации.
 
-[АНИМАЦИЯ: облако точек данных в 2D (вытянутый эллипс). Через центр облака проведены два собственных вектора ковариационной матрицы. Длинная ось эллипса — собственный вектор с большим собственным числом (подписано λ1 = 5.2), короткая ось — с маленьким (подписано λ2 = 0.3). Показано, что проекция на первую главную компоненту сохраняет основную структуру данных.]
+![Собственные вектора и PCA](/assets/images/math_text/matricies/PCAPrincipalComponentScene.png){: .align-center .forprint style="width: 720;"}
+
+<video width="720" muted autoplay controls class="align-center">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/matricies/PCAPrincipalComponentScene.mp4" type="video/mp4">
+</video>
 
 Проиллюстрируем эту связь с PCA в коде:
 
