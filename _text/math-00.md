@@ -1,4 +1,0 @@
----
-section: math
-title: "Черновик"
----
