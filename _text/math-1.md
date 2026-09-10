@@ -691,7 +691,7 @@ $$L(\vec{a}, \vec{b}) = \{\lambda_1 \vec{a} + \lambda_2 \vec{b} \mid \lambda_1, 
 
 представляет собой плоскость, проходящую через начало координат и содержащую оба вектора.
 
-![Комбинация трехмерных векторов](/assets/images/math_text/vectors/VectorLinearCombine23D.png){: .align-center .forprint style="width: 720;"}
+<!-- ![Комбинация трехмерных векторов](/assets/images/math_text/vectors/VectorLinearCombine23D.png){: .align-center .forprint style="width: 720;"} -->
 
 <video width="720" muted autoplay controls class="align-center">
     <source src="{{ site.my-media-path }}/assets/images/math_text/vectors/VectorLinearCombine23D.mp4" type="video/mp4">
@@ -729,9 +729,9 @@ $$
 f(\vec{v}) = \vec{v} + \begin{bmatrix} 1  \\ 2 \end{bmatrix}
 $$
 
-Эта функция будет "сдвигать" любой вектор в определенном направлении. Это можно представить как движение всей координатной плоскости:
+Эта функция будет "сдвигать" любой вектор в определенном направлении. Это можно представить как движение всей координатной плоскости.
 
-![Функция прибавления вектора](/assets/images/math_text/vectors/AddFunction.png){: .align-center .forprint style="width: 720;"}
+<!-- ![Функция прибавления вектора](/assets/images/math_text/vectors/AddFunction.png){: .align-center .forprint style="width: 720;"} -->
 
 <video width="720" muted autoplay controls class="align-center">
     <source src="{{ site.my-media-path }}/assets/images/math_text/vectors/AddFunction.mp4" type="video/mp4">
@@ -764,9 +764,9 @@ $$
 
 Это так называемые условия линейности. Можно их сформулировать так: линейные преобразования должны сохранять операции сложения векторов и умножение вектора на скаляр. 
 
-Можно увидеть, как, например, первая функция, функция прибавления определенного вектора (казалось бы, линейная по своей природе), нарушает первое правило: 
+<!-- Можно увидеть, как, например, первая функция, функция прибавления определенного вектора (казалось бы, линейная по своей природе), нарушает первое правило:  -->
 
-![Нелинейная функция над векторами](/assets/images/math_text/vectors/AddNotLinear.png){: .align-center .forprint style="width: 720;"}
+<!-- ![Нелинейная функция над векторами](/assets/images/math_text/vectors/AddNotLinear.png){: .align-center .forprint style="width: 720;"} -->
 
 <video width="720" muted autoplay controls class="align-center">
     <source src="{{ site.my-media-path }}/assets/images/math_text/vectors/AddNotLinear.mp4" type="video/mp4">
