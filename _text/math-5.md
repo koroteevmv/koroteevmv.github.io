@@ -1032,6 +1032,7 @@ x=+2.0  ReLU=2.00  ReLU'=1.0
 
 {% capture notice %}
 *Определение*
+
 **Softplus**. Функция softplus задаётся формулой
 
 $$
