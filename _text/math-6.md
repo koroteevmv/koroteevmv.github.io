@@ -622,10 +622,10 @@ sklearn:         4.7123...
 
 Представьте, что вы идёте по холмистой местности. Ваше положение задаётся координатами $(x, y)$, а высота в этой точке - значением функции $f(x, y)$. Вы хотите узнать, насколько круто поднимается склон, если шагнуть строго на восток (увеличить $x$), оставляя $y$ неизменным. Это и есть **частная производная по $x$** в данной точке. Аналогично, шаг на север (увеличение $y$) даст частную производную по $y$.
 
-![Частные производные](/assets/images/math_text/derivatives/PartialDerivatives3D_ManimCE_v0.19.2.png){: .align-center .forprint style="width: 720;"}
+![Частные производные](/assets/images/math_text/derivatives/PartialDerivatives3D.png){: .align-center .forprint style="width: 720;"}
 
 <video width="720" muted autoplay controls class="align-center">
-    <source src="{{ site.my-media-path }}/assets/images/math_text/derivatives/PartialDerivatives3D_ManimCE_v0.19.2.mp4" type="video/mp4">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/derivatives/PartialDerivatives3D.mp4" type="video/mp4">
 </video>
 
 Для функции $f(x_1, x_2, \dots, x_n)$ частная производная по $x_i$ в точке $\vec{x}_0$ - это наклон графика, когда мы движемся только вдоль $i$-й координаты.

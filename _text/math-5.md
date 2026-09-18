@@ -334,7 +334,7 @@ $$
 
 $$
 w_{t+1} = w_t - \eta L'(w_t),
-$$
+$$GradientDescentParabola
 
 где $\eta$ - скорость обучения. Идея опирается как раз на линейное приближение: в окрестности $w_t$
 
@@ -368,10 +368,10 @@ for i in range(10):
 
 Для квадратичной функции метод сходится мгновенно при $\eta=0.5$, но для более сложных $L(w)$ итерации постепенно приближают $w$ к оптимуму. Именно эту стратегию используют все современные оптимизаторы (Adam, SGD и др.), обобщая её на многомерный случай.
 
-![Градиентный спуск](/assets/images/math_text/derivatives/filename.png){: .align-center .forprint style="width: 720;"}
+![Градиентный спуск](/assets/images/math_text/derivatives/GradientDescentParabola.png){: .align-center .forprint style="width: 720;"}
 
 <video width="720" muted autoplay controls class="align-center">
-    <source src="{{ site.my-media-path }}/assets/images/math_text/derivatives/filename.mp4" type="video/mp4">
+    <source src="{{ site.my-media-path }}/assets/images/math_text/derivatives/GradientDescentParabola.mp4" type="video/mp4">
 </video>
 
 #### Основные выводы
