@@ -1532,12 +1532,6 @@ $$A^+ = V \Sigma^+ U^T$$
 {% endcapture %}
 <div class="notice--success">{{ notice | markdownify }}</div>
 
-![Связь разложений](/assets/images/math_text/decompositions/MatrixDecompTree.png){: .align-center .forprint style="width: 720;"}
-
-<video width="720" muted autoplay controls class="align-center">
-    <source src="{{ site.my-media-path }}/assets/images/math_text/decompositions/MatrixDecompTree.mp4" type="video/mp4">
-</video>
-
 ### Заключение
 
 В этой главе мы изучили основные разложения матриц. Эти методы и алгоритмы - основные инструменты, лежащие под капотом многих моделей машинного обучения. Если вы понимаете, как применяются матричные разложения, то вы очень хорошо разбираетесь во внутреннем устройстве многих алгоритмов искусственного интеллекта.
