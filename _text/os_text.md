@@ -1,7 +1,7 @@
 ---
-section: os_guide
-title: "Учебное пособие по операционным системам"
-# permalink: /wd/textbook
+section: os
+title: "Учебник по операционным системам"
+permalink: /os/textbook
 layout: textbook
 ---
 
