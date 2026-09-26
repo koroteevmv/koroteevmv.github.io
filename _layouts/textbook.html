@@ -16,6 +16,14 @@ last_modified_at: false
 /*          height: 200px !important;*/
             width: 90% !important;
       }
+      img.align-left
+      {
+/*          display: none !important;*/
+/*          height: 200px !important;*/
+            width: 40% !important;
+            float: left;
+            margin-right: 15px;
+      }
       video {
           display: none !important;
       }
@@ -117,8 +125,7 @@ last_modified_at: false
 
       <section class="page__content" itemprop="text">
 
-		{{content}}
-
+        {{ content }}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
