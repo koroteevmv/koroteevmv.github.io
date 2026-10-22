@@ -2,9 +2,7 @@
 title: "Вывод и предсказания. Часть 1: машинное обучение"
 classes: None
 categories:
-  - scipop
   - translation
-  - article
 tags:
   - Математика
   - ClassicML

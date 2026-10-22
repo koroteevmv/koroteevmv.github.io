@@ -13,7 +13,7 @@ toc: false
 word_count: false
 
 categories:
-  - talks
+  - podcast
   - infourok # Название канала или медиа
 tags:
   - "ИИ в образовании"

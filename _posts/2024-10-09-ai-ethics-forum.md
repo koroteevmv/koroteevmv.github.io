@@ -12,7 +12,7 @@ toc: false
 word_count: false
 
 categories:
-  - talks
+  - conference
   - alliance
 tags:
   - Этика ИИ

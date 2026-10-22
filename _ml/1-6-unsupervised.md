@@ -52,13 +52,6 @@ sections:
   #   slides:
   #   test:
 
-  # - title: "Лекция: Понижение размерности как задача машинного обучения"
-  #   overview: ""
-  #   document: https://docs.google.com/document/d/1irFhMqnYlLB_gd9XQDL49_NfBZbUvg9VzEmEPTj-xbo/edit?usp=sharing
-  #   youtube:
-  #   slides: 
-  #   test:
-
   - title: "Практика: Понижение размерности" 
     document: https://github.com/koroteevmv/ML_course/blob/main/ML6.2%20pca/README.md
   #   youtube:
@@ -66,8 +59,7 @@ sections:
   #   test:
 
   - title: "Практика: Обнаружение аномалий" 
-  #   overview: ""
-  #   document: https://github.com/koroteevmv/ML_course/blob/main/ML6.3%20anomalies/README.md
+    document: https://github.com/koroteevmv/ML_course/blob/main/ML6.3%20anomalies/README.md
   #   youtube:
   #   slides:
   #   test:

@@ -2,9 +2,7 @@
 title: "Воспроизводимость исследований в области машинного обучения"
 classes: None
 categories:
-  - scipop
   - translation
-  - article
 tags:
   - Кейсы ИИ
   - ИИ в науке

@@ -12,7 +12,6 @@ toc: false
 word_count: false
 
 categories:
-  - talks
   - RBC
   - media
   # - artezio # Название канала или медиа. Посмотреть https://koroteev.site/categories/ для референса

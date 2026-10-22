@@ -3,8 +3,6 @@ title: "Руководство по написанию эссе"
 categories:
   - scipop
   - translation
-  - peterson
-  - article
 tags:
   - Саморазвитие
 toc: true

@@ -1,9 +1,7 @@
 ---
 title: "MLOps меняет процесс разработки моделей машинного обучения"
 categories:
-  - scipop
   - translation
-  - article
 tags:
   - MLOps
 toc: true

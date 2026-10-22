@@ -12,10 +12,8 @@ toc: false
 word_count: false
 
 categories:
-  - talks
   - media
   - vedomosti
-  # - artezio # Название канала или медиа
 tags:
   - Регулирование ИИ
 header:

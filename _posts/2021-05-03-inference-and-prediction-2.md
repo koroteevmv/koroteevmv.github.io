@@ -2,9 +2,7 @@
 title: "Вывод и предсказания. Часть 2: статистика"
 classes: None
 categories:
-  - scipop
   - translation
-  - article
 tags:
   - ClassicML
   - Математика

@@ -1,7 +1,7 @@
 ---
 title: "Машинное обучение – это искусство"
 categories:
-  - talks
+  - interview
 tags:
   - Тренды ИИ
 header:

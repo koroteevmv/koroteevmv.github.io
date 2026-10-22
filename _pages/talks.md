@@ -1,7 +1,7 @@
 ---
 layout: category
 classes: wide
-taxonomy: talks
+taxonomy: conference
 title: "Выступления"
 permalink: /talks/
 author_profile: true
@@ -9,7 +9,6 @@ entries_layout: grid
 
 
 feature_row:
-
   # - title: "7 февраля 2026"
   #   excerpt: "На дне науки в Финансовом университете познакомим школьников с образовательными программами Факультета ИТ."
 

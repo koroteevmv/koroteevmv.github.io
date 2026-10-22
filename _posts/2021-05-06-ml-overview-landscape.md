@@ -2,9 +2,7 @@
 title: "Обзор MLOps"
 classes: None
 categories:
-  - scipop
   - translation
-  - article
 tags:
   - MLOps
 toc: true

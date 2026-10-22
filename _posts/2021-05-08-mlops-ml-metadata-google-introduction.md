@@ -2,9 +2,7 @@
 title: "ML MetaData: контроль версий для машинного обучения"
 classes: None
 categories:
-  - scipop
   - translation
-  - article
 tags:
   - MLOps
 toc: true

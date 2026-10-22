@@ -12,8 +12,8 @@ toc: false
 word_count: false
 
 categories:
-  - talks
-  # - artezio # Название канала или медиа
+  - media
+  - kp # Название канала или медиа
 tags:
   - Тренды ИИ
   - Этика ИИ

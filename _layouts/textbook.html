@@ -14,12 +14,38 @@ last_modified_at: false
       {
 /*          display: none !important;*/
 /*          height: 200px !important;*/
+            width: 90% !important;
       }
+      img.align-left
+      {
+/*          display: none !important;*/
+/*          height: 200px !important;*/
+            width: 40% !important;
+            float: left;
+            margin-right: 15px;
+      }
+      video {
+          display: none !important;
+      }
+      .forprint{
+        display: block !important;
+      }
+    html{
+      background-color: white;
+    }
+    .page__meta{
+      display: none !important;
+    }
   }
+
   .page__content p{
     text-align: justify;
     align-items: center;
   }
+
+    .forprint{
+      display: none;
+    }
 
   img
   {
@@ -27,6 +53,9 @@ last_modified_at: false
       width: 60%;
       margin-left: auto;
       margin-right: auto;
+  }
+  video {
+    margin-bottom: 26px;
   }
 
 /*  .page__content {
@@ -96,8 +125,7 @@ last_modified_at: false
 
       <section class="page__content" itemprop="text">
 
-		{{content}}
-
+        {{ content }}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

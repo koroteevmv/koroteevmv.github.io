@@ -12,7 +12,7 @@ toc: false
 word_count: false
 
 categories:
-  - talks
+  - conference
   # - artezio # Название канала или медиа
 tags:
   - События   # Тема выступления (может быть 2-3). Посмотреть https://koroteev.site/tags/ для референса

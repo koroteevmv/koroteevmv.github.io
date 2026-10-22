@@ -2,8 +2,9 @@
 title: "Градиентный спуск: как учатся нейронные сети"
 categories:
   - scipop
+  - sciberia
   - 3b1b
-  - editing
+  - video
 tags:
   - Математика
   - Deep learning

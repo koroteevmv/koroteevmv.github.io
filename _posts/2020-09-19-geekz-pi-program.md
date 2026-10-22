@@ -1,7 +1,7 @@
 ---
 title: "Прикладная информатика — идеальное направление"
 categories:
-  - talks
+  - conference
   - geekz
 tags:
   - ИТ-образование

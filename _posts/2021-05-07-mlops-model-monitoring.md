@@ -2,9 +2,7 @@
 title: "MLOps: основы мониторинга моделей машинного обучения"
 classes: None
 categories:
-  - scipop
   - translation
-  - article
 tags:
   - MLOps
 toc: true
