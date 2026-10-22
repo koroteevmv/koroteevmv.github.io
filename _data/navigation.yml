@@ -1,14 +1,14 @@
 # main links
 main:
 
+  - title: "ML"
+    url: /ml
+  - title: "СМИ"
+    url: /media
   - title: "Выступления"
     url: /talks
   - title: "Книги"
     url: /books
-  - title: "Проекты"
-    url: /projects
-  - title: "ML"
-    url: /ml
   - title: "Все записи"
     url: /blog/
   - title: "Все курсы"

@@ -12,9 +12,9 @@ toc: false
 word_count: false
 
 categories:
-  - talks
+  - podcast
 tags:
-  - interview
+  - ai_trends
 header:
   teaser: /assets/images/talks/2024-12-18.jpg
 excerpt: "Лекция о Python и не только в ИИ"

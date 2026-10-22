@@ -1,11 +1,9 @@
 ---
 title: "Три подводных камня машинного обучения и как их избежать"
 categories:
-  - scipop
-tags:
   - translation
-  - article
-  - ml
+tags:
+  - machine-learning
 excerpt: "Перевод статьи из Nature, в которой инженеры Google рассуждают о типичных трудностях в разработки систем машинного обучения"
 ---
 

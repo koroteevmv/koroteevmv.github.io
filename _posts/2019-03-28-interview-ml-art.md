@@ -1,9 +1,9 @@
 ---
 title: "Машинное обучение – это искусство"
 categories:
-  - talks
-tags:
   - interview
+tags:
+  - ai_trends
   - findata
 header:
   teaser: /assets/images/avatars/avatar4.jpg

@@ -2,11 +2,11 @@
 title: "В чем на самом деле заключается метод обратного распространения?"
 categories:
   - scipop
-tags:
+  - video
   - sciberia
   - 3b1b
+tags:
   - math
-  - editing
 excerpt: "Мы продолжаем переводить легендарный курс по нейросетям от 3blue1brown. Сегодня речь пойдет о методе обратного распространения — главном алгоритме обучения нейронных сетей."
 link: https://www.youtube.com/watch?v=JwpFvFpbOGc&feature=emb_logo
 ---

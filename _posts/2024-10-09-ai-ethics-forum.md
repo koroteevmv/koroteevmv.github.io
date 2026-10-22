@@ -12,9 +12,9 @@ toc: false
 word_count: false
 
 categories:
-  - talks
+  - conference
 tags:
-  - interview
+  - ethics
 header:
   teaser: assets/images/talks/2024-10-09-1.jpg
 excerpt: "Состоялся 4-й Международный Форум этики в сфере искусственного интеллекта под эгидой Альянса ИИ"

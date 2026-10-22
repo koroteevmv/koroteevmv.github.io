@@ -1,10 +1,9 @@
 ---
 title: "Прикладная информатика — идеальное направление"
 categories:
-  - talks
+  - conference
 tags:
-  - presentation
-  - program
+  - education
 header:
   teaser: /assets/images/avatars/avatar2.jpg
 excerpt: "..., чтобы попробовать разные специальности/ Михаил Викторович Коротеев рассказал о преимуществах выбора направления «Прикладная информатика» в Финансовом университете."

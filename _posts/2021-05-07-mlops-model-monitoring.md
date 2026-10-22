@@ -2,11 +2,8 @@
 title: "MLOps: основы мониторинга моделей машинного обучения"
 classes: None
 categories:
-  - scipop
-tags:
   - translation
-  - article
-  - machine-learning
+tags:
   - mlops
 toc: true
 excerpt: "От общего описания, к конкретике: по каким принципам и метрикам должен быть организован мониторинг моделей машинного обучения в производственном окружении?"

@@ -2,10 +2,8 @@
 title: "Воспроизводимость исследований в области машинного обучения"
 classes: None
 categories:
-  - scipop
-tags:
   - translation
-  - article
+tags:
   - machine-learning
   - reproducibility
 toc: true

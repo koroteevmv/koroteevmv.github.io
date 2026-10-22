@@ -12,9 +12,9 @@ toc: false
 word_count: false
 
 categories:
-  - talks
+  - podcast
 tags:
-  - interview
+  - mlops
 header:
   teaser: /assets/images/talks/2024-08-30.png
 excerpt: "Лекция о MLOps в гостях у Artezio"
