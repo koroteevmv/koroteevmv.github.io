@@ -12,9 +12,10 @@ toc: false
 word_count: false
 
 categories:
-  - talks
+  - conference
+  - avantage
 tags:
-  - interview
+  - Внедрение ИИ
 header:
   teaser: https://github.com/koroteevmv/koroteevmv.github.io/blob/master/assets/images/talks/2023-07-26-1.jpg?raw=true
 excerpt: "26 июля 2023 года в Holiday Inn Sokolniki Михаил Коротеев с коллегами познакомили слушателей с возможностями современных нейросетей"

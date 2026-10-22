@@ -2,14 +2,11 @@
 title: "ML MetaData: контроль версий для машинного обучения"
 classes: None
 categories:
-  - scipop
-tags:
   - translation
-  - article
-  - machine-learning
-  - mlops
+tags:
+  - MLOps
 toc: true
-excerpt: "Обзор нового иснтрумента MLOps от Goolge. Это короткое объявление ценно не столько богатым содержанием, сколько обилием ссылок."
+excerpt: "Обзор нового инструмента MLOps от Google. Это короткое объявление ценно не столько богатым содержанием, сколько обилием ссылок."
 ---
 
 [Оригинал](https://blog.tensorflow.org/2021/01/ml-metadata-version-control-for-ml.html)

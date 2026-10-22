@@ -1,12 +1,9 @@
 ---
 title: "Как будет выглядеть машинное обучение, если добавить к нему DevOps?"
 categories:
-  - scipop
-tags:
   - translation
-  - article
-  - ml
-excerpt: "Перевод интересной статьи о сущности и значзначении MLOps - перспективной отрасли управления операциями разработки и интеграции систем машинного обучения."
+tags:
+  - MLOps
 ---
 
 [By Ryan Dawson](https://www.theregister.co.uk/2020/03/07/devops_machine_learning_mlops/)

@@ -50,7 +50,7 @@ feature_row:
 
   - image_path: /assets/images/html.png
     title: "Web разработка"
-    excerpt: "Базовый курс для начинающих по своременным веб-технологиям"
+    excerpt: "Базовый курс для начинающих по современным веб-технологиям"
     url: "/wd"
     btn_label: "Перейти"
     btn_class: "btn--primary"

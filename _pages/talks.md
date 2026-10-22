@@ -1,7 +1,7 @@
 ---
 layout: category
 classes: wide
-taxonomy: talks
+taxonomy: conference
 title: "Выступления"
 permalink: /talks/
 author_profile: true
@@ -9,20 +9,15 @@ entries_layout: grid
 
 
 feature_row:
+  # - title: "7 февраля 2026"
+  #   excerpt: "На дне науки в Финансовом университете познакомим школьников с образовательными программами Факультета ИТ."
 
-  # - title: "9 октября 2024"
-  #   image_path: https://b1.mskagency.ru/c/865665.jpg
-  #   excerpt: "В рамках Форума этики ИИ состоится панельная дискуссия по этике ИИ в финансовом секторе."
+  # - title: "15 февраля 2026"
+  #   # image_path: /assets/images/talks/2026-01-15.png
+  #   excerpt: "На Дне открытых дверей Финансового университета поговорим о нашей топовой образовательной программе и как на нее попасть."
   #   btn_label: "Регистрация"
   #   btn_class: "btn--primary"
-  #   url: https://aiethic.ru/
-
-  # - title: "19 ноября 2023"
-  #   image_path: https://www.sut.ru/images/news/2018/11.09/5.jpg
-  #   excerpt: "На образовательной выставке в Москве Михаил Коротеев познакомит участников с современным ИТ-образованием."
-  #   btn_label: "Регистрация"
-  #   btn_class: "btn--primary"
-  #   url: https://propostuplenie.ru/navigator/moskva/
+  #   url: https://dod.fa.ru/
 ---
 
 Предстоящие выступления

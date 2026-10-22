@@ -12,9 +12,11 @@ toc: false
 word_count: false
 
 categories:
-  - talks
+  - conference
+  - avantage
 tags:
-  - interview
+  - Кейсы ИИ
+  - Генеративный ИИ
 header:
   teaser: /assets/images/talks/2023-10-17-3.jpg
 excerpt: "На митапе в Московской ТПП обсудили применение нейросетей в бизнесе"

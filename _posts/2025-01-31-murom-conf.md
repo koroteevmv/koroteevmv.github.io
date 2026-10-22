@@ -12,8 +12,10 @@ toc: false
 word_count: false
 
 categories:
-  - talks
+  - conference
 tags:
+  - Регулирование ИИ
+  - ИИ в образовании
 header:
   teaser: /assets/images/talks/2025-01-31.jpg
 excerpt: "В Муромском институте ВлГУ поговорили о перспективах использования ИИ в сфере образования"

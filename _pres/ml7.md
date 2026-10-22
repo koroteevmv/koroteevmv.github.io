@@ -5,15 +5,15 @@ title: "Практическое использование моделей об�
 
 ### Трансфер обучения
 
-![](https://i.ytimg.com/vi/LAaLSdp8Q90/maxresdefault.jpg){: .align-center style="width: 60%;"}
+![](/assets/images/ml_text/ml7-1.jpg){: .align-center style="width: 60%;"}
 
 ![Заморозка слоев](https://sysblok.ru/wp-content/uploads/2023/03/image1.jpg){: .align-center style="width: 60%;"}
 
-![](https://www.researchgate.net/profile/Joao-Tavares-23/publication/351085550/figure/fig3/AS:1016156517310464@1619282001253/The-transfer-learning-and-fine-tuning-techniques-used-in-the-development-of-the-proposed_W640.jpg){: .align-center style="width: 60%;"}
+![](/assets/images/ml_text/ml7-2.jpg){: .align-center style="width: 60%;"}
 
-![](https://skyengine.ai/se/images/blog/transfer_learning.jpeg){: .align-center style="width: 60%;"}
+<!-- ![](/assets/images/ml_text/ml7-3.jpg){: .align-center style="width: 60%;"} -->
 
-![](https://habrastorage.org/webt/pz/zk/xy/pzzkxyzmqf21r5rik00228zntwm.png){: .align-center style="width: 60%;"}
+![](/assets/images/ml_text/ml7-4.webp){: .align-center style="width: 60%;"}
 
 {% capture notice %}
 Выводы:
@@ -45,7 +45,7 @@ title: "Практическое использование моделей об�
 
 #### Векторизация естественного текста
 
-![Кодировка символов](https://res.cloudinary.com/practicaldev/image/fetch/s--LIPiEtU2--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rjngem130a8cqbgmn46u.jpg){: .align-center style="width: 60%;"}
+![Кодировка символов](/assets/images/ml_text/ml7-11.jpg){: .align-center style="width: 60%;"}
 
 ![Азбука Морзе](https://www.dogsbody.com/wp-content/uploads/2019-11-27_11h32_06.png){: .align-center style="width: 60%;"}
 
@@ -59,7 +59,7 @@ title: "Практическое использование моделей об�
 
 ![Формула TF-IDF](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoTUJIiJJPO7rKZCWDB-YI0dibskN9K9zZHtP7ARH9Ow&s){: .align-center style="width: 60%;"}
 
-![Матрица TF-IDF](https://media.licdn.com/dms/image/D4D12AQF8sI1V68UsIQ/article-cover_image-shrink_600_2000/0/1677509695129?e=2147483647&v=beta&t=pDHLFUdBEFMD3q6K0eNgg_C_zPYYYxikomIN00cfTuo){: .align-center style="width: 60%;"}
+![Матрица TF-IDF](/assets/images/ml_text/ml7-12.png){: .align-center style="width: 60%;"}
 
 ```py
 vectorizer = CountVectorizer()
@@ -90,13 +90,13 @@ array([[0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1],
 
 #### Текстовые эмбеддинги
 
-![Идея эмбеддингов](https://corpling.hypotheses.org/files/2018/04/3dplot-500x381.jpg){: .align-center style="width: 60%;"}
+<!-- ![Идея эмбеддингов](https://corpling.hypotheses.org/files/2018/04/3dplot-500x381.jpg){: .align-center style="width: 60%;"} -->
 
 ![Пространство латентных признаков](https://i.postimg.cc/zv5V5FWJ/embed.webp){: .align-center style="width: 60%;"}
 
 ![Отношения в Word2vec](https://i.postimg.cc/fLGfqNnV/word2vec.png){: .align-center style="width: 60%;"}
 
-![Вектора Word2vec в пониженной размерности](https://www.kaggleusercontent.com/kf/119787565/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..gPdZNtpS523_qf02fcYzxQ.KynYAD_V7j-GXwyiWpyggCW9n6lY2358CduzhIz09SdaoOsnAU-E9AwA0bHtMUh1dtal1rmO8ahuh8MBJa2-Nn3YMPaQzgOIBN87wazVjt7xYmUnF8VCsGxLuvYjm0PfL0OByFn-fgCi-YHOH_uWN5WqkLyp-4Xo-ShbN_AtYlnrOam2r2x-Fts2t67JMZ2QB8eB9Y7qXUSpDItgJ6VPNE4utD7GymhQkk5Kb7fCoBmv_MyPYAZydQomgK4wyfUoUnsLFF8J9kzLan0wjKRP5FKr0R7e6CigXh1TOvFRG5oSqhRG55fowBFMSWa9Kekzaj6o6EJNFKCZa4q2nlAZ4ZlMb8NY8PbmL-gIam_yLJdfF_zNJDHVnTcNO9uyQTPf-FA0nnk8bytMUqpRJHy3nKFYjAFLm5I3VbQXdlqCQHDHrqQT1lNnw3BJtsMD-Ot-deIv6YBALjiVIu7tRvgrBOnFV-nQY7qZ1MiHEuen24Z-3twZSsgBF1kjKd5W3vI1hpuo1IVCiaM84tWOLc7AnZc9PxCXYd_7rh0FN2hlLP_fYiHaORVaWFzo8DYsi1wb9mvoectHNKWUuGFOFPybxKAh97Nmr7toWM1RdpBb4CpATsu9v_9AVDd52JNZAEVkgibYlzs0Ast1kUeztbrJsg.DJh7kHz4tRC10TRfg_s-ZA/__results___files/__results___16_0.png){: .align-center style="width: 60%;"}
+<!-- ![Вектора Word2vec в пониженной размерности](https://www.kaggleusercontent.com/kf/119787565/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..gPdZNtpS523_qf02fcYzxQ.KynYAD_V7j-GXwyiWpyggCW9n6lY2358CduzhIz09SdaoOsnAU-E9AwA0bHtMUh1dtal1rmO8ahuh8MBJa2-Nn3YMPaQzgOIBN87wazVjt7xYmUnF8VCsGxLuvYjm0PfL0OByFn-fgCi-YHOH_uWN5WqkLyp-4Xo-ShbN_AtYlnrOam2r2x-Fts2t67JMZ2QB8eB9Y7qXUSpDItgJ6VPNE4utD7GymhQkk5Kb7fCoBmv_MyPYAZydQomgK4wyfUoUnsLFF8J9kzLan0wjKRP5FKr0R7e6CigXh1TOvFRG5oSqhRG55fowBFMSWa9Kekzaj6o6EJNFKCZa4q2nlAZ4ZlMb8NY8PbmL-gIam_yLJdfF_zNJDHVnTcNO9uyQTPf-FA0nnk8bytMUqpRJHy3nKFYjAFLm5I3VbQXdlqCQHDHrqQT1lNnw3BJtsMD-Ot-deIv6YBALjiVIu7tRvgrBOnFV-nQY7qZ1MiHEuen24Z-3twZSsgBF1kjKd5W3vI1hpuo1IVCiaM84tWOLc7AnZc9PxCXYd_7rh0FN2hlLP_fYiHaORVaWFzo8DYsi1wb9mvoectHNKWUuGFOFPybxKAh97Nmr7toWM1RdpBb4CpATsu9v_9AVDd52JNZAEVkgibYlzs0Ast1kUeztbrJsg.DJh7kHz4tRC10TRfg_s-ZA/__results___files/__results___16_0.png){: .align-center style="width: 60%;"} -->
 
 ![Обучение Word2vec](https://i.postimg.cc/PfZQNzqb/cbow.png){: .align-center style="width: 60%;"}
 
@@ -120,148 +120,6 @@ array([[0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1],
 <div class="notice--info">{{ notice | markdownify }}</div>
 
 #### Векторизация графических данных
-
-### Ансамблирование моделей
-
-![Ансамбль](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/627d12343ba5be3ca8ceb31c_61f7bbd4e90cce440b88ea32_ensemble-learning.png){: .align-center style="width: 60%;"}
-
-{% capture notice %}
-Выводы:
-1. Ансамблевое обучение - техника обучения нескольких моделей на одной и той же задаче с целью повышения предсказательной эффективности.
-1. Ансамбль - набор нескольких моделей машинного обучения и способ их комбинирования и обучения. 
-1. Ансамблирование - способ повысить эффективность за счет повышения вычислительной сложности.
-1. Используется как в обучении с учителем, так и без него.
-1. Ансамбль выступает как единая модель с входом и выходом. Техника обучения аналогичная.
-1. Ансамбли также могут переобучаться и недообучаться.
-1. Работает закон убывания отдачи в построении ансамбля.
-{% endcapture %}
-<div class="notice--info">{{ notice | markdownify }}</div>
-
-#### Беггинг
-
-![Беггинг](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61a4414d28946a3ac3e69ed9_q-FrlRMLk-5nSxZ_3ONlFpu5hQ61PsuAxkusTD1vEX5NqkdH2Ie0u_75rIySTZKXVI4VBxM-AIw3APQvRboG3kv-3l3cA5c5qyMwwTMe2OLXzoAgA051Dqbx7XVfdJaDyNwrSLUf.png){: .align-center style="width: 60%;"}
-
-```py
-
-clf1 = LogisticRegression(random_state=1)
-clf2 = RandomForestClassifier(n_estimators=50, random_state=1)
-clf3 = GaussianNB()
-
-eclf = VotingClassifier(
-    estimators=[('lr', clf1), ('rf', clf2), ('gnb', clf3)],
-    voting='hard')
-```
-
-```py
-from sklearn.ensemble import BaggingClassifier
-from sklearn.tree import DecisionTreeClassifier
-
-tree = DecisionTreeClassifier()
-bagging_clf = BaggingClassifier(base_estimator=tree, 
-                                n_estimators=1500, 
-                                random_state=42)
-bagging_clf.fit(X_train, y_train)
-```
-
-{% capture notice %}
-Выводы:
-1. Беггинг (Bagging, bootstrap aggregating) - метод обучения нескольких моделей на подвыборках обучающей выборки.
-1. Обучающая выборка разделяется на подмножества с повторениями. На каждом подмножестве обучается своя модель.
-1. Комбинирование предикторов осуществляется усреднением либо голосованием.
-1. Беггинг без ресемплинга - это простой голосующий ансамбль.
-1. Голосование может быть жестким или мягким.
-1. Существенно уменьшает вариативность моделей. ТАким образом борется с переобучением (ошибки усредняются).
-1. Итоговая модель менее чувствительна к аномалиям и ошибкам в данных.
-1. Обучение предикторов можно распараллелить.
-1. Минусы - потеря интерпретируемости, вычислительная сложность.
-{% endcapture %}
-<div class="notice--info">{{ notice | markdownify }}</div>
-
-#### Стекинг
-
-![Стакинг](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61a4414dba9e9f94d7b31368_RhQ6ctlYepNo3J-yChyk_jLM_siHT9eGIJTpcI0NEPhADEcGic31JW4TWwLLzWv0LvqyDjFx9yQ8m16kKENTtPZeW-fY-9z6k7m-rsmPseGIeHhB-IiI0V5t4hImEPZRnEWPChAo.png){: .align-center style="width: 60%;"}
-
-```py
-from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.ensemble import StackingRegressor
-final_estimator = GradientBoostingRegressor(
-    n_estimators=25, subsample=0.5, 
-    min_samples_leaf=25, max_features=1,
-    random_state=42)
-reg = StackingRegressor(
-    estimators=estimators,
-    final_estimator=final_estimator)
-```
-
-{% capture notice %}
-Выводы:
-1. Стакинг (стекинг, stacking, Stacked generalization) - аналогично беггингу, но с добавлением метапредиктора (модель второго порядка).
-1. Метапредиктор использует выходы ансамблевых предикторов как входные данные.
-1. При стекинге используется разбиение обучающего набора на K фолдов, как при кросс-валидации.
-1. Из-за комбинации преимуществ разных моделей способен существенно повысить точность.
-1. Обучается дольше из-за органиченности параллелизации.
-1. Склонен к переобучению из-за наличия модели второго порядка.
-{% endcapture %}
-<div class="notice--info">{{ notice | markdownify }}</div>
-
-#### Бустинг
-
-![Бустинг](https://i0.wp.com/neptune.ai/wp-content/uploads/2022/10/When-to-Choose-CatBoost-Over-XGBoost-or-LightGBM-Practical-Guide_13.png?resize=771%2C431&ssl=1){: .align-center style="width: 60%;"}
-
-![Бустинг](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61a4414d5e568a661fb7896c_mji7xyiAlyQAdxQde14HY1OVvAVzDyyKhDOo4a4bg53_m2OHUvHhMGexaHuHCfKGRVQQlfFlihuodX7LD5hugPgGw8ZzJV4bHjHc648Zr0LyVr2I0i6ciJvJri_OFCuQpOf81xcn.png){: .align-center style="width: 60%;"}
-
-{% capture notice %}
-Выводы:
-1. Идея бустинга - в последовательном анализе данных моделями из ансамбля.
-1. Первая модель ансамбля обучается на всей выборке.
-1. Следующая модель получает лишь те данные, на которых предыдущая модель ошиблась.
-1. Последующие модели могут исправлять ошибки предыдущих. 
-1. Моделям присваиваются веса в зависимостиот их эффективности. 
-1. Может понижать смещение моделей.
-1. В качестве предикторов обычно берутся простые модели с высоким смещением и низкой вариацией.
-1. Из-за последовательной обработки данных, вычислительно сложен.
-1. Чувствителен к выбросам и аномалиям.
-{% endcapture %}
-<div class="notice--info">{{ notice | markdownify }}</div>
-
-#### Случайный лес
-
-![Случайный лес](https://vitalflux.com/wp-content/uploads/2022/03/random-forest-classifier-1-640x471.png){: .align-center style="width: 60%;"}
-
-{% capture notice %}
-Выводы:
-1. Случайные лес - это беггинг над набором деревьев решений.
-1. Деревья решения имеют высокую вариацию, которую может снизить беггинг.
-1. В случайном лесе обычно используется семплирование как по строкам, так и по столбцам.
-1. Используется как для классификации, так и для регрессии.
-1. Менее подвержены переобучению.
-1. Чем больше количество дереьев, тем больше регуляризационный эффект.
-1. Можно настраивать максимальное количество признаков для индивидуальных деревьев.
-{% endcapture %}
-<div class="notice--info">{{ notice | markdownify }}</div>
-
-#### Градиентный бустинг
-
-![Адаптивный бустинг](https://almablog-media.s3.ap-south-1.amazonaws.com/image_28_7cf514b000.png){: .align-center style="width: 60%;"}
-
-![Градиентный бустинг](https://almablog-media.s3.ap-south-1.amazonaws.com/image_43_deeb0633cc.png){: .align-center style="width: 60%;"}
-
-{% capture notice %}
-Выводы:
-1. Адаптивный бустинг (AdaBoost) присваивает веса точкам обучающей выборки в зависимости от того, правильно ли они были распознаны первыми классификаторами.
-1. Последующие классификаторы фокусируются на "сложных" случаях пропорционально весам.
-1. Адаптивный бустинг зачастую применяется для задач бинарной классификации.
-1. Граиентный бустинг (GBM) передает в последующие модели величину отклонения предыдущих моделей.
-1. Градиентный бустинг использует деревья решений в качестве индивидуальных предикторов.
-1. XGBoost - это параллелизуемая высокоэффективная реализация градиентного бустинга.
-1. XGBoost может обрабатываеть большие объемы данных. 
-1. XGBoost склонен к переобучению, но использует регуляризацию.
-1. XGBoost достаточно требователен к объему оперативной памяти. 
-1. Другие ивестные реалиации - LightGBM, CatBoost
-{% endcapture %}
-<div class="notice--info">{{ notice | markdownify }}</div>
-
-#### CatBoost
 
 ### Конвейеризация моделей
 
@@ -369,4 +227,146 @@ transformed_df = pipe.fit_transform(df)
 <div class="notice--info">{{ notice | markdownify }}</div>
 
 ### Основные этапы проекта по машинному обучению
+
+### Ансамблирование моделей
+
+![Ансамбль](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/627d12343ba5be3ca8ceb31c_61f7bbd4e90cce440b88ea32_ensemble-learning.png){: .align-center style="width: 60%;"}
+
+{% capture notice %}
+Выводы:
+1. Ансамблевое обучение - техника обучения нескольких моделей на одной и той же задаче с целью повышения предсказательной эффективности.
+1. Ансамбль - набор нескольких моделей машинного обучения и способ их комбинирования и обучения. 
+1. Ансамблирование - способ повысить эффективность за счет повышения вычислительной сложности.
+1. Используется как в обучении с учителем, так и без него.
+1. Ансамбль выступает как единая модель с входом и выходом. Техника обучения аналогичная.
+1. Ансамбли также могут переобучаться и недообучаться.
+1. Работает закон убывания отдачи в построении ансамбля.
+{% endcapture %}
+<div class="notice--info">{{ notice | markdownify }}</div>
+
+#### Беггинг
+
+![Беггинг](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61a4414d28946a3ac3e69ed9_q-FrlRMLk-5nSxZ_3ONlFpu5hQ61PsuAxkusTD1vEX5NqkdH2Ie0u_75rIySTZKXVI4VBxM-AIw3APQvRboG3kv-3l3cA5c5qyMwwTMe2OLXzoAgA051Dqbx7XVfdJaDyNwrSLUf.png){: .align-center style="width: 60%;"}
+
+```py
+
+clf1 = LogisticRegression(random_state=1)
+clf2 = RandomForestClassifier(n_estimators=50, random_state=1)
+clf3 = GaussianNB()
+
+eclf = VotingClassifier(
+    estimators=[('lr', clf1), ('rf', clf2), ('gnb', clf3)],
+    voting='hard')
+```
+
+```py
+from sklearn.ensemble import BaggingClassifier
+from sklearn.tree import DecisionTreeClassifier
+
+tree = DecisionTreeClassifier()
+bagging_clf = BaggingClassifier(base_estimator=tree, 
+                                n_estimators=1500, 
+                                random_state=42)
+bagging_clf.fit(X_train, y_train)
+```
+
+{% capture notice %}
+Выводы:
+1. Беггинг (Bagging, bootstrap aggregating) - метод обучения нескольких моделей на подвыборках обучающей выборки.
+1. Обучающая выборка разделяется на подмножества с повторениями. На каждом подмножестве обучается своя модель.
+1. Комбинирование предикторов осуществляется усреднением либо голосованием.
+1. Беггинг без ресемплинга - это простой голосующий ансамбль.
+1. Голосование может быть жестким или мягким.
+1. Существенно уменьшает вариативность моделей. ТАким образом борется с переобучением (ошибки усредняются).
+1. Итоговая модель менее чувствительна к аномалиям и ошибкам в данных.
+1. Обучение предикторов можно распараллелить.
+1. Минусы - потеря интерпретируемости, вычислительная сложность.
+{% endcapture %}
+<div class="notice--info">{{ notice | markdownify }}</div>
+
+#### Стекинг
+
+![Стакинг](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61a4414dba9e9f94d7b31368_RhQ6ctlYepNo3J-yChyk_jLM_siHT9eGIJTpcI0NEPhADEcGic31JW4TWwLLzWv0LvqyDjFx9yQ8m16kKENTtPZeW-fY-9z6k7m-rsmPseGIeHhB-IiI0V5t4hImEPZRnEWPChAo.png){: .align-center style="width: 60%;"}
+
+```py
+from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.ensemble import StackingRegressor
+final_estimator = GradientBoostingRegressor(
+    n_estimators=25, subsample=0.5, 
+    min_samples_leaf=25, max_features=1,
+    random_state=42)
+reg = StackingRegressor(
+    estimators=estimators,
+    final_estimator=final_estimator)
+```
+
+{% capture notice %}
+Выводы:
+1. Стакинг (стекинг, stacking, Stacked generalization) - аналогично беггингу, но с добавлением метапредиктора (модель второго порядка).
+1. Метапредиктор использует выходы ансамблевых предикторов как входные данные.
+1. При стекинге используется разбиение обучающего набора на K фолдов, как при кросс-валидации.
+1. Из-за комбинации преимуществ разных моделей способен существенно повысить точность.
+1. Обучается дольше из-за органиченности параллелизации.
+1. Склонен к переобучению из-за наличия модели второго порядка.
+{% endcapture %}
+<div class="notice--info">{{ notice | markdownify }}</div>
+
+#### Бустинг
+
+![Бустинг](https://i0.wp.com/neptune.ai/wp-content/uploads/2022/10/When-to-Choose-CatBoost-Over-XGBoost-or-LightGBM-Practical-Guide_13.png?resize=771%2C431&ssl=1){: .align-center style="width: 60%;"}
+
+![Бустинг](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61a4414d5e568a661fb7896c_mji7xyiAlyQAdxQde14HY1OVvAVzDyyKhDOo4a4bg53_m2OHUvHhMGexaHuHCfKGRVQQlfFlihuodX7LD5hugPgGw8ZzJV4bHjHc648Zr0LyVr2I0i6ciJvJri_OFCuQpOf81xcn.png){: .align-center style="width: 60%;"}
+
+{% capture notice %}
+Выводы:
+1. Идея бустинга - в последовательном анализе данных моделями из ансамбля.
+1. Первая модель ансамбля обучается на всей выборке.
+1. Следующая модель получает лишь те данные, на которых предыдущая модель ошиблась.
+1. Последующие модели могут исправлять ошибки предыдущих. 
+1. Моделям присваиваются веса в зависимостиот их эффективности. 
+1. Может понижать смещение моделей.
+1. В качестве предикторов обычно берутся простые модели с высоким смещением и низкой вариацией.
+1. Из-за последовательной обработки данных, вычислительно сложен.
+1. Чувствителен к выбросам и аномалиям.
+{% endcapture %}
+<div class="notice--info">{{ notice | markdownify }}</div>
+
+#### Случайный лес
+
+![Случайный лес](/assets/images/ml_text/ml7-21.webp){: .align-center style="width: 60%;"}
+
+{% capture notice %}
+Выводы:
+1. Случайные лес - это беггинг над набором деревьев решений.
+1. Деревья решения имеют высокую вариацию, которую может снизить беггинг.
+1. В случайном лесе обычно используется семплирование как по строкам, так и по столбцам.
+1. Используется как для классификации, так и для регрессии.
+1. Менее подвержены переобучению.
+1. Чем больше количество дереьев, тем больше регуляризационный эффект.
+1. Можно настраивать максимальное количество признаков для индивидуальных деревьев.
+{% endcapture %}
+<div class="notice--info">{{ notice | markdownify }}</div>
+
+#### Градиентный бустинг
+
+![Адаптивный бустинг](https://almablog-media.s3.ap-south-1.amazonaws.com/image_28_7cf514b000.png){: .align-center style="width: 60%;"}
+
+![Градиентный бустинг](https://almablog-media.s3.ap-south-1.amazonaws.com/image_43_deeb0633cc.png){: .align-center style="width: 60%;"}
+
+{% capture notice %}
+Выводы:
+1. Адаптивный бустинг (AdaBoost) присваивает веса точкам обучающей выборки в зависимости от того, правильно ли они были распознаны первыми классификаторами.
+1. Последующие классификаторы фокусируются на "сложных" случаях пропорционально весам.
+1. Адаптивный бустинг зачастую применяется для задач бинарной классификации.
+1. Граиентный бустинг (GBM) передает в последующие модели величину отклонения предыдущих моделей.
+1. Градиентный бустинг использует деревья решений в качестве индивидуальных предикторов.
+1. XGBoost - это параллелизуемая высокоэффективная реализация градиентного бустинга.
+1. XGBoost может обрабатываеть большие объемы данных. 
+1. XGBoost склонен к переобучению, но использует регуляризацию.
+1. XGBoost достаточно требователен к объему оперативной памяти. 
+1. Другие ивестные реалиации - LightGBM, CatBoost
+{% endcapture %}
+<div class="notice--info">{{ notice | markdownify }}</div>
+
+#### CatBoost
 

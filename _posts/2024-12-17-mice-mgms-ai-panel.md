@@ -12,9 +12,11 @@ toc: false
 word_count: false
 
 categories:
-  - talks
+  - conference
+  - avantage
 tags:
-  - interview
+  - Кейсы ИИ
+  - Внедрение ИИ
 header:
   teaser: /assets/images/talks/2024-12-17-1.jpg
 excerpt: "На масштабном форуме MICE Exellence forum Михаил Коротеев рассказал о типичных ошибках при внедрении систем искусственного интеллекта"
