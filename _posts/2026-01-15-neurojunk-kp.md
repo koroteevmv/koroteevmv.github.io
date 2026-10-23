@@ -12,7 +12,7 @@ toc: false
 word_count: false
 
 categories:
-  - media
+  - podcast
   - kp # Название канала или медиа
 tags:
   - Тренды ИИ
