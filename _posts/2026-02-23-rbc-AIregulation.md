@@ -12,13 +12,13 @@ toc: false
 word_count: false
 
 categories:
+  - tv
   - RBC
-  - media
   # - artezio # Название канала или медиа. Посмотреть https://koroteev.site/categories/ для референса
 tags:
   - Регулирование ИИ   # Тема выступления (может быть 2-3). Посмотреть https://koroteev.site/tags/ для референса
 header:
-  teaser: assets/images/news/2026-02-23-3.png
+  teaser: assets/images/news/2026-02-23-2.png
 excerpt: "В эфире программы РБК.Daily поговорили о регулировании искусственного интеллекта в России."   # краткий текст с пояснением (8-15 слов)
 link: https://tv.rbc.ru/archive/den/699ffe892ae59681798fcec9
 

@@ -11,8 +11,10 @@ main:
     url: /books
   - title: "Блог"
     url: /blog/
-  - title: "Курсы"
-    url: /courses
+  # - title: "Курсы"
+  #   url: /courses
+  - title: "CV"
+    url: /cv
 
 # documentation links
 os:
