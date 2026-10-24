@@ -27,7 +27,3 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
-
-*_guide.md
-*_textbook.md
-_text/ml*
