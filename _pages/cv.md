@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: "Биография"
+title: "Михаил Коротеев"
 toc: true
 permalink: /cv/
 author_profile: true 
@@ -49,10 +49,11 @@ feature_row_avas:
 Научные интересы
 ======
 
- - MLops
  - Искусственный интеллект и машинное обучение
+ - Датацентричный подход в искусственном интеллекте
+ - MLops и проектирование систем машинного обучения
+ - Этика и регулирование искусственного интеллекта
  - Проектирование и реализация сложных информационных систем
- - Этика и регулирование ИИ
  - ИТ-образование и разработка профильных курсов
 
 Краткая биография
@@ -68,7 +69,7 @@ feature_row_avas:
 
 С 2024 года - заведующий кафедрой искусственного интеллекта Финансового университета.
 
-Основные направления научных исследований - применение нечеткой логики к моделированию экономических процессов, методы машинного обучения и интеллектуального анализа данных. Более 100 опубликованных научных работ.
+Более 100 опубликованных научных работ.
 Более 70 учебных и учебно-методических работ.
 
 Образование
@@ -233,11 +234,13 @@ Python, C#, .NET, ООП, XML, SQL, MySQL, экономико-математич
 Профили в наукометрических базах
 ======
 
-<a href='https://www.researchgate.net/profile/Mikhail_Koroteev'><button href='#' class='btn btn-primary'> ResearchGate </button></a>
-<a href='https://www.scopus.com/authid/detail.uri?authorId=57189709096'><button href='#' class='btn btn-primary'> Scopus </button></a>
-<a href='https://orcid.org/0000-0002-8768-6564'><button href='#' class='btn btn-primary'> ORCID </button></a>
-<a href='https://elibrary.ru/author_items.asp?authorid=647967'><button href='#' class='btn btn-primary'> E-library </button></a>
-<a href='https://scholar.google.com/citations?user=4xVYmOcAAAAJ&hl=ru'><button href='#' class='btn btn-primary'> Google Scholar </button></a>
+<p>
+  <a href="https://www.researchgate.net/profile/Mikhail_Koroteev" class="btn btn--inverse btn--small">ResearchGate</a>
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=57189709096" class="btn btn--inverse btn--small">Scopus</a>
+  <a href="https://orcid.org/0000-0002-8768-6564" class="btn btn--inverse btn--small">ORCID</a>
+  <a href="https://elibrary.ru/author_items.asp?authorid=647967" class="btn btn--inverse btn--small">E-library</a>
+  <a href="https://scholar.google.com/citations?user=4xVYmOcAAAAJ&hl=ru" class="btn btn--inverse btn--small">Google Scholar</a>
+</p>
 
 Некоторые публикации
 ======
