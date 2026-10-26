@@ -24,25 +24,13 @@ sections:
       - title: "When to Choose CatBoost Over XGBoost or LightGBM"
         url: https://neptune.ai/blog/when-to-choose-catboost-over-xgboost-or-lightgbm
 
-  - title: "Практика: обучение на графических данных" 
-  #   overview: ""
-  #   document: https://github.com/koroteevmv/ML_course/blob/main/ML6.2_pca
-  #   youtube:
-  #   slides:
-  #   test:
+  - title: "Практика: ансамблирование моделей" 
+    document: https://github.com/koroteevmv/ML_course/tree/2025/ML7.1%20ensembles
 
-  - title: "Практика: обучение на естественных текстах" 
-  #   overview: ""
-  #   document: https://github.com/koroteevmv/ML_course/blob/main/ML6.2_pca
-  #   youtube:
-  #   slides:
-  #   test:
+  - title: "Практика: конвейеры" 
+    document: https://github.com/koroteevmv/ML_course/tree/2025/ML7.2%20pipelines
 
-  - title: "Практика: построение конвейера" 
-  #   overview: ""
-  #   document: https://github.com/koroteevmv/ML_course/blob/main/ML6.2_pca
-  #   youtube:
-  #   slides:
-  #   test:
+  - title: "Практика: представление результатов моделирования" 
+    document: https://github.com/koroteevmv/ML_course/tree/2025/ML7.3%20reporting
 
 ---
